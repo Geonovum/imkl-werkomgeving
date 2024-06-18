@@ -1,3 +1,8 @@
+Dit is de nieuwe ontwikkelomgeving voor de IMKL standaard. Ontwikkeling vanaf IMKL versie 2.0 is hier opgenomen. De oude [IMKL2015-review](https://github.com/Geonovum/imkl2015-review) omgeving wordt voorlopig nog beheerd als github waar de [imkl issues](https://github.com/Geonovum/imkl2015-review/issues) zijn opgenomen.
+
+Het werkdocument IMKL staat [hier](https://geonovum.github.io/imkl-werkomgeving)
+
+-------------------------------------------------------------------------------------------------
 ## ReSpec template instructies
 
 ReSpec is een tool om html en pdf documenten te genereren op basis van markdown content.
