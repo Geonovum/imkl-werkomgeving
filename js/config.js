@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "IMKL 2.x in ontwikkeling",
+  title: "IMKL 3.0 Rc in ontwikkeling",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
@@ -23,13 +23,13 @@ let respecConfig = {
   nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
-  pubDomain: "TODO",
+  pubDomain: "kl",                  // Kabels en Leidingen
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
   licence: "cc-by",                 // Attribution, met bronvermelding
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "IMKL2.x",
+  shortName: "IMKL30Rc",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
 	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
@@ -58,7 +58,7 @@ let respecConfig = {
   authors:
     [
       {
-        name: "voornaam achternaam",
+        name: "Paul Janssen",
         company: "Geonovum",
         companyURL: "https://www.geonovum.nl",
       }
