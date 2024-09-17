@@ -1,13 +1,13 @@
-Overzicht
-=========
+# Overzicht
 
-Naam en Acroniemen
--------------------
+
+## Naam en Acroniemen
+
 
 IMKL - Dataspecificatie voor Utiliteitsnetten.
 
-Informele beschrijving
------------------------
+## Informele beschrijving
+
 
 ### Definitie
 
@@ -162,8 +162,8 @@ beschreven.</figcaption>
 </figure>
 
 
-Normatieve referenties
------------------------
+## Normatieve referenties
+
 
 -   [Raamwerk Geo-standaarden 3.0](https://www.geonovum.nl/documents/raamwerk-geo-standaarden-v30pdf).
 
@@ -179,8 +179,8 @@ Normatieve referenties
 
 
 
-Termen en definities
----------------------
+## Termen en definities
+
 
 Lijst van termen en definities die in deze beschrijving worden gehanteerd.
 
@@ -319,8 +319,8 @@ lijst van waarden
 beeld van de echte of hypothetische wereld die alles van belang omvat
 
 
-Symbolen en afkortingen
-------------------------
+## Symbolen en afkortingen
+
 
 Lijst van afkortingen en acroniemen die worden gehanteerd in deze data
 specificatie.

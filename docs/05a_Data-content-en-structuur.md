@@ -4,11 +4,7 @@
 Dit hoofdstuk beschrijft het datamodel van utiliteitsnetten. Aan de hand van UML
 klassediagrammen wordt het model beschreven.
 
-Inleiding
-----------
-
-
-
+## Inleiding
 
 
 In de volgende paragrafen wordt de inhoud en structuur van het IMKL beschreven
@@ -162,18 +158,19 @@ verschillende zijn in de diagrammen aangegeven.
 
 
 <div class="imageinfo overview">
-<figure><img src="data/Images/EAID_3216E3F5_51CD_42d4_BDBB_F113D31E31A7.png" usemap="#imagemap-EAID_3216E3F5_51CD_42d4_BDBB_F113D31E31A7" alt="Diagram: 01 IMKL-MIM-compleet - overzicht"><figcaption>01 IMKL-MIM-compleet</figcaption>
+<figure><img src="data/Images/EAID_3216E3F5_51CD_42d4_BDBB_F113D31E31A7.png" usemap="#imagemap-EAID_3216E3F5_51CD_42d4_BDBB_F113D31E31A7" alt="Diagram: 01 IMKL-MIM-compleet - overzicht"><figcaption>IMKL: Overzicht model compleet</figcaption>
             </figure><map name="imagemap-EAID_3216E3F5_51CD_42d4_BDBB_F113D31E31A7"><area shape="rect" alt="InfoKabelbedkabel" coords="14,1917,297,2133" href="#global_class_IMKLBasis_InfoKabelbedkabel"><area shape="rect" alt="Labelpositie" coords="14,1626,275,1748" href="#global_class_IMKLBasis_Labelpositie"><area shape="rect" alt="" coords="618,820,769,989" href="#global_class_IMKLBasis_MaatvoeringsTypeValue"><area shape="rect" alt="" coords="618,135,765,287" href="#global_class_IMKLBasis_ExtraDetailInfoTypeValue"><area shape="rect" alt="" coords="390,750,552,866" href="#global_class_IMKLBasis_EigenTopografieStatusValue"><area shape="rect" alt="" coords="390,600,556,716" href="#global_class_IMKLBasis_DiepteAangrijpingspuntValue"><area shape="rect" alt="" coords="390,420,569,571" href="#global_class_IMKLBasis_AnnotatieTypeValue"><area shape="rect" alt="" coords="390,277,554,394" href="#global_class_IMKLBasis_AchtergrondkaartSoortValue"><area shape="rect" alt="" coords="618,321,812,651" href="#global_class_IMKLBasis_Thema"><area shape="rect" alt="" coords="618,675,741,791" href="#global_class_IMKLBasis_LabelpositieValue"><area shape="rect" alt="" coords="390,135,537,251" href="#global_class_IMKLBasis_AanvraagSoortValue"><area shape="rect" alt="Achtergrondkaart" coords="14,1495,347,1617" href="#global_class_IMKLBasis_Achtergrondkaart"><area shape="rect" alt="PostbusAdres" coords="14,1313,347,1488" href="#global_class_LeveringGebiedsinformatie_PostbusAdres"><area shape="rect" alt="Organisatie" coords="14,1020,347,1307" href="#global_class_LeveringGebiedsinformatie_Organisatie"><area shape="rect" alt="Opdrachtgever" coords="14,873,347,1013" href="#global_class_LeveringGebiedsinformatie_Opdrachtgever"><area shape="rect" alt="Contact" coords="14,709,347,866" href="#global_class_LeveringGebiedsinformatie_Contact"><area shape="rect" alt="Aanvrager" coords="14,310,347,467" href="#global_class_LeveringGebiedsinformatie_Aanvrager"><area shape="rect" alt="AanvraagSoortContact" coords="14,128,347,303" href="#global_class_LeveringGebiedsinformatie_AanvraagSoortContact"><area shape="rect" alt="Adres" coords="14,474,347,702" href="#global_class_IMKLBasis_Adres"><area shape="rect" alt="NEN3610ID" coords="14,1766,347,1905" href="#global_class_IMKLBasis_NEN3610ID"><area shape="rect" alt="Beheerder" coords="2613,372,2900,534" href="#global_class_LeveringGebiedsinformatie_Beheerder"><area shape="rect" alt="Overig" coords="1581,1375,1718,1471" href="#global_class_IMKLBasis_Overig"><area shape="rect" alt="Belanghebbende" coords="2065,342,2430,480" href="#global_class_LeveringGebiedsinformatie_Belanghebbende"><area shape="rect" alt="TechnischGebouw" coords="3332,1375,3552,1471" href="#global_class_IMKLBasis_TechnischGebouw"><area shape="rect" alt="BuisSpecifiek" coords="965,1115,1356,1219" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="EisVoorzorgsmaatregelBijlage" coords="1654,347,1983,485" href="#global_class_IMKLBasis_EisVoorzorgsmaatregelBijlage"><area shape="rect" alt="Bijlage" coords="1650,135,1987,291" href="#global_class_LeveringGebiedsinformatie_Bijlage"><area shape="rect" alt="ExtraInformatie" coords="1562,529,1789,674" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Leidingelement" coords="2885,801,3275,988" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="KabelEnLeidingContainer" coords="1820,1117,2221,1291" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="ExtraGeometrie" coords="1935,754,2222,929" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="Maatvoering" coords="850,622,1175,782" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="1442,734,1816,950" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="Mantelbuis" coords="1744,1375,1971,1496" href="#global_class_IMKLBasis_Mantelbuis"><area shape="rect" alt="Kabelbed" coords="2255,1290,2490,1394" href="#global_class_IMKLBasis_Kabelbed"><area shape="rect" alt="KabelOfLeiding" coords="850,883,1251,1043" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="Diepte" coords="2306,857,2774,1050" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="Telecommunicatiekabel" coords="638,1376,825,1472" href="#global_class_IMKLBasis_Telecommunicatiekabel"><area shape="rect" alt="Elektriciteitskabel" coords="488,1376,622,1469" href="#global_class_IMKLBasis_Elektriciteitskabel"><area shape="rect" alt="KabelSpecifiek" coords="528,1115,759,1219" href="#global_class_IMKLBasis_KabelSpecifiek"><area shape="rect" alt="Label" coords="2947,133,3236,254" href="#global_class_IMKLBasis_Label"><area shape="rect" alt="IMKLBasis" coords="2947,275,3236,417" href="#global_class_IMKLBasis_IMKLBasis"><area shape="rect" alt="DiepteNAP" coords="2374,1115,2714,1237" href="#global_class_IMKLBasis_DiepteNAP"><area shape="rect" alt="DiepteTovMaaiveld" coords="2043,1010,2178,1081" href="#global_class_IMKLBasis_DiepteTovMaaiveld"><area shape="rect" alt="ContainerLeidingelement" coords="2948,1115,3429,1278" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="Kast" coords="3175,1375,3298,1471" href="#global_class_IMKLBasis_Kast"><area shape="rect" alt="Mangat" coords="3018,1375,3141,1471" href="#global_class_IMKLBasis_Mangat"><area shape="rect" alt="Mast" coords="2860,1375,2983,1471" href="#global_class_IMKLBasis_Mast"><area shape="rect" alt="Toren" coords="2703,1375,2826,1471" href="#global_class_IMKLBasis_Toren"><area shape="rect" alt="Appurtenance" coords="2493,1375,2669,1496" href="#global_class_IMKLBasis_Appurtenance"><area shape="rect" alt="Duct" coords="2043,1375,2219,1471" href="#global_class_IMKLBasis_Duct"><area shape="rect" alt="ThermischePijpleiding" coords="1402,1376,1563,1479" href="#global_class_IMKLBasis_ThermischePijpleiding"><area shape="rect" alt="Waterleiding" coords="1267,1376,1390,1472" href="#global_class_IMKLBasis_Waterleiding"><area shape="rect" alt="Rioolleiding" coords="1089,1376,1251,1472" href="#global_class_IMKLBasis_Rioolleiding"><area shape="rect" alt="OlieGasChemicalienPijpleiding" coords="847,1376,1071,1472" href="#global_class_IMKLBasis_OlieGasChemicalienPijpleiding"><area shape="rect" alt="Utiliteitsnet" coords="2125,552,2560,674" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="Annotatie" coords="850,413,1175,570" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="ExtraDetailinfo" coords="851,135,1177,368" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="EigenTopografie" coords="2065,134,2430,272" href="#global_class_IMKLBasis_EigenTopografie"><area shape="rect" alt="OverigSpecifiek" coords="1428,1115,1685,1255" href="#global_class_IMKLBasis_OverigSpecifiek"></map>
          </div>        
 	
 	
 
 <!-- ![](docs/media/1.IMKL-Model-compleet.png) -->
-
+<!--
 <figure id="afb_IMKL-model-compleet">
     <img src="docs/media/1.IMKL-Model-compleet.png" alt="Afbeelding IMKL model compleet">
     <figcaption>IMKL: Overzicht model compleet</figcaption>
 </figure>
+-->
 
 Toelichting bij het diagram.
 
@@ -282,15 +279,20 @@ waarde voor dit attribuut bij. Geldt voor alle objecten van dit objecttype.
 **Withheld:** Niet geautoriseerd: De zender vindt dat de ontvanger niet
 geautoriseerd is om de waarde te kennen. Waarde is vertrouwelijk en wordt niet uitgewisseld.
 
+ <div class="imageinfo ">
+            <figure><img src="data/Images/EAID_E4F35B46_D606_4b8e_8EB1_EB4DD5A20A4D.png" usemap="#imagemap-EAID_E4F35B46_D606_4b8e_8EB1_EB4DD5A20A4D" alt="Diagram: 02.IMKL-Basisinformatie - detail"><figcaption>Basistypen van het model: Identificatie en label. Alle objecttypen
+hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label.</figcaption>
+            </figure><map name="imagemap-EAID_E4F35B46_D606_4b8e_8EB1_EB4DD5A20A4D"><area shape="rect" alt="Label" coords="1029,380,1257,555" href="#global_class_IMKLBasis_Label"><area shape="rect" alt="ExtraGeometrie" coords="579,485,779,574" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="600,692,882,780" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Diepte" coords="748,842,1029,931" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="ContainerLeidingelement" coords="1383,675,1665,764" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="Leidingelement" coords="1383,547,1665,636" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="KabelEnLeidingContainer" coords="1383,396,1665,485" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="KabelOfLeiding" coords="1383,253,1665,342" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="Utiliteitsnet" coords="1383,115,1665,204" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="EigenTopografie" coords="850,27,1140,116" href="#global_class_IMKLBasis_EigenTopografie"><area shape="rect" alt="IMKLBasis" coords="611,217,920,357" href="#global_class_IMKLBasis_IMKLBasis"><area shape="rect" alt="Bijlage" coords="51,1058,317,1133" href="#global_class_LeveringGebiedsinformatie_Bijlage"><area shape="rect" alt="Orientatiepolygoon" coords="51,951,317,1026" href="#global_class_LeveringGebiedsinformatie_Orientatiepolygoon"><area shape="rect" alt="Informatiepolygoon" coords="51,849,317,924" href="#global_class_LeveringGebiedsinformatie_Informatiepolygoon"><area shape="rect" alt="Graafpolygoon" coords="51,742,317,817" href="#global_class_LeveringGebiedsinformatie_Graafpolygoon"><area shape="rect" alt="Beheerder" coords="51,636,317,711" href="#global_class_LeveringGebiedsinformatie_Beheerder"><area shape="rect" alt="Belanghebbende" coords="51,526,317,601" href="#global_class_LeveringGebiedsinformatie_Belanghebbende"><area shape="rect" alt="GebiedsinformatieAanvraag" coords="51,422,317,497" href="#global_class_LeveringGebiedsinformatie_GebiedsinformatieAanvraag"><area shape="rect" alt="BelangGeneriek" coords="51,321,317,396" href="#global_class_LeveringGebiedsinformatie_BelangGeneriek"><area shape="rect" alt="GebiedsinformatieLevering" coords="51,217,317,292" href="#global_class_LeveringGebiedsinformatie_GebiedsinformatieLevering"></map>
+         </div>
 
 <!-- ![](docs/media/2.IMKL-Basisinformatie.png) -->
-
+<!--
 <figure id="afb_2.IMKL-Basisinformatie">
     <img src="docs/media/2.IMKL-Basisinformatie.png" alt="Afbeelding Basisinformatie">
     <figcaption>Basistypen van het model: Identificatie en label. Alle objecttypen
 hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label.</figcaption>
 </figure>
-
+-->
 <!--Figuur 5.2: Basistypen van het model: Identificatie en label. Alle objecttypen
 hebben verplicht een identifier. Bijna alle objecten hebben optioneel een label. -->
 
@@ -313,20 +315,27 @@ informatie bevatten en die extra aan het INSPIRE Utility networks model zijn
 toegevoegd zijn afgebeeld. Bijvoorbeeld geometrie en netwerktopologie zitten in
 INSPIRE Utility networks en zijn niet afgebeeld.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_D6B443A2_47FB_409b_98A7_C129F2EEBB2C.png" usemap="#imagemap-EAID_D6B443A2_47FB_409b_98A7_C129F2EEBB2C" alt="Diagram: 03.IMKL-Semantische-kern - detail"><figcaption>IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
+bestaat uit elementen. De elementen hebben attributen en een link met extra
+informatie.</figcaption>
+            </figure><map name="imagemap-EAID_D6B443A2_47FB_409b_98A7_C129F2EEBB2C"><area shape="rect" alt="Appurtenance" coords="1825,1300,2043,1497" href="#global_class_IMKLBasis_Appurtenance"><area shape="rect" alt="Contact" coords="884,1446,1089,1585" href="#global_class_LeveringGebiedsinformatie_Contact"><area shape="rect" alt="Annotatie" coords="22,619,257,883" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="Maatvoering" coords="14,1158,295,1421" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="629,1095,953,1399" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraInformatie" coords="767,754,1020,918" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="ContainerLeidingelement" coords="1245,1569,1622,1837" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="Leidingelement" coords="1245,1275,1622,1543" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="KabelEnLeidingContainer" coords="1245,1010,1622,1260" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="KabelOfLeiding" coords="1245,765,1622,998" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="EisVoorzorgsmaatregelBijlage" coords="743,439,996,596" href="#global_class_IMKLBasis_EisVoorzorgsmaatregelBijlage"><area shape="rect" alt="Utiliteitsnet" coords="1245,478,1622,746" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="EigenTopografie" coords="1785,14,2122,246" href="#global_class_IMKLBasis_EigenTopografie"><area shape="rect" alt="Belanghebbende" coords="1238,14,1525,317" href="#global_class_LeveringGebiedsinformatie_Belanghebbende"><area shape="rect" alt="Bijlage" coords="780,14,1102,246" href="#global_class_LeveringGebiedsinformatie_Bijlage"><area shape="rect" alt="Adres" coords="433,14,723,242" href="#global_class_IMKLBasis_Adres"><area shape="rect" alt="ExtraDetailinfo" coords="22,14,353,358" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="" coords="454,1446,590,1598" href="#global_class_IMKLBasis_LabelpositieValue"><area shape="rect" alt="" coords="1793,575,2024,923" href="#global_class_IMKLBasis_Thema"><area shape="rect" alt="" coords="996,301,1179,420" href="#global_class_IMKLBasis_BijlageTypeValuekanweg"><area shape="rect" alt="" coords="629,1446,820,1633" href="#global_class_IMKLBasis_MaatvoeringsTypeValue"><area shape="rect" alt="" coords="22,918,231,1087" href="#global_class_IMKLBasis_AnnotatieTypeValue"><area shape="rect" alt="" coords="22,409,198,577" href="#global_class_IMKLBasis_ExtraDetailInfoTypeValue"><area shape="rect" alt="" coords="1793,420,2006,554" href="#global_class_IMKLBasis_EigenTopografieStatusValue"></map>
+         </div>
+
 <!--![](docs/media/3.IMKL-Semantische-kern.png) -->
 
 
 <!--Figuur 5.3: IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
 bestaat uit elementen. De elementen hebben attributen en een link met extra
 informatie.-->
-
+<!--
 <figure id="afb_3.IMKL-Semantische-kern">
     <img src="docs/media/3.IMKL-Semantische-kern.png" alt="Afbeelding Semantische kern">
     <figcaption>IMKL semantische kern voor WIBON toepassing. Een utiliteitsnet
 bestaat uit elementen. De elementen hebben attributen en een link met extra
 informatie.</figcaption>
 </figure>
-
+-->
 Toelichting bij het diagram: Een Utiliteitsnet bestaat uit objecten
 KabelOfLeiding, Leidingelement, KabelEnLeidingContainer en
 ContainerLeidingelement. Via het associatie attribuut inNetwork worden deze
@@ -487,17 +496,23 @@ punten en lijnen die het netwerk representeren. 2D vlakken zijn additioneel
 waarbij ook multivlakken zijn toegestaan. 2,5 D en 3D zijn een additionele
 extensie.
 
+ <div class="imageinfo ">
+            <figure><img src="data/Images/EAID_2DB1F473_2642_462e_BF36_E72294DE24EE.png" usemap="#imagemap-EAID_2DB1F473_2642_462e_BF36_E72294DE24EE" alt="Diagram: 04.IMKL-Geometrie - detail"><figcaption>Geometriemodel. Primair en verplicht punten en (hart)lijnen.
+Optioneel vlakken en additioneel 3D.</figcaption>
+            </figure><map name="imagemap-EAID_2DB1F473_2642_462e_BF36_E72294DE24EE"><area shape="rect" alt="ContainerLeidingelement" coords="323,359,655,522" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="Leidingelement" coords="230,480,562,642" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="KabelEnLeidingContainer" coords="133,626,465,789" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="KabelOfLeiding" coords="36,778,368,940" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="Utiliteitsnet" coords="518,22,791,290" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="ExtraGeometrie" coords="51,14,365,299" href="#global_class_IMKLBasis_ExtraGeometrie"></map>
+         </div>
+
 <!-- ![](docs/media/4.IMKL-Geometrie.png) -->
 
 <!--Figuur 5.4: Geometriemodel. Primair en verplicht punten en (hart)lijnen.
 Optioneel vlakken en additioneel 3D. -->
-
+<!--
 <figure id="afb_4.IMKL-Geometrie.png">
     <img src="docs/media/4.IMKL-Geometrie.png" alt="Afbeelding Geometrie">
     <figcaption>Geometriemodel. Primair en verplicht punten en (hart)lijnen.
 Optioneel vlakken en additioneel 3D.</figcaption>
 </figure>
-
+-->
 De geometrie van de netwerkelementen wordt overgeërfd uit het Inspire Netwerk
 model. Alle netwerkelementen zijn onderdeel van een topologisch netwerk en
 worden geometrisch beschreven door links of nodes. De geometrieën zijn verplicht
@@ -558,17 +573,23 @@ aanwezig. Dat betekent dat de basis uitgaat van een (volledige) 2D data set.
 Daarnaast kan, in dezelfde data set, 3D geometrie voor een of meerdere van de
 objecten aanwezig zijn.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_845D41C0_FA2E_4667_B6B3_3B744D16F0D5.png" usemap="#imagemap-EAID_845D41C0_FA2E_4667_B6B3_3B744D16F0D5" alt="Diagram: 05.IMKL-Geometrie2 - detail"><figcaption>Alle netelementen kunnen naast de verplichte punten en centerlijnen
+optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D</figcaption>
+            </figure><map name="imagemap-EAID_845D41C0_FA2E_4667_B6B3_3B744D16F0D5"><area shape="rect" alt="ContainerLeidingelement" coords="349,365,631,545" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="Leidingelement" coords="245,510,528,655" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="KabelEnLeidingContainer" coords="159,640,441,784" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="KabelOfLeiding" coords="86,772,369,917" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="Utiliteitsnet" coords="551,14,891,282" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="ExtraGeometrie" coords="86,14,373,299" href="#global_class_IMKLBasis_ExtraGeometrie"></map>
+         </div>
+
 <!--![](docs/media/5.IMKL-Geometrie2.png)-->
 
 <!-- Figuur 5.5: Alle netelementen kunnen naast de verplichte punten en centerlijnen
 optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D. -->
-
+<!--
 <figure id="afb_IMKL-Geometrie2">
     <img src="docs/media/5.IMKL-Geometrie2.png" alt="Afbeelding Geometrie 2">
     <figcaption>Alle netelementen kunnen naast de verplichte punten en centerlijnen
 optioneel een extra geometrie hebben van het type 2D, 2,5D of 3D.</figcaption>
 </figure>
-
+-->
 KabelOfLeiding, KabelEnLeidingContainer, Leidingelement en
 ContainerLeidingelement bieden ieder de mogelijkheid voor het opnemen van 3D
 geometrie in twee verschillende ‘Levels of Detail’ (LOD). Allereerst kunnen 2.5D
@@ -632,19 +653,26 @@ Indien de dieptegegevens niet aan een netelement te koppelen zijn omdat die
 koppeling bij de bronregistratie niet aanwezig is, zijn de dieptegegevens direct
 aan het utiliteitsnet gekoppeld.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_2C1BCF04_8F33_4a4d_BE55_E985AF30AEA8.png" usemap="#imagemap-EAID_2C1BCF04_8F33_4a4d_BE55_E985AF30AEA8" alt="Diagram: 07.IMKL-Diepte - detail"><figcaption>Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
+ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
+opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen.</figcaption>
+            </figure><map name="imagemap-EAID_2C1BCF04_8F33_4a4d_BE55_E985AF30AEA8"><area shape="rect" alt="KabelEnLeidingContainer" coords="752,14,1084,146" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="ContainerLeidingelement" coords="1118,14,1450,176" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="Leidingelement" coords="383,14,715,159" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="KabelOfLeiding" coords="14,14,346,146" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="Utiliteitsnet" coords="1134,347,1440,615" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="DiepteTovMaaiveld" coords="674,812,892,957" href="#global_class_IMKLBasis_DiepteTovMaaiveld"><area shape="rect" alt="DiepteNAP" coords="332,812,623,987" href="#global_class_IMKLBasis_DiepteNAP"><area shape="rect" alt="Diepte" coords="447,320,846,641" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="" coords="72,812,294,928" href="#global_class_IMKLBasis_DiepteAangrijpingspuntValue"><area shape="rect" alt="" coords="160,383,361,534" href="#global_class_IMKLBasis_NauwkeurigheidDiepteValue"></map>
+         </div>
+
 <!-- ![](docs/media/7.IMKL-Diepte.png) -->
 
 <!-- Figuur 5.7: Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
 ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
 opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen. -->
-
+<!--
 <figure id="afb_7.IMKL-Diepte.png">
     <img src="docs/media/7.IMKL-Diepte.png" alt="Afbeelding Diepte">
     <figcaption>Dieptegegevens zijn gemodelleerd als aparte objecten waarin diepte
 ten opzicht van maaiveld en of NAP is opgenomen. Standaard dieptelegging wordt
 opgenomen bij het Utiliteitsnet, afwijking daarvan bij de netelementen.</figcaption>
 </figure>
-
+-->
 ### Utiliteitsnet
 
 Definitie: Een verzameling netwerkelementen die tot één type
@@ -668,19 +696,26 @@ verantwoordelijke netbeheerder gekoppeld. Annotatie, maatvoering en mogelijk
 extra detailinfo worden gekoppeld en gelden voor het hele net (of deel daarvan
 in een bestand).
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_AD9408D7_15CD_400d_A04D_1AA40AB6B129.png" usemap="#imagemap-EAID_AD9408D7_15CD_400d_A04D_1AA40AB6B129" alt="Diagram: 08.IMKL-Utiliteitsnet - detail"><figcaption>Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
+gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
+INSPIRE UtilityNetwork.</figcaption>
+            </figure><map name="imagemap-EAID_AD9408D7_15CD_400d_A04D_1AA40AB6B129"><area shape="rect" alt="ExtraDetailinfo" coords="23,793,354,1115" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="ExtraInformatie" coords="142,522,425,685" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Annotatie" coords="368,14,651,299" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="Maatvoering" coords="14,14,331,299" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="Organisatie" coords="1848,161,2076,431" href="#global_class_LeveringGebiedsinformatie_Organisatie"><area shape="rect" alt="Beheerder" coords="1532,250,1781,488" href="#global_class_LeveringGebiedsinformatie_Beheerder"><area shape="rect" alt="Belanghebbende" coords="991,145,1365,448" href="#global_class_LeveringGebiedsinformatie_Belanghebbende"><area shape="rect" alt="Utiliteitsnet" coords="601,364,907,631" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="DiepteTovMaaiveld" coords="772,1317,991,1462" href="#global_class_IMKLBasis_DiepteTovMaaiveld"><area shape="rect" alt="DiepteNAP" coords="425,1234,716,1409" href="#global_class_IMKLBasis_DiepteNAP"><area shape="rect" alt="Diepte" coords="545,825,944,1147" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="" coords="1018,685,1249,1030" href="#global_class_IMKLBasis_Thema"></map>
+         </div>
+
 <!-- ![](docs/media/8.IMKL-Utiliteitsnet.png) -->
 
 <!-- Figuur 5.8: Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
 gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
 INSPIRE UtilityNetwork. -->
-
+<!--
 <figure id="afb_8.IMKL-Utiliteitsnet">
     <img src="docs/media/8.IMKL-Utiliteitsnet.png" alt="Afbeelding Utiliteitsnet">
     <figcaption>Utiliteitsnet is getypeerd naar thema en wordt voor WIBON
 gerefereerd door een Belanghebbende. Utiliteitsnet is een verbijzondering van
 INSPIRE UtilityNetwork.</figcaption>
 </figure>
-
+-->
 In INSPIRE is er voor UtilityNetwork met het attribuut utilityFacilityReference
 een referentie mogelijk naar een ActivityComplex. Hiermee kan gerefereerd worden
 aan grote utiliteitsnetonderdelen zoals bijvoorbeeld een energiecentrale een
@@ -718,17 +753,23 @@ Kabel of leidingen hebben verplicht een lijngeometrie. Optioneel is er via het
 associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het
 object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_B4FE45E4_C56A_4f70_8CB0_A607AB5D04F9.png" usemap="#imagemap-EAID_B4FE45E4_C56A_4f70_8CB0_A607AB5D04F9" alt="Diagram: 09.IMKL-KabelOfLeiding - detail"><figcaption>KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
+leidingen.</figcaption>
+            </figure><map name="imagemap-EAID_B4FE45E4_C56A_4f70_8CB0_A607AB5D04F9"><area shape="rect" alt="OverigSpecifiek" coords="577,1242,802,1382" href="#global_class_IMKLBasis_OverigSpecifiek"><area shape="rect" alt="ExtraGeometrie" coords="223,372,467,657" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="Overig" coords="552,935,771,1097" href="#global_class_IMKLBasis_Overig"><area shape="rect" alt="BuisSpecifiek" coords="1014,1242,1405,1346" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="ExtraInformatie" coords="629,191,856,336" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Maatvoering" coords="1364,92,1689,355" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="1364,400,1738,705" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="Mantelbuis" coords="1748,935,1975,1185" href="#global_class_IMKLBasis_Mantelbuis"><area shape="rect" alt="Telecommunicatiekabel" coords="305,935,523,1080" href="#global_class_IMKLBasis_Telecommunicatiekabel"><area shape="rect" alt="Elektriciteitskabel" coords="59,935,277,1080" href="#global_class_IMKLBasis_Elektriciteitskabel"><area shape="rect" alt="KabelSpecifiek" coords="191,1242,422,1346" href="#global_class_IMKLBasis_KabelSpecifiek"><area shape="rect" alt="ThermischePijpleiding" coords="1513,935,1759,1097" href="#global_class_IMKLBasis_ThermischePijpleiding"><area shape="rect" alt="Waterleiding" coords="1267,935,1513,1097" href="#global_class_IMKLBasis_Waterleiding"><area shape="rect" alt="Rioolleiding" coords="1035,935,1281,1097" href="#global_class_IMKLBasis_Rioolleiding"><area shape="rect" alt="OlieGasChemicalienPijpleiding" coords="790,935,1036,1097" href="#global_class_IMKLBasis_OlieGasChemicalienPijpleiding"><area shape="rect" alt="Annotatie" coords="999,14,1324,277" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="ExtraDetailinfo" coords="223,14,548,336" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="KabelOfLeiding" coords="577,437,909,670" href="#global_class_IMKLBasis_KabelOfLeiding"><area shape="rect" alt="" coords="14,14,191,183" href="#global_class_IMKLBasis_ExtraDetailInfoTypeValue"><area shape="rect" alt="" coords="944,537,1175,671" href="#global_class_IMKLBasis_NauwkeurigheidXYvalue"></map>
+         </div>
+
 <!-- ![](docs/media/9.IMKL-KabelOfLeiding.png) -->
 
 <!-- Figuur 5.9: KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
 leidingen. -->
-
+<!--
 <figure id="afb_9.IMKL-KabelOfLeiding">
     <img src="docs/media/9.IMKL-KabelOfLeiding.png" alt="Afbeelding KabelOfLeiding">
     <figcaption>KabelOfLeiding bevat de gemeenschappelijke informatie voor kabels en
 leidingen.</figcaption>
 </figure>
-
+-->
 ### Leidingelement
 
 Definitie: Een object dat bij één of meerdere leidingen behoort en als node in
@@ -748,17 +789,23 @@ zijn niet als apart objecttype opgenomen maar als verzamelklasse Appurtenance.
 In INSPIRE zijn de Appurtenances met een appurtenanceType attribuut verder
 getypeerd. Deze typering kan nog verder uitgebreid worden. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) zijn de waarden voor AppurtenanceTypeValue opgenomen.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_C2206E97_7B48_4631_8F1F_5C7B423D9E5E.png" usemap="#imagemap-EAID_C2206E97_7B48_4631_8F1F_5C7B423D9E5E" alt="Diagram: 10.IMKL-Leidingelement - detail"><figcaption>Leidingelement bevat de gemeenschappelijke eigenschappen van alle
+typen leidingelementen.</figcaption>
+            </figure><map name="imagemap-EAID_C2206E97_7B48_4631_8F1F_5C7B423D9E5E"><area shape="rect" alt="Appurtenance" coords="626,778,845,974" href="#global_class_IMKLBasis_Appurtenance"><area shape="rect" alt="Leidingelement" coords="569,428,901,696" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="ExtraGeometrie" coords="209,372,454,657" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="610,185,836,329" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Maatvoering" coords="1350,92,1676,355" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="1350,400,1725,705" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="Annotatie" coords="985,14,1311,277" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="ExtraDetailinfo" coords="209,14,534,336" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="" coords="933,428,1111,578" href="#global_class_IMKLBasis_NauwkeurigheidXYvalue"><area shape="rect" alt="" coords="14,23,191,193" href="#global_class_IMKLBasis_ExtraDetailInfoTypeValue"></map>
+         </div>
+
 <!-- ![](docs/media/10.IMKL-Leidingelement.jpg) -->
 
 <!-- Figuur 5.10: Leidingelement bevat de gemeenschappelijke eigenschappen van alle
 typen leidingelementen. -->
-
+<!--
 <figure id="afb_10.IMKL-Leidingelement">
     <img src="docs/media/10.IMKL-Leidingelement.jpg" alt="Afbeelding Leidingelement">
     <figcaption>Leidingelement bevat de gemeenschappelijke eigenschappen van alle
 typen leidingelementen.</figcaption>
 </figure>
-
+-->
 De geometrie van een Leidingelement is verplicht altijd een punt. Optioneel is
 er via het associatie-attribuut extraGeometrie een buitenbegrenzing of contour
 van het object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel
@@ -826,15 +873,20 @@ geregistreerd staan. Ze moeten bij minstens één thema weergegeven worden maar
 het mag bij meerdere. Indien een mantelbuis leeg is kan dit bij de toelichting
 vermeld worden.
 
+ <div class="imageinfo ">
+            <figure><img src="data/Images/EAID_0BF000D9_CD62_4a26_9A3B_7114CDE9995C.png" usemap="#imagemap-EAID_0BF000D9_CD62_4a26_9A3B_7114CDE9995C" alt="Diagram: 11.IMKL-KabelEnLeidingContainer - detail"><figcaption>KabelEnleidingContainer omvat kabelbedden en mantelbuizen.</figcaption>
+            </figure><map name="imagemap-EAID_0BF000D9_CD62_4a26_9A3B_7114CDE9995C"><area shape="rect" alt="InfoKabelbedkabel" coords="105,872,388,1138" href="#global_class_IMKLBasis_InfoKabelbedkabel"><area shape="rect" alt="BuisSpecifiek" coords="851,1099,1193,1203" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="Mantelbuis" coords="901,790,1128,1022" href="#global_class_IMKLBasis_Mantelbuis"><area shape="rect" alt="Kabelbed" coords="476,1029,902,1133" href="#global_class_IMKLBasis_Kabelbed"><area shape="rect" alt="Duct" coords="482,790,701,935" href="#global_class_IMKLBasis_Duct"><area shape="rect" alt="KabelEnLeidingContainer" coords="585,407,998,657" href="#global_class_IMKLBasis_KabelEnLeidingContainer"><area shape="rect" alt="ExtraGeometrie" coords="209,372,465,657" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="610,185,836,329" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Maatvoering" coords="1350,92,1676,355" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="1350,400,1725,705" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="Annotatie" coords="985,14,1311,277" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="ExtraDetailinfo" coords="209,14,534,336" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="" coords="1056,556,1234,707" href="#global_class_IMKLBasis_NauwkeurigheidXYvalue"><area shape="rect" alt="" coords="14,23,191,193" href="#global_class_IMKLBasis_ExtraDetailInfoTypeValue"></map>
+         </div>
+
 <!-- ![](docs/media/11.IMKL-KabelEnLeidingContainer.png) -->
 
 <!-- Figuur 5.11: KabelEnleidingContainer omvat kabelbedden en mantelbuizen. -->
-
+<!--
 <figure id="afb_11.IMKL-KabelEnLeidingContainer">
     <img src="docs/media/11.IMKL-KabelEnLeidingContainer.png" alt="Afbeelding KabelEnLeidingContainer">
     <figcaption>KabelEnleidingContainer omvat kabelbedden en mantelbuizen.</figcaption>
 </figure>
-
+-->
 KabelEnLeidingContainer is de verzamelklasse voor een aantal objecten waarin
 kabels of leidingen gegroepeerd zijn. In de praktijk is dat een duct of een
 kabelbed (is geul), of een mantelbuis. Een pipe is in INSPIRE een buis voor
@@ -870,17 +922,23 @@ associaties bevat voor alle containerleidingelement objecten.
 
 Bron: IMKL
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_5171BFB5_2026_4028_8059_76FF9A726DE7.png" usemap="#imagemap-EAID_5171BFB5_2026_4028_8059_76FF9A726DE7" alt="Diagram: 12.IMKL-ContainerLeidingElement - detail"><figcaption>ContainerLeidingelement een verzamelklasse voor meestal
+topografische objecten die een ondersteunende functie in een netwerk hebben.</figcaption>
+            </figure><map name="imagemap-EAID_5171BFB5_2026_4028_8059_76FF9A726DE7"><area shape="rect" alt="Toren" coords="282,799,426,927" href="#global_class_IMKLBasis_Toren"><area shape="rect" alt="TechnischGebouw" coords="1149,815,1294,942" href="#global_class_IMKLBasis_TechnischGebouw"><area shape="rect" alt="Mast" coords="496,799,641,927" href="#global_class_IMKLBasis_Mast"><area shape="rect" alt="Kast" coords="712,805,857,932" href="#global_class_IMKLBasis_Kast"><area shape="rect" alt="Mangat" coords="931,805,1076,932" href="#global_class_IMKLBasis_Mangat"><area shape="rect" alt="ContainerLeidingelement" coords="562,420,894,687" href="#global_class_IMKLBasis_ContainerLeidingelement"><area shape="rect" alt="ExtraGeometrie" coords="209,372,454,657" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="610,184,836,329" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Maatvoering" coords="1350,92,1676,355" href="#global_class_IMKLBasis_Maatvoering"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="1350,400,1725,705" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="Annotatie" coords="985,14,1311,277" href="#global_class_IMKLBasis_Annotatie"><area shape="rect" alt="ExtraDetailinfo" coords="209,14,534,336" href="#global_class_IMKLBasis_ExtraDetailinfo"><area shape="rect" alt="" coords="923,420,1100,570" href="#global_class_IMKLBasis_NauwkeurigheidXYvalue"><area shape="rect" alt="" coords="14,23,191,193" href="#global_class_IMKLBasis_ExtraDetailInfoTypeValue"></map>
+         </div>
+
 <!-- ![](docs/media/12.IMKL-ContainerLeidingElement.png) -->
 
 <!-- Figuur 5.12: ContainerLeidingelement een verzamelklasse voor meestal
 topografische objecten die een ondersteunende functie in een netwerk hebben. -->
-
+<!--
 <figure id="afb_12.IMKL-ContainerLeidingElement">
     <img src="docs/media/12.IMKL-ContainerLeidingElement.png" alt="Afbeelding ContainerLeidinelement">
     <figcaption>ContainerLeidingelement een verzamelklasse voor meestal
 topografische objecten die een ondersteunende functie in een netwerk hebben.</figcaption>
 </figure>
-
+-->
 ContainerLeidingelement omvat objecten die verschillende leidingelementen
 groeperen. Bijvoorbeeld een elektriciteitskast met verschillende schakelaars,
 moffen. Of een mast met verschillende antennes. De schakelaars, moffen,
@@ -928,19 +986,28 @@ Deze relaties worden door de individuele kabels en leidingen overerft.
 
 Deze relaties zijn optioneel (want ze komen niet altijd voor) en voidable.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_65383E3E_AAC5_4abd_94BB_5614AA7777C2.png" usemap="#imagemap-EAID_65383E3E_AAC5_4abd_94BB_5614AA7777C2" alt="Diagram: 13.IMKL-RelatiesTussenCableDuctPipe - detail"><figcaption>Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
+verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
+naar de kabels die het bevat.</figcaption>
+            </figure><map name="imagemap-EAID_65383E3E_AAC5_4abd_94BB_5614AA7777C2"><area shape="rect" alt="Mantelbuis" coords="14,287,241,537" href="#global_class_IMKLBasis_Mantelbuis"><area shape="rect" alt="Kabelbed" coords="875,496,1110,600" href="#global_class_IMKLBasis_Kabelbed"><area shape="rect" alt="Duct" coords="868,287,1087,432" href="#global_class_IMKLBasis_Duct"></map>
+         </div>
+
 <!-- ![](docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png)
 Figuur 5.13: Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
 verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
 naar de kabels die het bevat. -->
-
+<!--
 <figure id="afb_13.IMKL-RelatiesTussenCableDuctPipe">
     <img src="docs/media/13.IMKL-RelatiesTussenCableDuctPipe.png" alt="Afbeelding RelatiesTussenCableDuctPipe">
     <figcaption>Relaties tussen buis, kabel en duct. Bijvoorbeeld een kabelbed
 verwijst optioneel naar de kabels die er in liggen; een mantelbuis kan verwijzen
 naar de kabels die het bevat.</figcaption>
 </figure>
-
+-->
 <!-- ![](docs/media/bec0a83557082b393b2fe6c5d822371f.jpg) -->
+
+
 
 <!-- Figuur 5.14: Voorbeeld van een type mantelbuis met daarin weer een aantal
 mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
@@ -952,6 +1019,8 @@ maakt verwijzingen tussen mantelbuizen en kabels mogelijk. -->
 mantelbuizen (hdpe-buizen), waarvan één met een telecomkabel. Het model
 maakt verwijzingen tussen mantelbuizen en kabels mogelijk.</figcaption>
 </figure>
+
+
 
 <!-- ![](docs/media/da0f5a202720bb7f2acd0abc0a6ae08e.png) -->
 
@@ -986,12 +1055,19 @@ bedrijfsspanning op de leiding. “nominalVoltage” beschrijft de nominale
 systeemspanning op de plaats van levering. Voor de rest gelden de KabelEnleiding
 attributen.
 
+       
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_52048BEC_35F2_4eb7_A984_ADB0FE706FC4.png" usemap="#imagemap-EAID_52048BEC_35F2_4eb7_A984_ADB0FE706FC4" alt="Diagram: 14.IMKL-Elektriciteitskabel - detail"><figcaption>Elektriciteitskabel</figcaption>
+            </figure><map name="imagemap-EAID_52048BEC_35F2_4eb7_A984_ADB0FE706FC4"><area shape="rect" alt="KabelSpecifiek" coords="653,686,860,790" href="#global_class_IMKLBasis_KabelSpecifiek"><area shape="rect" alt="Diepte" coords="925,336,1324,657" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="1000,14,1324,318" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="78,14,323,299" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="384,143,529,288" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="Elektriciteitskabel" coords="269,676,488,821" href="#global_class_IMKLBasis_Elektriciteitskabel"><area shape="rect" alt="KabelOfLeiding" coords="134,370,510,603" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
+
 <!-- ![](docs/media/14.IMKL-Elektriciteitskabel.png) -->
+<!--
 <figure id="afb_14.IMKL-Elektriciteitskabel">
     <img src="docs/media/14.IMKL-Elektriciteitskabel.png" alt="Afbeelding Elektriciteitskabel">
     <figcaption>Elektriciteitskabel</figcaption>
 </figure>
-
+-->
 ### Telecommunicatiekabel
 
 Definitie: Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet
@@ -1005,13 +1081,18 @@ daarbij geen verplichte WIBON informatie. WarningType is een boven de kabel
 liggend waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest
 gelden de KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor de CableMaterialType.
 
-<!-- ![](docs/media/15.IMKL-TelecommunicationsCable.png) -->
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_71B96BBB_A10E_4a2a_8C3D_3ECDB6A28B21.png" usemap="#imagemap-EAID_71B96BBB_A10E_4a2a_8C3D_3ECDB6A28B21" alt="Diagram: 15.IMKL-TelecommunicationsCable - detail"><figcaption>Telecommunicatiekabel</figcaption>
+            </figure><map name="imagemap-EAID_71B96BBB_A10E_4a2a_8C3D_3ECDB6A28B21"><area shape="rect" alt="Telecommunicatiekabel" coords="187,663,406,804" href="#global_class_IMKLBasis_Telecommunicatiekabel"><area shape="rect" alt="KabelSpecifiek" coords="605,681,812,784" href="#global_class_IMKLBasis_KabelSpecifiek"><area shape="rect" alt="Diepte" coords="891,331,1290,652" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="966,8,1290,313" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="44,8,288,294" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="350,138,495,301" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="KabelOfLeiding" coords="100,365,476,597" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
 
+<!-- ![](docs/media/15.IMKL-TelecommunicationsCable.png) -->
+<!--
 <figure id="afb_15.IMKL-TelecommunicationsCable">
     <img src="docs/media/15.IMKL-TelecommunicationsCable.png" alt="Afbeelding IMKL-Telecommunicatiekabel">
     <figcaption>Telecommunicatiekabel</figcaption>
 </figure>
-
+-->
 ### Olie-gas-chemicalienpijpleiding
 
 Definitie: Een pijpleiding voor het overbrengen van olie, gas of chemicaliën van
@@ -1027,13 +1108,18 @@ gelden de KabelEnleiding attributen.
 
 In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de mogelijke waarden voor de producttypen.
 
-<!-- ![](docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png) -->
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_1378B654_4826_439f_9A6C_2F814962F4E0.png" usemap="#imagemap-EAID_1378B654_4826_439f_9A6C_2F814962F4E0" alt="Diagram: 16.IMKL-Olie-gas-chemicaliënpijpleiding - detail"><figcaption>Olie-gas-chemicaliënpijpleiding</figcaption>
+            </figure><map name="imagemap-EAID_1378B654_4826_439f_9A6C_2F814962F4E0"><area shape="rect" alt="BuisSpecifiek" coords="477,682,819,786" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="OlieGasChemicalienPijpleiding" coords="148,670,394,815" href="#global_class_IMKLBasis_OlieGasChemicalienPijpleiding"><area shape="rect" alt="Diepte" coords="857,329,1256,651" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="932,7,1256,312" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="10,7,254,292" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="316,137,461,299" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="KabelOfLeiding" coords="66,364,441,596" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
 
+<!-- ![](docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png) -->
+<!--
 <figure id="afb_16.IMKL-Olie-gas-chemicaliënpijpleiding">
     <img src="docs/media/16.IMKL-Olie-gas-chemicaliënpijpleiding.png" alt="Afbeelding Olie-gas-chemicaliënpijpleiding">
     <figcaption>Olie-gas-chemicaliënpijpleiding</figcaption>
 </figure>
-
+-->
 ### Rioolleiding
 
 Definitie: Een rioleringsleiding voor het overbrengen van afvalwater
@@ -1047,13 +1133,19 @@ geen verplichte WIBON informatie WarningType is een boven de kabel liggend
 waarschuwingsmechanisme voor een ondergronds netelement. Voor de rest gelden de
 KabelEnleiding attributen. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten).
 
-<!-- ![](docs/media/17.IMKL-Rioolleiding.png) -->
+        
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_F1DDDB14_DA3A_422d_AD6B_11D32EC2505A.png" usemap="#imagemap-EAID_F1DDDB14_DA3A_422d_AD6B_11D32EC2505A" alt="Diagram: 17.IMKL-Rioolleiding - detail"><figcaption>Rioolleiding</figcaption>
+            </figure><map name="imagemap-EAID_F1DDDB14_DA3A_422d_AD6B_11D32EC2505A"><area shape="rect" alt="Rioolleiding" coords="153,659,399,804" href="#global_class_IMKLBasis_Rioolleiding"><area shape="rect" alt="BuisSpecifiek" coords="495,672,836,776" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="Diepte" coords="866,329,1266,651" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="942,7,1266,312" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="19,7,264,292" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="325,137,470,299" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="KabelOfLeiding" coords="75,364,451,596" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
 
+<!-- ![](docs/media/17.IMKL-Rioolleiding.png) -->
+<!--
 <figure id="afb_17.IMKL-Rioolleiding">
     <img src="docs/media/17.IMKL-Rioolleiding.png" alt="Afbeelding Rioolleiding">
     <figcaption>Rioolleiding</figcaption>
 </figure>
-
+-->
 ### Waterleiding
 
 Definitie: Een waterleiding voor het overbrengen van (drink)water van de ene
@@ -1069,12 +1161,19 @@ KabelEnleiding attributen.
 
 In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor waterType.
 
+
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_1BB71A77_AAF4_49ec_A828_741FC3EBB9E7.png" usemap="#imagemap-EAID_1BB71A77_AAF4_49ec_A828_741FC3EBB9E7" alt="Diagram: 18.IMKL-Waterleiding - detail"><figcaption>Waterleiding</figcaption>
+            </figure><map name="imagemap-EAID_1BB71A77_AAF4_49ec_A828_741FC3EBB9E7"><area shape="rect" alt="Waterleiding" coords="116,675,362,816" href="#global_class_IMKLBasis_Waterleiding"><area shape="rect" alt="BuisSpecifiek" coords="470,686,812,790" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="Diepte" coords="861,335,1260,656" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="936,12,1260,317" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="14,12,258,298" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="320,142,465,305" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="KabelOfLeiding" coords="70,368,446,600" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
+
 <!-- ![](docs/media/18.IMKL-Waterleiding.png) -->
+<!--
 <figure id="afb_18.IMKL-Waterleiding">
     <img src="docs/media/18.IMKL-Waterleiding.png" alt="Afbeelding Waterleiding">
     <figcaption>Waterleiding</figcaption>
 </figure>
-
+-->
 ### Thermische pijpleiding
 
 Definitie: Een leiding voor het transporteren van warmte of koelte van de ene
@@ -1090,13 +1189,18 @@ gelden de KabelEnleiding attributen.
 
 In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waarden voor de producttypen.
 
-<!-- ![](docs/media/19.IMKL-ThermischePijpleiding.png) -->
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_48FEFF57_7B2A_47cc_91EE_EA7058A93A3E.png" usemap="#imagemap-EAID_48FEFF57_7B2A_47cc_91EE_EA7058A93A3E" alt="Diagram: 19.IMKL-ThermischePijpleiding - detail"><figcaption>Thermische Pijpleiding</figcaption>
+            </figure><map name="imagemap-EAID_48FEFF57_7B2A_47cc_91EE_EA7058A93A3E"><area shape="rect" alt="ThermischePijpleiding" coords="157,687,403,828" href="#global_class_IMKLBasis_ThermischePijpleiding"><area shape="rect" alt="BuisSpecifiek" coords="554,638,895,742" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="Diepte" coords="871,336,1270,657" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="946,14,1270,318" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="23,14,268,299" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="329,144,474,306" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="KabelOfLeiding" coords="79,369,455,601" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
 
+<!-- ![](docs/media/19.IMKL-ThermischePijpleiding.png) -->
+<!--
 <figure id="afb_19.IMKL-ThermischePijpleiding">
     <img src="docs/media/19.IMKL-ThermischePijpleiding.png" alt="Afbeelding ThermischePijpleiding">
     <figcaption>Thermische Pijpleiding</figcaption>
 </figure>
-
+-->
 
 ### Overig en Weesleiding
 
@@ -1115,13 +1219,19 @@ gevallen ook voor de weesleiding. Er is een klasse OverigSpecifiek gemaakt om de
 INSPIRE attributen pipeDiameter, pressure en producttype ook voor Overig te
 kunnen gebruiken.
 
-<!-- ![](docs/media/19b.IMKL-Overig-Weesleiding.png) -->
+ 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_39CD6BF9_0D4C_43b2_80DE_FA371DC3671C.png" usemap="#imagemap-EAID_39CD6BF9_0D4C_43b2_80DE_FA371DC3671C" alt="Diagram: 19b.IMKL-Overig-Weesleiding - detail"><figcaption>Overig/Weesleiding</figcaption>
+            </figure><map name="imagemap-EAID_39CD6BF9_0D4C_43b2_80DE_FA371DC3671C"><area shape="rect" alt="KabelSpecifiek" coords="16,891,223,995" href="#global_class_IMKLBasis_KabelSpecifiek"><area shape="rect" alt="OverigSpecifiek" coords="16,743,242,883" href="#global_class_IMKLBasis_OverigSpecifiek"><area shape="rect" alt="Overig" coords="458,722,677,884" href="#global_class_IMKLBasis_Overig"><area shape="rect" alt="BuisSpecifiek" coords="16,633,358,737" href="#global_class_IMKLBasis_BuisSpecifiek"><area shape="rect" alt="Diepte" coords="873,332,1272,653" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="948,10,1272,314" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="26,10,271,295" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="332,139,477,302" href="#global_class_IMKLBasis_ExtraInformatie"><area shape="rect" alt="KabelOfLeiding" coords="82,365,506,597" href="#global_class_IMKLBasis_KabelOfLeiding"></map>
+         </div>
 
+<!-- ![](docs/media/19b.IMKL-Overig-Weesleiding.png) -->
+<!--
 <figure id="afb_19b.IMKL-Overig-Weesleiding">
     <img src="docs/media/19b.IMKL-Overig-Weesleiding.png" alt="Afbeelding Overig-Weesleiding">
     <figcaption>Overig/Weesleiding</figcaption>
 </figure>
-
+-->
 ### Leidingelementen per type net (thema)
 
 De leidingelementen worden niet specifiek per type thema net als de kabels en
@@ -1130,12 +1240,18 @@ lijst per type net (telecom, elektriciteit, riool, water, gas/olie). Deze
 lijsten zijn uitbreidbaar. In [Bijlage 1 IMKL waardelijsten](#bijlage-1-imkl-waardelijsten) staan de waardelijsten met de waarden
 voor type leidingelement per type kabelOfLeiding.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_68316DB9_764E_4b6f_B63E_8A8A5D44F3B2.png" usemap="#imagemap-EAID_68316DB9_764E_4b6f_B63E_8A8A5D44F3B2" alt="Diagram: 20.IMKL-Leidingelement-per-thema - detail"><figcaption>Leidingelement per thema</figcaption>
+            </figure><map name="imagemap-EAID_68316DB9_764E_4b6f_B63E_8A8A5D44F3B2"><area shape="rect" alt="Leidingelement" coords="172,369,504,637" href="#global_class_IMKLBasis_Leidingelement"><area shape="rect" alt="Appurtenance" coords="250,708,469,883" href="#global_class_IMKLBasis_Appurtenance"><area shape="rect" alt="Diepte" coords="861,336,1260,657" href="#global_class_IMKLBasis_Diepte"><area shape="rect" alt="AanduidingEisVoorzorgsmaatregel" coords="936,14,1260,318" href="#global_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel"><area shape="rect" alt="ExtraGeometrie" coords="14,14,258,299" href="#global_class_IMKLBasis_ExtraGeometrie"><area shape="rect" alt="ExtraInformatie" coords="320,144,465,306" href="#global_class_IMKLBasis_ExtraInformatie"></map>
+         </div>
+
 <!-- ![](docs/media/20.IMKL-Leidingelement-per-thema.png) -->
+<!--
 <figure id="afb_20.IMKL-Leidingelement-per-thema.png">
     <img src="docs/media/20.IMKL-Leidingelement-per-thema.png" alt="Afbeelding Leidingelement-per-thema">
     <figcaption>Leidingelement per thema</figcaption>
 </figure>
-
+-->
 ### WIBON Uitleveren van gebiedsinformatie
 
 Voor het faciliteren van de uitlevergegevens binnen de WIBON is er naast de
@@ -1168,11 +1284,17 @@ contactinformatie opgenomen.
 
 Deze blokken zijn nader ingevuld in het UML diagram op de volgende pagina.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_B6363351_D2FC_4278_9335_F25A998CC626.png" usemap="#imagemap-EAID_B6363351_D2FC_4278_9335_F25A998CC626" alt="Diagram: 20a.IMKL-Levering-Gebiedsinformatie - detail"><figcaption>Model voor levering gebiedsinformatie</figcaption>
+            </figure><map name="imagemap-EAID_B6363351_D2FC_4278_9335_F25A998CC626"><area shape="rect" alt="WerkzaamhedenInfo" coords="1727,225,2080,365" href="#global_class_LeveringGebiedsinformatie_WerkzaamhedenInfo"><area shape="rect" alt="EisVoorzorgsmaatregelBijlage" coords="1171,860,1424,999" href="#global_class_IMKLBasis_EisVoorzorgsmaatregelBijlage"><area shape="rect" alt="Achtergrondkaart" coords="111,403,433,525" href="#global_class_IMKLBasis_Achtergrondkaart"><area shape="rect" alt="Beheerder" coords="1743,983,1991,1220" href="#global_class_LeveringGebiedsinformatie_Beheerder"><area shape="rect" alt="Utiliteitsnet" coords="87,1384,361,1635" href="#global_class_IMKLBasis_Utiliteitsnet"><area shape="rect" alt="PostbusAdres" coords="1803,1242,2019,1399" href="#global_class_LeveringGebiedsinformatie_PostbusAdres"><area shape="rect" alt="EigenTopografie" coords="1078,1059,1416,1291" href="#global_class_IMKLBasis_EigenTopografie"><area shape="rect" alt="Bijlage" coords="659,1059,980,1291" href="#global_class_LeveringGebiedsinformatie_Bijlage"><area shape="rect" alt="Belanghebbende" coords="74,995,361,1298" href="#global_class_LeveringGebiedsinformatie_Belanghebbende"><area shape="rect" alt="Belang" coords="436,733,750,970" href="#global_class_LeveringGebiedsinformatie_Belang"><area shape="rect" alt="AanvraagSoortContact" coords="890,720,1138,877" href="#global_class_LeveringGebiedsinformatie_AanvraagSoortContact"><area shape="rect" alt="Adres" coords="1729,723,2019,951" href="#global_class_IMKLBasis_Adres"><area shape="rect" alt="Organisatie" coords="1790,370,2019,640" href="#global_class_LeveringGebiedsinformatie_Organisatie"><area shape="rect" alt="Contact" coords="1814,59,2019,198" href="#global_class_LeveringGebiedsinformatie_Contact"><area shape="rect" alt="Opdrachtgever" coords="1382,260,1583,381" href="#global_class_LeveringGebiedsinformatie_Opdrachtgever"><area shape="rect" alt="Aanvrager" coords="1365,93,1566,232" href="#global_class_LeveringGebiedsinformatie_Aanvrager"><area shape="rect" alt="Orientatiepolygoon" coords="1071,466,1240,592" href="#global_class_LeveringGebiedsinformatie_Orientatiepolygoon"><area shape="rect" alt="Informatiepolygoon" coords="1071,250,1354,447" href="#global_class_LeveringGebiedsinformatie_Informatiepolygoon"><area shape="rect" alt="Graafpolygoon" coords="1071,100,1240,225" href="#global_class_LeveringGebiedsinformatie_Graafpolygoon"><area shape="rect" alt="GebiedsinformatieAanvraag" coords="513,78,898,653" href="#global_class_LeveringGebiedsinformatie_GebiedsinformatieAanvraag"><area shape="rect" alt="GebiedsinformatieLevering" coords="111,90,377,358" href="#global_class_LeveringGebiedsinformatie_GebiedsinformatieLevering"><area shape="rect" alt="" coords="1382,413,1553,497" href="#global_class_IMKLBasis_AanvraagSoortValue"><area shape="rect" alt="" coords="217,552,417,625" href="#global_class_IMKLBasis_AchtergrondkaartSoortValue"><area shape="rect" alt="" coords="1436,1102,1636,1175" href="#global_class_IMKLBasis_EigenTopografieStatusValue"><area shape="rect" alt="" coords="541,1428,772,1516" href="#global_class_IMKLBasis_Thema"></map>
+         </div>
+<!--
 <figure id="20a.IMKL-Levering-Gebiedsinformatie">
     <img src="docs/media/20a.IMKL-Levering-Gebiedsinformatie.png" alt="Afbeelding Levering Gebiedsinformatie">
     <figcaption>Model voor levering gebiedsinformatie</figcaption>
 </figure>
-![](docs/media/20a.IMKL-Levering-Gebiedsinformatie.png)
+-->
+<!-- [](docs/media/20a.IMKL-Levering-Gebiedsinformatie.png) -->
 
 Toelichting bij het diagram.
 
@@ -1234,7 +1356,16 @@ opgenomen om het geraakte belang te bepalen per belanghebbende en de
 contactgegevens die bij specifieke situaties van belang zijn. Deze worden bij
 een geraakt belang uitgewisseld in de GebiedsinformatieLevering.
 
+<div class="imageinfo ">
+            <figure><img src="data/Images/EAID_9CA9590E_EF0B_4b57_A5CA_AA2BA4B3AFDD.png" usemap="#imagemap-EAID_9CA9590E_EF0B_4b57_A5CA_AA2BA4B3AFDD" alt="Diagram: 20b.IMKL-Belangenregistratie-WIBON - detail"><figcaption>Belangenregistratie WIBON: Belang en Veiligheidsgebied zijn beide beheerpolygonen. Een
+Veiligheidsgebied heeft alleen contactpersonen voor de aanvraag. Het Belang
+heeft daarnaast contactgegevens voor de graafmelding, calamiteitenmelding of
+oriëntatieverzoek.</figcaption>
+            </figure><map name="imagemap-EAID_9CA9590E_EF0B_4b57_A5CA_AA2BA4B3AFDD"><area shape="rect" alt="Organisatie" coords="392,786,620,1055" href="#global_class_LeveringGebiedsinformatie_Organisatie"><area shape="rect" alt="Beheerder" coords="100,655,349,892" href="#global_class_LeveringGebiedsinformatie_Beheerder"><area shape="rect" alt="AanvraagSoortContact" coords="943,742,1181,917" href="#global_class_LeveringGebiedsinformatie_AanvraagSoortContact"><area shape="rect" alt="Contact" coords="887,463,1092,603" href="#global_class_LeveringGebiedsinformatie_Contact"><area shape="rect" alt="Belang" coords="496,463,810,679" href="#global_class_LeveringGebiedsinformatie_Belang"><area shape="rect" alt="Veiligheidsgebied" coords="124,459,247,555" href="#global_class_LeveringGebiedsinformatie_Veiligheidsgebied"><area shape="rect" alt="BelangGeneriek" coords="450,64,742,373" href="#global_class_LeveringGebiedsinformatie_BelangGeneriek"><area shape="rect" alt="" coords="749,742,920,892" href="#global_class_IMKLBasis_AanvraagSoortValue"></map>
+         </div>
+
 <!-- ![](docs/media/20b.IMKL-Belangenregistratie-WIBON.png) -->
+<!--
 <figure id="afb_20b.IMKL-Belangenregistratie-WIBON">
     <img src="docs/media/20b.IMKL-Belangenregistratie-WIBON.png" alt="Belangenregistratie WIBON">
     <figcaption>Belangenregistratie WIBON: Belang en Veiligheidsgebied zijn beide beheerpolygonen. Een
@@ -1242,6 +1373,7 @@ Veiligheidsgebied heeft alleen contactpersonen voor de aanvraag. Het Belang
 heeft daarnaast contactgegevens voor de graafmelding, calamiteitenmelding of
 oriëntatieverzoek.</figcaption>
 </figure>
+-->
 
 <!-- Figuur 5.14: -->
 
