@@ -11,6 +11,8 @@ Bibliografie
 
 -   AGIV – IMKL2.2 Data Model, versie 0.13.
 
+-	[MIM - Metamodel Informatie Modellering, versie 1.2](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/), Geonovum, 2024.
+
 -   NEN 3610:2011/A1:2016 Basismodel Geo-informatie - Termen, definities,
     relaties en algemene regels voor de uitwisseling van informatie over aan de
     aarde gerelateerde ruimtelijke objecten. Normcommissie 351 240

@@ -78,6 +78,7 @@ hoort. Zo is er een WIBON profiel, een SWater profiel en een BevB profiel.
 
 Uitgangspunten toegepast bij het modelleren van IMKL:
 
+
 -   IMKL beschrijft het totaal aan informatie dat voorziet in een aantal data
     leveringsprocessen: WIBON, INSPIRE utilities, Topologie Stedelijk Water,
     Buisleidingen gevaarlijke inhoud.
@@ -166,6 +167,8 @@ beschreven.</figcaption>
 
 
 -   [Raamwerk Geo-standaarden 3.0](https://www.geonovum.nl/documents/raamwerk-geo-standaarden-v30pdf).
+
+-	[MIM - Metamodel Informatie Modellering, versie 1.2](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/)
 
 -   NEN 3610:2011/A1:2016 Basismodel Geo-informatie.
 

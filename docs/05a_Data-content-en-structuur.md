@@ -82,7 +82,11 @@ gerelateerde pakketten.</figcaption>
 
 ### Metamodel
 
-IMKL gebruikt voor het beschrijven van de uitbreiding op INSPIRE het zelfde
+IMKL gebruikt het Metamodel voor Informatiemodellering, MIM. Omdat IMKL een extensie is van het INSPIRE Utility Networks is het INSPIRE metamodel, het INSPIRE Generic
+Conceptual Model, ook van toepassing. Beide metamodellen zijn in deze toepassing met elkaar vergelijkbaar.
+
+<!--
+voor het beschrijven van de uitbreiding op INSPIRE het zelfde
 metamodel voor UML als INSPIRE: het metamodel beschreven in het INSPIRE Generic
 Conceptual Model. IMKL wijkt hiermee af van de Nederlandse Standaard voor
 informatiemodellering MIM.
@@ -93,9 +97,10 @@ De volgende argumenten ondersteunen de keuze voor het INSPIRE metamodel:
 twee metamodellen maakt de beschrijving van de extensie onnodig complex;
 
 \- Het metamodel van INSPIRE kunnen we niet aanpassen omdat dit in Europees
-verband is vastgesteld.
+verband is vastgesteld. -->
 
-De volgende stereotypen worden gebruikt als onderdeel van het UML profiel.
+De MIM stereotypen worden beschreven in het [Metamodel voor Informatiemodellering, MIM](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/) .
+Het INSPIRE metamodel gebruikt de volgende stereotypen.
 
 | **Stereotype**    | **Model element**           | **Beschrijving**                                                                                                               |
 |-------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -113,7 +118,7 @@ Het onderstaand UML diagram bevat het complete IMKL – WIBON inclusief de relat
 met INSPIRE Utilities. In de hierop volgende paragrafen wordt telkens een deel
 van het diagram toegelicht.
 
-Kleurgebruik in diagrammen:
+**Kleurgebruik in diagrammen:**
 
 -   Oranje: IMKL objecttypen.
 
@@ -124,10 +129,10 @@ Kleurgebruik in diagrammen:
 -   Licht oranje en grijs: Niet-instantieerbare objecttypen, datatypen en
     waardelijsten.
 
--   In de diagrammen onderdelen die gewijzigd zijn ten opzichte van de IMKL 1.2.1 versie
+-   In de diagrammen onderdelen die gewijzigd zijn ten opzichte van de IMKL 2.0 versie
     met rode kaders aangegeven.
 
-    Voorbeeld: cardinaliteit aangepast en constraint toegevoegd:
+    Voorbeeld: twee toegevoegde attributen:
 
 <!-- ![](docs/media/voorbeeldAangepasteKlasse.png) -->
 
@@ -136,6 +141,10 @@ Kleurgebruik in diagrammen:
     <figcaption>Voorbeeld van een aangepast objecttype</figcaption>
 </figure>
 
+**Link met objectcatalogus.**  
+De modelelementen in het UML diagram zijn klikbaar en verwijzen naar de beschrijving van de metagegevens in de objectcatalogus in het hoofdstuk Gegevensdefinitie. 
+
+**Indicatie aanlevering en uitlevering.**  
 Voor WIBON geldt dat er een verschil is tussen het dataverkeer tussen de
 centrale voorziening en de afnemers, de uitlevering, en het dataverkeer tussen
 de netbeheerders en de centrale voorziening, de aanlevering. Bij de
@@ -154,7 +163,6 @@ verschillende zijn in de diagrammen aangegeven.
     betrekking tot aan- of uitlevering of een decentraal of centraal aangesloten
     netbeheerder.
 	
---- Het figuur is nog niet goed klikbaar, waarschijnlijk door nietcorrecte schaling???? ---
 
 
 <div class="imageinfo overview">
@@ -237,13 +245,11 @@ Measure bestaan uit een combinatie van een waarde en een eenheid.
 
 ### Waardelijsten zijn extern
 
-De opgenomen waardelijsten van het type  «codeList» worden niet in het UML
+De opgenomen waardelijsten van het type  «Codelijst» worden niet in het UML
 beheerd maar in externe waardelijsten. Zij worden gepubliceerd in een
 waardelijstregister. Ze maken wel onderdeel uit van IMKL maar omdat ze
 dynamischer zijn voor wat betreft het inhoudelijk beheer zijn ze uit de UML
-beschrijving gehaald. Om het model toch leesbaar te houden zijn de startversies
-van die lijsten wel opgenomen in de UML diagrammen. Voor operationele toepassing
-is echter het waardelijstregister leidend.
+beschrijving gehaald.
 
 ### Basisattributen voor identificatie en labels
 
