@@ -1,4 +1,4 @@
-# IMKL informatiemodel - UML klassediagrammen
+# IMKL informatiemodel
 
 
 Dit hoofdstuk beschrijft het datamodel van utiliteitsnetten. Aan de hand van UML
