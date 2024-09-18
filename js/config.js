@@ -2,7 +2,7 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "IMKL 3.0 Rc in ontwikkeling",
+  title: "Informatiemodel Kabels en Leidingen (IMKL) - versie 3.0 rc - 2024 in ontwikkeling",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
