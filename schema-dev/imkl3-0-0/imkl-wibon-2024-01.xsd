@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- 
+<!--
 Changelog.
 ======================
 General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
@@ -114,9 +114,9 @@ Belanghebbende:
 
 2020-06-16:
 Version: 2.0io20200616
-Informatiepolygoon: definition added:  Definition 
+Informatiepolygoon: definition added:  Definition
 Een informatiepolygoon is de weergave door een grondroerder van het gebied, waarvoor gebiedsinformatie wordt gevraagd.
- Description 
+ Description
 De gebiedsinformatie die zich bevindt tussen een informatiepolygoon en de graafpolygoon is puur ter informatie en ondersteuning van de werkzaamheden van de grondroerder.
 
 Orientatiepolygoon: definition changed
@@ -167,14 +167,14 @@ Belang:
 <element name="contactStoring" type="imkl:ContactPropertyType" minOccurs="0"> -> verwijderd
 
 Organisatie:
-<element name="email" type="string" minOccurs="0" maxOccurs="2"> -> <element name="email" type="string" minOccurs="0" maxOccurs="1"> 
+<element name="email" type="string" minOccurs="0" maxOccurs="2"> -> <element name="email" type="string" minOccurs="0" maxOccurs="1">
 ======================================
 -->
 
 
 
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wibon="http://www.geostandaarden.nl/imkl/wibon" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" targetNamespace="http://www.geostandaarden.nl/imkl/wibon" elementFormDefault="qualified" version="2.0.0">
-	
+
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
@@ -186,7 +186,7 @@ Organisatie:
 	<import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<!--XML Schema document created by ShapeChange - http://shapechange.net/-->
 	<element name="AanduidingEisVoorzorgsmaatregel" type="wibon:AanduidingEisVoorzorgsmaatregelType" substitutionGroup="wibon:ExtraInformatie">
-		
+
 	</element>
 	<complexType name="AanduidingEisVoorzorgsmaatregelType">
 		<complexContent>
@@ -211,21 +211,21 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="AanvraagSoortContact" type="wibon:AanvraagSoortContactType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="AanvraagSoortContactType">
 		<sequence>
 			<element name="aanvraagSoort" type="gml:ReferenceType">
-				
+
 			</element>
 			<element name="naam" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="telefoon" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="email" type="string" minOccurs="0">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -235,19 +235,19 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="Aanvrager" type="wibon:AanvragerType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="AanvragerType">
 		<sequence>
 			<element name="contactpersoon" type="wibon:ContactPropertyType" minOccurs="0">
-				
+
 			</element>
 			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
-				
+
 			</element>
 			<!-- adapted 4-2.0 -->
 			<element name="extraContact" type="wibon:ContactPropertyType" minOccurs="0">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -257,15 +257,15 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="Achtergrondkaart" type="wibon:AchtergrondkaartType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="AchtergrondkaartType">
 		<sequence>
 			<element name="achtergrondkaartSoort" type="gml:ReferenceType">
-				
+
 			</element>
 			<element name="kaartreferentie" type="anyURI">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -275,36 +275,36 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="Adres" type="wibon:AdresType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="AdresType">
 		<sequence>
 			<!--adapted 4-2.0-->
 			<element name="BAGid" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="openbareRuimteNaam" type="string">
-				
+
 			</element>
 			<element name="huisnummer" type="string">
-				
+
 			</element>
 			<element name="huisletter" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="huisnummertoevoeging" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="woonplaatsNaam" type="string">
-				
+
 			</element>
 			<!--adapted 4-2.0-->
 			<element name="postcode" type="string" minOccurs="0">
-				
+
 			</element>
 			<!-- adapted 4-2.0 -->
 			<element name="landcode" type="gml:ReferenceType">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -319,7 +319,7 @@ Organisatie:
 	<complexType name="InfoKabelbedkabelType">
 		<sequence>
 			<element name="currentStatus" type="gml:ReferenceType" minOccurs="0">
-				
+
 			</element>
 			<element name="nominalVoltage" type="gml:MeasureType" minOccurs="0">
 
@@ -331,44 +331,44 @@ Organisatie:
 
 			</element>
 			<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-				
+
 			</element>
-			<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
+			<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 			</element>
 		</sequence>
-	
+
 	</complexType>
 	<complexType name="InfoKabelbedkabelPropertyType">
 		<sequence>
 			<element ref="wibon:InfoKabelbedkabel"/>
 		</sequence>
 	</complexType>
-	
 
-		
+
+
 	<!-- end adapted -->
-	
-	
-	
-	
+
+
+
+
 	<element name="Annotatie" type="wibon:AnnotatieType" substitutionGroup="wibon:ExtraInformatie">
-		
+
 	</element>
 	<complexType name="AnnotatieType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
 					<element name="annotatieType" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="labelpositie" type="wibon:LabelpositiePropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="ligging" type="gml:GeometryPropertyType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -382,7 +382,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Appurtenance" type="wibon:AppurtenanceType" substitutionGroup="us-net-common:Appurtenance">
-		
+
 	</element>
 	<complexType name="AppurtenanceType">
 		<complexContent>
@@ -391,38 +391,38 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="eanCode" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="hoogte" type="gml:LengthType" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -436,29 +436,29 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Beheerder" type="wibon:BeheerderType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="BeheerderType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="bronhoudercode" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="websiteKlic" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -472,24 +472,24 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Belang" type="wibon:BelangType" substitutionGroup="wibon:BelangGeneriek">
-		
+
 	</element>
 	<complexType name="BelangType">
 		<complexContent>
 			<extension base="wibon:BelangGeneriekType">
 				<sequence>
 					<element name="thema" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="contactNetinformatie" type="wibon:AanvraagSoortContactPropertyType" minOccurs="0" maxOccurs="3">
-						
+
 					</element>
 					<!-- adapted 4-2.0: attribute deleted -->
 					<element name="contactBeschadiging" type="wibon:ContactPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="netbeheerder" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -503,41 +503,41 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="BelangGeneriek" type="wibon:BelangGeneriekType" abstract="true" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="BelangGeneriekType" abstract="true">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string">
-						
+
 					</element>
 					<element name="gewensteIngangsdatum" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="ingangsdatum" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="gewensteEinddatum" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="einddatum" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="beheerpolygoon" type="gml:MultiSurfacePropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="contactAanvraag" type="wibon:AanvraagSoortContactPropertyType" minOccurs="0" maxOccurs="3">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -551,51 +551,51 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Belanghebbende" type="wibon:BelanghebbendeType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="BelanghebbendeType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="beheerdersinformatieGeleverd" type="boolean" minOccurs="0">
-						
+
 					</element>
 					<element name="betrokkenBijAanvraag" type="boolean" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="indicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0">
-						
+
 					</element>
 					<element name="utiliteitsnet" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="eigenTopografie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="bijlage" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="geraaktBelangBijInformatiepolygoon" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="geraaktBelangBijGraafpolygoon" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="geraaktBelangBijOrientatiepolygoon" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="netbeheerder" type="gml:ReferenceType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -608,7 +608,7 @@ Organisatie:
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	
+
 	<complexType name="BuisSpecifiekPropertyType">
 		<choice minOccurs="0">
 			<element ref="wibon:Mantelbuis"/>
@@ -622,18 +622,18 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Contact" type="wibon:ContactType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="ContactType">
 		<sequence>
 			<element name="naam" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="telefoon" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="email" type="string" minOccurs="0">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -654,47 +654,47 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Diepte" type="wibon:DiepteType" abstract="true" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="DiepteType" abstract="true">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="diepteNauwkeurigheid" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="dieptePeil" type="gml:MeasureType">
-						
+
 					</element>
 					<element name="datumOpmetingDieptePeil" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="diepteAangrijpingspunt" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="ligging" type="gml:PointPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -708,17 +708,17 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="DiepteNAP" type="wibon:DiepteNAPType" substitutionGroup="wibon:Diepte">
-		
+
 	</element>
 	<complexType name="DiepteNAPType">
 		<complexContent>
 			<extension base="wibon:DiepteType">
 				<sequence>
 					<element name="maaiveldPeil" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="datumOpmetingMaaiveldPeil" type="dateTime" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -732,7 +732,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="DiepteTovMaaiveld" type="wibon:DiepteTovMaaiveldType" substitutionGroup="wibon:Diepte">
-		
+
 	</element>
 	<complexType name="DiepteTovMaaiveldType">
 		<complexContent>
@@ -749,7 +749,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Duct" type="wibon:DuctType" substitutionGroup="us-net-common:Duct">
-		
+
 	</element>
 	<complexType name="DuctType">
 		<complexContent>
@@ -758,37 +758,37 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="aantalKabelsLeidingen" type="integer">
 						<!-- end adapted -->
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -802,35 +802,35 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="EigenTopografie" type="wibon:EigenTopografieType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="EigenTopografieType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="status" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="typeTopografischObject" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="ligging" type="gml:GeometryPropertyType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -844,7 +844,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="EisVoorzorgsmaatregelBijlage" type="wibon:EisVoorzorgsmaatregelBijlageType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="EisVoorzorgsmaatregelBijlageType">
 		<complexContent>
@@ -852,34 +852,34 @@ Organisatie:
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType"/>
 					<element name="beginLifespanVersion" type="dateTime"/>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0"/> 
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"/>
 <!-- adapted 4-3.0 attribute deleted -->
 <!--					<element name="bijlageType" type="gml:ReferenceType">
-						
+
 					</element> -->
-					
+
 <!-- end adapted -->
 
 
 					<!--adapted 4-2.0-->
 					<element name="bestandLocatie" type="anyURI" minOccurs="0">
-						
+
 					</element>
 					<!--adapted 4-2.0-->
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="bestandIdentificator" type="anyURI">
-						
+
 					</element>
 					<element name="thema" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="eisVoorzorgsmaatregel" type="string">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -893,45 +893,45 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Elektriciteitskabel" type="wibon:ElektriciteitskabelType" substitutionGroup="us-net-el:ElectricityCable">
-		
+
 	</element>
 	<complexType name="ElektriciteitskabelType">
 		<complexContent>
 			<extension base="us-net-el:ElectricityCableType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
-					
+
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="kabelDiameter" type="gml:MeasureType">
 						<!-- end adapted -->
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -945,33 +945,33 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="ExtraDetailinfo" type="wibon:ExtraDetailinfoType" substitutionGroup="wibon:ExtraInformatie">
-		
+
 	</element>
 	<complexType name="ExtraDetailinfoType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
 					<element name="adres" type="wibon:AdresPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="extraInfoType" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="bestandLocatie" type="anyURI" minOccurs="0">
-						
+
 					</element>
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="bestandIdentificator" type="anyURI">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="aanlegmethodeGestuurdeBoring" type="boolean">
 					</element>
 					<!-- end adapted 4-3.0 -->
 					<element name="ligging" type="gml:GeometryPropertyType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -985,40 +985,40 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="ExtraGeometrie" type="wibon:ExtraGeometrieType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="ExtraGeometrieType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<!--adapted 4-2.0-->
 					<element name="vlakgeometrie2D" type="gml:GeometryPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="puntgeometrie2.5D" type="gml:PointPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="lijngeometrie2.5D" type="gml:CurvePropertyType" minOccurs="0">
-						
+
 					</element>
 					<!--adapted 4-2.0-->
 					<element name="vlakgeometrie2.5D" type="gml:GeometryPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="geometrie3D" type="gml:SolidPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1032,29 +1032,29 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="ExtraInformatie" type="wibon:ExtraInformatieType" abstract="true" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="ExtraInformatieType" abstract="true">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1068,89 +1068,89 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="GebiedsinformatieAanvraag" type="wibon:GebiedsinformatieAanvraagType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="GebiedsinformatieAanvraagType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="ordernummer" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="positienummer" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="klicMeldnummer" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="aanvrager" type="wibon:AanvragerPropertyType">
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="referentie" type="string">
-						
+
 					</element>
 					<element name="opdrachtgever" type="wibon:OpdrachtgeverPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="aanvraagSoort" type="gml:ReferenceType">
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="voorbereidingCoordinatieCivieleWerken" type="boolean" minOccurs="0">
-						
+
 					</element>
 					<element name="voorbereidingMedegebruikFysiekeInfrastructuur" type="boolean" minOccurs="0">
-						
+
 					</element>
 					<!--end adaptation -->
 					<element name="aanvraagDatum" type="dateTime">
-						
+
 					</element>
-					
+
 					<!-- adapted 4-3.0-->
 					<element name="soortWerkzaamheden" type="wibon:WerkzaamhedenInfoType" minOccurs="0" maxOccurs="unbounded">
 
 					</element>
-					
+
 					<!-- end adapted -->
 					<element name="omschrijvingWerkzaamheden" type="string" minOccurs="0">
-						
+
 					</element>
 					<!--adapted 4-2.0-->
 					<element name="locatieWerkzaamheden" type="wibon:AdresPropertyType">
-						
+
 					</element>
 					<!--adapted 4-2.0-->
 					<element name="locatieOmschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="startDatum" type="date" minOccurs="0">
-						
+
 					</element>
 					<element name="eindDatum" type="date" minOccurs="0">
-						
+
 					</element>
 					<element name="huisaansluitingAdressen" type="wibon:AdresPropertyType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="informatiepolygoon" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="graafpolygoon" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="orientatiepolygoon" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1164,38 +1164,38 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="GebiedsinformatieLevering" type="wibon:GebiedsinformatieLeveringType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="GebiedsinformatieLeveringType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="leveringsvolgnummer" type="integer">
-						
+
 					</element>
 					<element name="datumLeveringSamengesteld" type="dateTime">
-						
+
 					</element>
 					<element name="indicatieLeveringCompleet" type="boolean">
-						
+
 					</element>
 					<element name="achtergrondkaart" type="wibon:AchtergrondkaartPropertyType" maxOccurs="2">
-						
+
 					</element>
 					<element name="belanghebbende" type="wibon:BelanghebbendePropertyType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="aanvraag" type="gml:ReferenceType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1209,23 +1209,23 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Graafpolygoon" type="wibon:GraafpolygoonType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="GraafpolygoonType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="geometrie" type="gml:SurfacePropertyType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1259,27 +1259,27 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Informatiepolygoon" type="wibon:InformatiepolygoonType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="InformatiepolygoonType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="geometrie" type="gml:SurfacePropertyType">
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="geometrieVoorVisualisatie" type="gml:GeometryPropertyType" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1323,9 +1323,9 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Kabelbed" type="wibon:KabelbedType" substitutionGroup="wibon:Duct">
-		
+
 	</element>
-	
+
 	<!-- adapted 4-3.0 -->
 	<complexType name="KabelbedType">
 		<complexContent>
@@ -1333,12 +1333,12 @@ Organisatie:
 				<sequence minOccurs="0">
 					<element name="infoKabels" type="wibon:InfoKabelbedkabelType" minOccurs="0" maxOccurs="unbounded"></element>
 
-				</sequence> 
-				
-			</extension> 
+				</sequence>
+
+			</extension>
 		</complexContent>
 	</complexType>
-	
+
 	<!-- end adapted -->
 	<complexType name="KabelbedPropertyType">
 		<sequence minOccurs="0">
@@ -1348,7 +1348,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Kast" type="wibon:KastType" substitutionGroup="us-net-common:Cabinet">
-		
+
 	</element>
 	<complexType name="KastType">
 		<complexContent>
@@ -1357,34 +1357,34 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1423,15 +1423,15 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Labelpositie" type="wibon:LabelpositieType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="LabelpositieType">
 		<sequence>
 			<element name="aangrijpingHorizontaal" type="gml:ReferenceType">
-				
+
 			</element>
 			<element name="aangrijpingVerticaal" type="gml:ReferenceType">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1448,23 +1448,23 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Maatvoering" type="wibon:MaatvoeringType" substitutionGroup="wibon:ExtraInformatie">
-		
+
 	</element>
 	<complexType name="MaatvoeringType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
 					<element name="maatvoeringsType" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="labelpositie" type="wibon:LabelpositiePropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="ligging" type="gml:GeometryPropertyType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1478,7 +1478,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Mangat" type="wibon:MangatType" substitutionGroup="us-net-common:Manhole">
-		
+
 	</element>
 	<complexType name="MangatType">
 		<complexContent>
@@ -1487,34 +1487,34 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1528,9 +1528,9 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Mantelbuis" type="wibon:MantelbuisType" substitutionGroup="us-net-common:Pipe">
-		
-		
-		
+
+
+
 		<!-- addapted 4-3.0 -->
 	</element>
 	<element name="eigenaar" type="boolean"></element>
@@ -1542,50 +1542,50 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="aantalKabelsLeidingen" type="integer">
 						<!-- end adapted -->
-						
+
 					</element>
 					<!-- adapted 4-2.0 -->
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-						
+
 					</element>
-					
+
 					<!-- adapted 4-3.0 -->
-					
+
 					<element name="eigenaar" type="boolean"></element>
 
 					<element name="gebruiktVan" type="string" minOccurs="0"></element>
-					
+
 					<!-- end adapted -->
 				</sequence>
 			</extension>
@@ -1599,7 +1599,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Mast" type="wibon:MastType" substitutionGroup="us-net-common:Pole">
-		
+
 	</element>
 	<complexType name="MastType">
 		<complexContent>
@@ -1608,34 +1608,34 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1649,18 +1649,18 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="NEN3610ID" type="wibon:NEN3610IDType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="NEN3610IDType">
 		<sequence>
 			<element name="namespace" type="string">
-				
+
 			</element>
 			<element name="lokaalID" type="string">
-				
+
 			</element>
 			<element name="versie" type="string" minOccurs="0">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1670,44 +1670,44 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="OlieGasChemicalienPijpleiding" type="wibon:OlieGasChemicalienPijpleidingType" substitutionGroup="us-net-ogc:OilGasChemicalsPipe">
-		
+
 	</element>
 	<complexType name="OlieGasChemicalienPijpleidingType">
 		<complexContent>
 			<extension base="us-net-ogc:OilGasChemicalsPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1721,15 +1721,15 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Opdrachtgever" type="wibon:OpdrachtgeverType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="OpdrachtgeverType">
 		<sequence>
 			<element name="contactpersoon" type="wibon:ContactPropertyType" minOccurs="0">
-				
+
 			</element>
 			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1739,39 +1739,39 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="Organisatie" type="wibon:OrganisatieType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="OrganisatieType">
 		<sequence>
 			<element name="naam" type="string" minOccurs="0" maxOccurs="2">
-				
+
 			</element>
 			<element name="kvkNummer" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="bezoekAdres" type="wibon:AdresPropertyType" minOccurs="0">
-				
+
 			</element>
-			
+
 			<!-- adapted 4-3.0 -->
 			<!-- attribute postbusAdres deleted -->
 			<!-- element name="postbusAdres" type="wibon:PostbusAdresPropertyType" minOccurs="0">
 			</element> -->
 			<element name="telefoon" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="mobiel" type="string" minOccurs="0">
-				
+
 			</element>
 			<element name="fax" type="string" minOccurs="0">
-				
+
 			</element>
 			<!--adapted 4-2.0 -->
 			<element name="email" type="string" minOccurs="0" maxOccurs="1">
-				
+
 			</element>
 			<element name="website" type="string" minOccurs="0">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1781,23 +1781,23 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="Orientatiepolygoon" type="wibon:OrientatiepolygoonType" substitutionGroup="gml:AbstractFeature">
-		
+
 	</element>
 	<complexType name="OrientatiepolygoonType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="geometrie" type="gml:SurfacePropertyType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1811,61 +1811,61 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Overig" type="wibon:OverigType" substitutionGroup="us-net-common:UtilityLinkSet">
-		
+
 	</element>
 	<complexType name="OverigType">
 		<complexContent>
 			<extension base="us-net-common:UtilityLinkSetType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="kabelDiameter" type="gml:MeasureType">
 						<!-- end adapted -->
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="pipeDiameter" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="pressure" type="gml:MeasureType">
 						<!-- end adapted -->
-						
-						
+
+
 					</element>
 					<element name="producttype" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1886,22 +1886,22 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="PostbusAdres" type="wibon:PostbusAdresType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="PostbusAdresType">
 		<sequence>
 			<element name="postbusnummer" type="string">
-				
+
 			</element>
 			<element name="postcode" type="string">
-				
+
 			</element>
 			<element name="woonplaatsNaam" type="string">
-				
+
 			</element>
 			<!-- adapted 4-2.0 -->
 			<element name="landcode" type="gml:ReferenceType">
-				
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1911,18 +1911,18 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="PuntLijnVlak" type="wibon:PuntLijnVlakType" substitutionGroup="gml:AbstractObject">
-		
+
 	</element>
 	<complexType name="PuntLijnVlakType">
 		<choice>
 			<element name="punt" type="gml:PointPropertyType">
-				
+
 			</element>
 			<element name="lijn" type="gml:CurvePropertyType">
-				
+
 			</element>
 			<element name="vlak" type="gml:SurfacePropertyType">
-				
+
 			</element>
 		</choice>
 	</complexType>
@@ -1932,44 +1932,44 @@ Organisatie:
 		</sequence>
 	</complexType>
 	<element name="Rioolleiding" type="wibon:RioolleidingType" substitutionGroup="us-net-sw:SewerPipe">
-		
+
 	</element>
 	<complexType name="RioolleidingType">
 		<complexContent>
 			<extension base="us-net-sw:SewerPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -1983,7 +1983,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="TechnischGebouw" type="wibon:TechnischGebouwType" substitutionGroup="us-net-common:Cabinet">
-		
+
 	</element>
 	<complexType name="TechnischGebouwType">
 		<complexContent>
@@ -1992,34 +1992,34 @@ Organisatie:
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2033,45 +2033,45 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Telecommunicatiekabel" type="wibon:TelecommunicatiekabelType" substitutionGroup="us-net-tc:TelecommunicationsCable">
-		
+
 	</element>
 	<complexType name="TelecommunicatiekabelType">
 		<complexContent>
 			<extension base="us-net-tc:TelecommunicationsCableType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
-					
+
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="kabelDiameter" type="gml:MeasureType">
 						<!-- end adapted -->
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2085,44 +2085,44 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="ThermischePijpleiding" type="wibon:ThermischePijpleidingType" substitutionGroup="us-net-th:ThermalPipe">
-		
+
 	</element>
 	<complexType name="ThermischePijpleidingType">
 		<complexContent>
 			<extension base="us-net-th:ThermalPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2136,7 +2136,7 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Toren" type="wibon:TorenType" substitutionGroup="us-net-common:Tower">
-		
+
 	</element>
 	<complexType name="TorenType">
 		<complexContent>
@@ -2145,34 +2145,34 @@ Organisatie:
 										<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-						
+
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-						
+
 					</element>
 					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2186,35 +2186,35 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Utiliteitsnet" type="wibon:UtiliteitsnetType" substitutionGroup="us-net-common:UtilityNetwork">
-		
+
 	</element>
 	<complexType name="UtiliteitsnetType">
 		<complexContent>
 			<extension base="us-net-common:UtilityNetworkType">
 				<sequence>
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
+
 					</element>
 					<element name="beginLifespanVersion" type="dateTime">
-						
+
 					</element>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="thema" type="gml:ReferenceType">
-						
+
 					</element>
 					<element name="standaardDieptelegging" type="gml:MeasureType" minOccurs="0">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2228,14 +2228,14 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Veiligheidsgebied" type="wibon:VeiligheidsgebiedType" substitutionGroup="wibon:BelangGeneriek">
-		
+
 	</element>
 	<complexType name="VeiligheidsgebiedType">
 		<complexContent>
 			<extension base="wibon:BelangGeneriekType">
 				<sequence>
 					<element name="beheerderVeiligheidsgebied" type="gml:ReferenceType">
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2249,44 +2249,44 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Waterleiding" type="wibon:WaterleidingType" substitutionGroup="us-net-wa:WaterPipe">
-		
+
 	</element>
 	<complexType name="WaterleidingType">
 		<complexContent>
 			<extension base="us-net-wa:WaterPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">					
-					</element>				
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
+					</element>
 					<!-- end adapted -->
 					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-						
+
 					</element>
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-						
+
 					</element>
 					<element name="label" type="string" minOccurs="0">
-						
+
 					</element>
 					<element name="omschrijving" type="string" minOccurs="0">
-						
+
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-						
+
 					</element>
 				</sequence>
 			</extension>
@@ -2299,7 +2299,7 @@ Organisatie:
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	
+
 	<!-- adapted 4-3.0 -->
 	<element name="WerkzaamhedenInfo" type="wibon:WerkzaamhedenInfoType" substitutionGroup="gml:AbstractObject">
 
@@ -2307,10 +2307,10 @@ Organisatie:
 	<complexType name="WerkzaamhedenInfoType">
 		<sequence>
 			<element name="soortWerkzaamheden" type="gml:ReferenceType" minOccurs="1"  maxOccurs="unbounded" >
-				
+
 			</element>
 			<element name="methode" type="gml:ReferenceType" minOccurs="1"  maxOccurs="unbounded">
-				
+
 			</element>
 			<!-- let op maximaleWerkdiepte(cm) is niet valide -->
 			<element name="maximaleWerkdiepte" type="gml:MeasureType" minOccurs="1">
