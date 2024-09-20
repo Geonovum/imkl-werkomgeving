@@ -7,7 +7,9 @@ General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
 Startversion is imkl-wibon.xsd version 2.0.0 published on https://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd
 
 
-2024-09-10 wq
+2024-01-19 Wilko Quak:
+- Bijlage en EisVoorzorgsmaatregelBijlage samengevoegd en Bijlage verwijderd.
+2024-09-10 Wilko Quak:
 - alle annotation van de notes velden eruit halen. De definiteis zijn niet meer uptodate
 
 
@@ -190,25 +192,13 @@ Organisatie:
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
-					<element name="eisVoorzorgsmaatregel" type="string" minOccurs="0">
-						
-					</element>
-					<element name="contactVoorzorgsmaatregel" type="wibon:ContactPropertyType">
-						
-					</element>
-					<element name="netbeheerderNetOmschrijving" type="string" minOccurs="0">
-						
-					</element>
-					<element name="netbeheerderNetAanduiding" type="string">
-						
-					</element>
-					<element name="netbeheerderWerkAanduiding" type="string" minOccurs="0">
-						
-					</element>
+					<element name="eisVoorzorgsmaatregel" type="string" minOccurs="0"/>
+					<element name="contactVoorzorgsmaatregel" type="wibon:ContactPropertyType"/>
+					<element name="netbeheerderNetOmschrijving" type="string" minOccurs="0"/>
+					<element name="netbeheerderNetAanduiding" type="string"/>
+					<element name="netbeheerderWerkAanduiding" type="string" minOccurs="0"/>
 					<!--adapted 4-2.0-->
-					<element name="geometrie" type="gml:GeometryPropertyType">
-						
-					</element>
+					<element name="geometrie" type="gml:GeometryPropertyType"/>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -619,54 +609,6 @@ Organisatie:
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	
-	<!-- adapted 4-3.0 TODO Bijlage moet abstract type zijn -->
-	<element name="Bijlage" type="wibon:BijlageType" substitutionGroup="gml:AbstractFeature">
-		
-	</element>
-	<complexType name="BijlageType">
-		<complexContent>
-			<extension base="gml:AbstractFeatureType">
-				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-						
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-						
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-						
-					</element>
-					
-<!-- adapted 4-3.0 attribute deleted -->
-<!--					<element name="bijlageType" type="gml:ReferenceType">
-						
-					</element> -->
-					
-<!-- end adapted -->
-
-
-					<!--adapted 4-2.0-->
-					<element name="bestandLocatie" type="anyURI" minOccurs="0">
-						
-					</element>
-					<!--adapted 4-2.0-->
-					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
-						
-					</element>
-					<element name="bestandIdentificator" type="anyURI">
-						
-					</element>
-				</sequence>
-			</extension>
-		</complexContent>
-	</complexType>
-	<complexType name="BijlagePropertyType">
-		<sequence minOccurs="0">
-			<element ref="wibon:Bijlage"/>
-		</sequence>
-		<attributeGroup ref="gml:AssociationAttributeGroup"/>
-		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
-	</complexType>
 	<complexType name="BuisSpecifiekPropertyType">
 		<choice minOccurs="0">
 			<element ref="wibon:Mantelbuis"/>
@@ -901,13 +843,35 @@ Organisatie:
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="EisVoorzorgsmaatregelBijlage" type="wibon:EisVoorzorgsmaatregelBijlageType" substitutionGroup="wibon:Bijlage">
+	<element name="EisVoorzorgsmaatregelBijlage" type="wibon:EisVoorzorgsmaatregelBijlageType" substitutionGroup="gml:AbstractFeature">
 		
 	</element>
 	<complexType name="EisVoorzorgsmaatregelBijlageType">
 		<complexContent>
-			<extension base="wibon:BijlageType">
+			<extension base="gml:AbstractFeatureType">
 				<sequence>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"/>
+					<element name="beginLifespanVersion" type="dateTime"/>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"/> 
+<!-- adapted 4-3.0 attribute deleted -->
+<!--					<element name="bijlageType" type="gml:ReferenceType">
+						
+					</element> -->
+					
+<!-- end adapted -->
+
+
+					<!--adapted 4-2.0-->
+					<element name="bestandLocatie" type="anyURI" minOccurs="0">
+						
+					</element>
+					<!--adapted 4-2.0-->
+					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
+						
+					</element>
+					<element name="bestandIdentificator" type="anyURI">
+						
+					</element>
 					<element name="thema" type="gml:ReferenceType">
 						
 					</element>
@@ -1279,7 +1243,7 @@ Organisatie:
 			<element ref="wibon:Beheerder"/>
 			<element ref="wibon:BelangGeneriek"/>
 			<element ref="wibon:Belanghebbende"/>
-			<element ref="wibon:Bijlage"/>
+			<element ref="wibon:EisVoorzorgsmaatregelBijlage"/>
 			<element ref="wibon:Diepte"/>
 			<element ref="wibon:EigenTopografie"/>
 			<element ref="wibon:ExtraGeometrie"/>
