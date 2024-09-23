@@ -37,7 +37,7 @@ attribute: bovengrondsZichtbaar: 0..1 -> 1
 github 346: Deze gegevensgroep is als class (gml:AbstractObject) gecodeerd
 letop maximaleWerkdiepte(cm) is geen valide naam vanwege ().
 GebiedsinformatieAanvraag:
-added attribute: soortWerkzaamheden
+changed attribute: soortWerkzaamheden
 
 github 353: Partially Todo
 Bijlage:
