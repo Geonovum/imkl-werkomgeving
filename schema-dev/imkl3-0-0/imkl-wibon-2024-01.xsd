@@ -1118,7 +1118,7 @@ Organisatie:
 					</element>
 
 					<!-- adapted 4-3.0-->
-					<element name="soortWerkzaamheden" type="wibon:WerkzaamhedenInfoType" minOccurs="0" maxOccurs="unbounded">
+					<element name="soortWerkzaamheden" type="wibon:WerkzaamhedenInfoType" minOccurs="0">
 
 					</element>
 
