@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--
+<!-- 
+=================================================	
+	IMKL-WIBON versie 3.0rc - Geonovum, 2024
+=================================================
 Changelog.
-======================
+
 General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
 Startversion is imkl-wibon.xsd version 2.0.0 published on https://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd
 
 
-2024-01-19 Wilko Quak:
-- Bijlage en EisVoorzorgsmaatregelBijlage samengevoegd en Bijlage verwijderd.
-2024-09-10 Wilko Quak:
-- alle annotation van de notes velden eruit halen. De definiteis zijn niet meer uptodate
+2024-09-19:
 
+github 353:
+Bijlage en EisVoorzorgsmaatregelBijlage samengevoegd en Bijlage verwijderd.
+deleted attribute: bijlageType
+
+2024-09-10
+
+alle annotation van de notes velden eruit gehaald. De definities waren niet meer uptodate
 
 2024-09-6
 
@@ -35,7 +42,6 @@ attribute: bovengrondsZichtbaar: 0..1 -> 1
 2024-08-28
 
 github 346: Deze gegevensgroep is als class (gml:AbstractObject) gecodeerd
-letop maximaleWerkdiepte(cm) is geen valide naam vanwege ().
 GebiedsinformatieAanvraag:
 changed attribute: soortWerkzaamheden
 
@@ -44,11 +50,9 @@ Bijlage:
 Van concreet naar abstract TODO Bijlage moet abstract type zijn
 deleted attribute: bijlageType
 
-
-github 347: Deze gegevensgroep is als class (gml:AbstractObject) gecodeerd. Dit is deelfde codering als een datatype.
+github 347: Deze gegevensgroep is als class (gml:AbstractObject) gecodeerd. Dit is dezelfde codering als een datatype.
 Kabelbed:
 added attribute: InfoKabels
-
 
 github 307:
 ExtraDetailInfo:
@@ -68,113 +72,12 @@ github 344:
 Organisatie:
 deleted attribute: postbusadres
 
-======================
-2020-10-30
-
-Landcode as codelist.
-
-2020-09-30
-Gebiedsinformatieaanvraag:
-<element name="referentie" type="string" minOccurs="0"> -> <element name="referentie" type="string">
-
-2020-09-16
-Duct:
-added attribute: BGT_ID
-
-Mantelbuis:
-added attribute: BGT_ID
-
-Appurtenance:
-added attribute: BGT_ID
-
-ContactType:
-Definition changed to Contactgegevens
-
-AanduidingEisVoorzorgsMaatregel:
-<element name="geometrie" type="gml:GeometryPropertyType"> : definition  and description adapted.
-
-
-2020-08-28
-Belanghebbende:
- <element name="IndicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0"> -> <element name="indicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0">
-
-
-2020-07-06
-Version: 2.0cons20200706
-Aanvrager:
-Rename attribute
-<element name="extraEmail" type="string" minOccurs="0"> -> <element name="extraContact" type="wibon:ContactPropertyType" minOccurs="0">
-
-Informatiepolygoon: attribute geometrieVoorVisualisatie: definition adapted.
-
-2020-06-26
-
-Belanghebbende:
-<element name="eisVoorzorgsmaatregel" type="boolean" minOccurs="0"> -> <element name="IndicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0">
-
-2020-06-16:
-Version: 2.0io20200616
-Informatiepolygoon: definition added:  Definition
-Een informatiepolygoon is de weergave door een grondroerder van het gebied, waarvoor gebiedsinformatie wordt gevraagd.
- Description
-De gebiedsinformatie die zich bevindt tussen een informatiepolygoon en de graafpolygoon is puur ter informatie en ondersteuning van de werkzaamheden van de grondroerder.
-
-Orientatiepolygoon: definition changed
-
-
-2020-06-08:
-Graafpolygoon:
-Artikel1 WION vervangen door Artikel 1 WIBON.
-
-2020-06-02:
-Version: 2.0io20200602
-
-
-Change of namespace:
-xmlns:wion="http://www.geostandaarden.nl/imkl/2015/wion/1.2" -> xmlns:wibon="http://www.geostandaarden.nl/imkl/wibon"
-
-All occurences of namespace wion: are changed to namespace wibon:
-
-Informatiepolygoon:
-<element name="geometrieVoorVisualisatie" type="gml:SurfacePropertyType"> -> <element name="geometrieVoorVisualisatie" type="gml:GeometryPropertyType" minOccurs="0">
-
-ExtraGeometrie:
-<element name="vlakgeometrie2D" type="gml:SurfacePropertyType" minOccurs="0"> -> <element name="vlakgeometrie2D" type="gml:GeometryPropertyType" minOccurs="0">
-
-<element name="vlakgeometrie2.5D" type="gml:gml:SurfacePropertyType" minOccurs="0"> -> <element name="vlakgeometrie2.5D" type="gml:gml:GeometryPropertyType" minOccurs="0">
-
-AanduidingEisVoorzorgsMaatregel:
-<element name="geometrie" type="gml:SurfacePropertyType"> -> <element name="geometrie" type="gml:GeometryPropertyType">
-
-GebiedsinformatieAanvraag:
-<element name="locatieWerkzaamheden" type="string"> -> <element name="locatieWerkzaamheden" type="imkl:AdresPropertyType">
-
-added three attributes:
-voorbereidingCoordinatieCivieleWerk
-voorbereidingMedegebruikFysiekeInfrastructuur
-locatieOmschrijving
-
-Adres:
-<element name="postcode" type="string"> -> <element name="postcode" type="string" minOccurs="0">
-<element name="BAGidAdresseerbaarObject" type="string" minOccurs="0"> -> <element name="BAGid" type="string" minOccurs="0">
-Attribute sequence adapted
-
-Bijlage:
-<element name="bestandMediaType"  type="gml:ReferenceType"> -> <element name="bestandMediaType"  type="gml:ReferenceType" minOccurs="0">
-<element name="bestandLocatie" type="anyURI"> -> 	<element name="bestandLocatie" type="anyURI" minOccurs="0">
-
-Belang:
-<element name="contactStoring" type="imkl:ContactPropertyType" minOccurs="0"> -> verwijderd
-
-Organisatie:
-<element name="email" type="string" minOccurs="0" maxOccurs="2"> -> <element name="email" type="string" minOccurs="0" maxOccurs="1">
-======================================
+====================================== 
 -->
 
 
 
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wibon="http://www.geostandaarden.nl/imkl/wibon" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" targetNamespace="http://www.geostandaarden.nl/imkl/wibon" elementFormDefault="qualified" version="2.0.0">
-
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
@@ -197,7 +100,7 @@ Organisatie:
 					<element name="netbeheerderNetOmschrijving" type="string" minOccurs="0"/>
 					<element name="netbeheerderNetAanduiding" type="string"/>
 					<element name="netbeheerderWerkAanduiding" type="string" minOccurs="0"/>
-					<!--adapted 4-2.0-->
+					
 					<element name="geometrie" type="gml:GeometryPropertyType"/>
 				</sequence>
 			</extension>
@@ -279,7 +182,7 @@ Organisatie:
 	</element>
 	<complexType name="AdresType">
 		<sequence>
-			<!--adapted 4-2.0-->
+			
 			<element name="BAGid" type="string" minOccurs="0">
 
 			</element>
@@ -298,7 +201,7 @@ Organisatie:
 			<element name="woonplaatsNaam" type="string">
 
 			</element>
-			<!--adapted 4-2.0-->
+			
 			<element name="postcode" type="string" minOccurs="0">
 
 			</element>
@@ -861,11 +764,11 @@ Organisatie:
 <!-- end adapted -->
 
 
-					<!--adapted 4-2.0-->
+					
 					<element name="bestandLocatie" type="anyURI" minOccurs="0">
 
 					</element>
-					<!--adapted 4-2.0-->
+					
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
 
 					</element>
@@ -1000,7 +903,7 @@ Organisatie:
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
 
 					</element>
-					<!--adapted 4-2.0-->
+					
 					<element name="vlakgeometrie2D" type="gml:GeometryPropertyType" minOccurs="0">
 
 					</element>
@@ -1010,7 +913,7 @@ Organisatie:
 					<element name="lijngeometrie2.5D" type="gml:CurvePropertyType" minOccurs="0">
 
 					</element>
-					<!--adapted 4-2.0-->
+					
 					<element name="vlakgeometrie2.5D" type="gml:GeometryPropertyType" minOccurs="0">
 
 					</element>
@@ -1126,11 +1029,11 @@ Organisatie:
 					<element name="omschrijvingWerkzaamheden" type="string" minOccurs="0">
 
 					</element>
-					<!--adapted 4-2.0-->
+					
 					<element name="locatieWerkzaamheden" type="wibon:AdresPropertyType">
 
 					</element>
-					<!--adapted 4-2.0-->
+					
 					<element name="locatieOmschrijving" type="string" minOccurs="0">
 
 					</element>
