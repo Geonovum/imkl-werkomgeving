@@ -30,8 +30,8 @@ applicatieschema.
 Het IMKL UML is toegepast in vier profielen. Voor twee van die is er een GML
 applicatieschema gemaakt.
 
-WIBON profiel: IMKL-wibon2.0.xsd  
-WIBON Belangenregistratie: IMKL-wibonbr2.0.xsd. Subset van WIBON profiel met alleen objecttypen voor Belangenregistratie.
+WIBON profiel: IMKL-wibon3.0.xsd  
+WIBON Belangenregistratie: IMKL-wibonbr3.0.xsd. Subset van WIBON profiel met alleen objecttypen voor Belangenregistratie.
 
 Beide GML applicatieschemas zijn gepubliceerd op: https://register.geostandaarden.nl/gmlapplicatieschema/imkl/
 
