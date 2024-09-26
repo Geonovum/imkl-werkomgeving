@@ -1,4 +1,4 @@
-# Wijzigingen in het Informatiemodel kabels en leidingen
+# Wijzigingen in hetInformatiemodel kabels en leidingen
 
 Hieronder staan de wijzigingen die in deze versie hebben plaatsgevonden na [IMKL versie 2.0](https://docs.geostandaarden.nl/kl/def-st-imkl-20210715/)
 Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokkenen als software-ontwikkelaars. Dus bv geen correcties op typefouten, spelling of leesbaarheid.
