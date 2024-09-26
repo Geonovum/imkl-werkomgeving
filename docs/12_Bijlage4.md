@@ -1,4 +1,4 @@
-Bijlage 3 Toelichting op informatiepolygoon
+Bijlage 4 Toelichting op informatiepolygoon
 ===========================================
 
 Voor het apart visualiseren van het gebied dat in de informatiepolygoon zit maar

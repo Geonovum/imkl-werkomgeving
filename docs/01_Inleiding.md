@@ -8,8 +8,6 @@ is. De volgende lijst geeft alle onderdelen:
 
 -   Informatiemodel Kabels en Leidingen (IMKL): Dit document;
 
--   [IMKL - Objectcatalogus](https://docs.geostandaarden.nl/kl/imkl-oc/): Tekstdocument met beschrijving van informatiemodel inclusief termen en definities;
-
 -   IMKL object-attributen-ExtraRegels (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl)): Excel-document 	met alle IMKL objecten met alle attributen en associaties en extra modelregels die daar op van toepassing zijn;
 
 -	IMKL begrippenkader: Alle termen en definities van IMKL model gepubliceerd in rdf, turtle en json. Termen zijn zowel in Nederlands als in de technische naamgeving. Publicatie daarvan via [definities.geostandaarden.nl/imkl](https://definities.geostandaarden.nl/imkl) ;
@@ -17,6 +15,8 @@ is. De volgende lijst geeft alle onderdelen:
 -   IMKL – waardelijsten (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl)) : Waardelijsten behorend bij het IMKL model;
 
 -   Handreiking-visualisatieregels (PMKL): Regels voor het presenteren van IMKL gegevens in een viewer;
+
+**_NOTE:_** Link naar document nog toevoegen.
 
 -	IMKL Ordening attributen viewer: Volgorde van de presentatie van attributen in een viewer. Gepubliceerd in [technisch register/visualisatie/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl) ;
 

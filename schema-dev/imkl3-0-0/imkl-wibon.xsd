@@ -45,11 +45,6 @@ github 346: Deze gegevensgroep is als class (gml:AbstractObject) gecodeerd
 GebiedsinformatieAanvraag:
 changed attribute: soortWerkzaamheden
 
-github 353: Partially Todo
-Bijlage:
-Van concreet naar abstract TODO Bijlage moet abstract type zijn
-deleted attribute: bijlageType
-
 github 347: Deze gegevensgroep is als class (gml:AbstractObject) gecodeerd. Dit is dezelfde codering als een datatype.
 Kabelbed:
 added attribute: InfoKabels
@@ -148,7 +143,7 @@ deleted attribute: postbusadres
 			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
 
 			</element>
-			<!-- adapted 4-2.0 -->
+			
 			<element name="extraContact" type="wibon:ContactPropertyType" minOccurs="0">
 
 			</element>
@@ -205,7 +200,7 @@ deleted attribute: postbusadres
 			<element name="postcode" type="string" minOccurs="0">
 
 			</element>
-			<!-- adapted 4-2.0 -->
+			
 			<element name="landcode" type="gml:ReferenceType">
 
 			</element>
@@ -233,7 +228,7 @@ deleted attribute: postbusadres
 			<element name="materiaal" type="string" minOccurs="0">
 
 			</element>
-			<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+			<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
 
 			</element>
 			<element name="fysiekeIdentificatie" type="string" minOccurs="0">
@@ -302,7 +297,7 @@ deleted attribute: postbusadres
 					<element name="eanCode" type="string" minOccurs="0">
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
 					</element>
@@ -475,7 +470,7 @@ deleted attribute: postbusadres
 					<element name="betrokkenBijAanvraag" type="boolean" minOccurs="0">
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="indicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0">
 
 					</element>
@@ -674,7 +669,7 @@ deleted attribute: postbusadres
 						<!-- end adapted -->
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
 					</element>
@@ -998,7 +993,7 @@ deleted attribute: postbusadres
 					<element name="aanvrager" type="wibon:AanvragerPropertyType">
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="referentie" type="string">
 
 					</element>
@@ -1008,14 +1003,14 @@ deleted attribute: postbusadres
 					<element name="aanvraagSoort" type="gml:ReferenceType">
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="voorbereidingCoordinatieCivieleWerken" type="boolean" minOccurs="0">
 
 					</element>
 					<element name="voorbereidingMedegebruikFysiekeInfrastructuur" type="boolean" minOccurs="0">
 
 					</element>
-					<!--end adaptation -->
+					
 					<element name="aanvraagDatum" type="dateTime">
 
 					</element>
@@ -1180,7 +1175,7 @@ deleted attribute: postbusadres
 					<element name="geometrie" type="gml:SurfacePropertyType">
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="geometrieVoorVisualisatie" type="gml:GeometryPropertyType" minOccurs="0">
 
 					</element>
@@ -1458,7 +1453,7 @@ deleted attribute: postbusadres
 						<!-- end adapted -->
 
 					</element>
-					<!-- adapted 4-2.0 -->
+					
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
 					</element>
@@ -1802,7 +1797,7 @@ deleted attribute: postbusadres
 			<element name="woonplaatsNaam" type="string">
 
 			</element>
-			<!-- adapted 4-2.0 -->
+			
 			<element name="landcode" type="gml:ReferenceType">
 
 			</element>
