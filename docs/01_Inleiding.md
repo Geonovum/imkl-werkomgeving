@@ -30,7 +30,7 @@ data-uitwisselingsproces. In dit hoofdstuk zijn ook de normatieve referenties
 opgenomen en de lijst met termen, definities en afkortingen. Hoofdstuk [Identificatie document](#identificatie-document) is een
 korte samenvatting en identificatie van de dataspecificatie in tabelvorm. In het 
 hoofdstuk [IMKL informatiemodel](#imkl-informatiemodel) is het UML model opgenomen en wordt met verschillende diagrammen het
-informatiemodel toegelicht en wordt verwezen naar de het hoofdstuk [Gegevensdefinitie](#gegevensdefinitie) opgenomen objectcatalogus met alle
+informatiemodel toegelicht en wordt verwezen naar de in het hoofdstuk [Gegevensdefinitie](#gegevensdefinitie) opgenomen objectcatalogus met alle
 modelinformatie in tabelvorm. Het hoofdstuk [Referentiesystemen](#referentiesystemen) gaat in op het ruimtelijk- en
 temporele referentiesysteem waarin gegevens gepubliceerd moeten worden.
 Het hoofdstuk [Levering](#levering) geeft de implementatiespecificaties opgenomen in de vorm van
