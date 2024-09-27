@@ -324,7 +324,7 @@ ul.index code{color:inherit}
     <h2>
       Geonovum Standaard<br>
       Werkversie
-      <time class="dt-published" datetime="2024-09-26">26 september 2024</time>
+      <time class="dt-published" datetime="2024-09-27">27 september 2024</time>
     </h2>
     <dl>
       
@@ -13127,7 +13127,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv Bij­Uitlevering­Eis­Voorzorgsmaatregel­Verplicht: Gebiedsinformatielevering ::
-                              all­Instances() -&amp;gt; size () = 1 implies self.eis­Voorzorgsmaatregel-&amp;gt;not­Empty()</td>
+                              all­Instances() -&gt; size () = 1 implies self.eis­Voorzorgsmaatregel-&gt;not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -13434,7 +13434,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: if (self.annotatie­Type= Annotatie­Type­Value::annotatiepijlpunt or self.annotatie­Type=
-                              Annotatie­Type­Value::annotatielabel) then self.rotatiehoek -&amp;gt; not­Empty()</td>
+                              Annotatie­Type­Value::annotatielabel) then self.rotatiehoek -&gt; not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -13473,7 +13473,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: if (self.maatvoerings­Type = Maatvoerings­Type­Value::maatvoeringslabel) then
-                              self.label -&amp;gt; not­Empty() and self.labelpositie -&amp;gt; not­Empty()</td>
+                              self.label -&gt; not­Empty() and self.labelpositie -&gt; not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -14149,8 +14149,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty()) and (self.specific­Appurtenance­Type-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty()) and (self.specific­Appurtenance­Type-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -14169,7 +14169,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -14826,8 +14826,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -14846,7 +14846,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -15618,7 +15618,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -16391,8 +16391,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -16411,7 +16411,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -17293,8 +17293,8 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&amp;gt; size
-                              () = 1 implies (self.bestand­Locatie-&amp;gt;not­Empty() and self.bestand­Media­Type-&amp;gt;not­Empty()</td>
+                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&gt; size
+                              () = 1 implies (self.bestand­Locatie-&gt;not­Empty() and self.bestand­Media­Type-&gt;not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -17873,8 +17873,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -17893,7 +17893,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -18294,7 +18294,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv Adres­Verplicht: if self.extra­Info­Type= Extra­Detail­Info­Type­Value::huisaansluiting
-                              then self.adres -&amp;gt; not­Empty() and self.adres.Adres.BAGid -&amp;gt; not­Empty()</td>
+                              then self.adres -&gt; not­Empty() and self.adres.Adres.BAGid -&gt; not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -18314,8 +18314,8 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&amp;gt; size
-                              () = 1 implies (self.bestand­Locatie-&amp;gt;not­Empty() and (self.bestand­Media­Type-&amp;gt;not­Empty())</td>
+                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&gt; size
+                              () = 1 implies (self.bestand­Locatie-&gt;not­Empty() and (self.bestand­Media­Type-&gt;not­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -18856,7 +18856,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv 25DGeometrie­Vlak­Of­Multivlak: if self.vlakgeometry2.5D-&amp;gt;not­Empty() then
+                           <td> Inv 25DGeometrie­Vlak­Of­Multivlak: if self.vlakgeometry2.5D-&gt;not­Empty() then
                               (self.vlakgeometrie2.5D.ocl­Is­Kind­Of(GM_Surface) or self.vlakgeometrie2.5D.ocl­Is­Kind­Of(GM_Multi­Surface)</td>
                         </tr>
                      </tbody>
@@ -18876,7 +18876,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv 2DGeometrie­Vlak­Of­Multivlak: if self.vlakgeometry2D-&amp;gt;not­Empty() then (self.vlakgeometrie2D.ocl­Is­Kind­Of(GM_Surface)
+                           <td> Inv 2DGeometrie­Vlak­Of­Multivlak: if self.vlakgeometry2D-&gt;not­Empty() then (self.vlakgeometrie2D.ocl­Is­Kind­Of(GM_Surface)
                               or self.vlakgeometrie2D.ocl­Is­Kind­Of(GM_Multi­Surface)</td>
                         </tr>
                      </tbody>
@@ -18896,7 +18896,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -19269,7 +19269,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -20046,7 +20046,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -20561,7 +20561,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -21227,7 +21227,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -22296,7 +22296,7 @@ informatie over GWSW is te vinden op:
                            <th>OCL</th>
                            <td> Inv: if (self.maatvoerings­Type= Maatvoerings­Type­Value::maatvoeringspijlpunt or
                               self.maatvoerings­Type= Maatvoerings­Type­Value::maatvoeringslabel) then self.rotatiehoek
-                              -&amp;gt; not­Empty()</td>
+                              -&gt; not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -22335,7 +22335,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: if (self.maatvoerings­Type = Maatvoerings­Type­Value::maatvoeringslabel) then
-                              self.label -&amp;gt; not­Empty() and self.labelpositie -&amp;gt; not­Empty()</td>
+                              self.label -&gt; not­Empty() and self.labelpositie -&gt; not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -22934,7 +22934,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -23722,8 +23722,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -23742,7 +23742,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -24341,7 +24341,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -24909,7 +24909,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv: self.pressure-&amp;gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
+                           <td> Inv: self.pressure-&gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
                         </tr>
                      </tbody>
                   </table>
@@ -24929,8 +24929,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -24949,7 +24949,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -25760,8 +25760,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -25780,7 +25780,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -26531,7 +26531,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv: self.pressure-&amp;gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
+                           <td> Inv: self.pressure-&gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
                         </tr>
                      </tbody>
                   </table>
@@ -26551,8 +26551,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -26571,7 +26571,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -27170,7 +27170,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -27749,8 +27749,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -27769,7 +27769,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -28337,7 +28337,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv: self.pressure-&amp;gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
+                           <td> Inv: self.pressure-&gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
                         </tr>
                      </tbody>
                   </table>
@@ -28357,8 +28357,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -28377,7 +28377,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -28976,7 +28976,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -30085,7 +30085,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv: self.pressure-&amp;gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
+                           <td> Inv: self.pressure-&gt;not­Empty() and not(self.pressure.Ocl­Is­Kind­Of(nil­Reason))</td>
                         </tr>
                      </tbody>
                   </table>
@@ -30105,8 +30105,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv: (self.governmental­Service­Reference.Ocl­Is­Kind­Of(nil­Reason) or self.governmental­Service­Reference
-                              -&amp;gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
-                              self.utility­Facility­Reference-&amp;gt;is­Empty())</td>
+                              -&gt;is­Empty()) and (self.utility­Facility­Reference.Ocl­Is­Kind­Of(nil­Reason) or
+                              self.utility­Facility­Reference-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -30125,7 +30125,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> inv: self.in­Network -&amp;gt;size() = 1</td>
+                           <td> inv: self.in­Network -&gt;size() = 1</td>
                         </tr>
                      </tbody>
                   </table>
@@ -36132,8 +36132,8 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Kaart­BGTraster­Is­Verplicht: def: alle­Achtergrondkaarten: set = self-&amp;gt;collect
-                              (achtergrondkaart) and alle­Achtergrondkaarten -&amp;gt; includes (bgt­Raster)</td>
+                           <td> Inv Kaart­BGTraster­Is­Verplicht: def: alle­Achtergrondkaarten: set = self-&gt;collect
+                              (achtergrondkaart) and alle­Achtergrondkaarten -&gt; includes (bgt­Raster)</td>
                         </tr>
                      </tbody>
                   </table>
@@ -36152,7 +36152,7 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Geen­Veiligheidsgebied: Veiligheidsgebied :: all­Instances() -&amp;gt; size () =
+                           <td> Inv Geen­Veiligheidsgebied: Veiligheidsgebied :: all­Instances() -&gt; size () =
                               0</td>
                         </tr>
                      </tbody>
@@ -36973,7 +36973,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv Aanvraag­Soort­En­Soort­Werkzaamheden: if aanvraag­Soort = Aanvraag­Soort­Value::graafmelding
-                              or Aanvraag­Soort­Value::calamiteitenmelding then soort­Werkzaamheden-&amp;gt;not­Empty()</td>
+                              or Aanvraag­Soort­Value::calamiteitenmelding then soort­Werkzaamheden-&gt;not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -36993,9 +36993,9 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv Coordinatie­Of­Medegebruik­Alleen­Bij­Orientatieverzoek: if aanvraag­Soort &amp;lt;&amp;gt;
-                              Aanvraag­Soort­Value::orientatieverzoek then (voorbereiding­Coordinatie­Civiele­Werken-&amp;gt;is­Empty()
-                              and voorbereiding­Medegebruik­Fysieke­Infrastructuur-&amp;gt;is­Empty()) else ((not(voorbereiding­Coordinatie­Civiele­Werken-&amp;gt;not­Empty()
-                              and voorbereiding­Medegebruik­Fysieke­Infrastructuur-&amp;gt;not­Empty()))</td>
+                              Aanvraag­Soort­Value::orientatieverzoek then (voorbereiding­Coordinatie­Civiele­Werken-&gt;is­Empty()
+                              and voorbereiding­Medegebruik­Fysieke­Infrastructuur-&gt;is­Empty()) else ((not(voorbereiding­Coordinatie­Civiele­Werken-&gt;not­Empty()
+                              and voorbereiding­Medegebruik­Fysieke­Infrastructuur-&gt;not­Empty()))</td>
                         </tr>
                      </tbody>
                   </table>
@@ -37016,7 +37016,7 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> inv Coordinatie­Of­Medegebruik­Geen­Soort­Werkzaamheden: voorbereiding­Coordinatie­Civiele­Werken='true'
-                              or voorbereiding­Medegebruik­Fysieke­Infrastructuur='true' implies soort­Werkzaamheden-&amp;gt;is­Empty()</td>
+                              or voorbereiding­Medegebruik­Fysieke­Infrastructuur='true' implies soort­Werkzaamheden-&gt;is­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -37059,10 +37059,10 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv Polygoon­In­Relatie­Tot­Aanvraag­Soort: self.aanvraag­Soort = Aanvraagsoort­Value::graafmelding
-                              or self.aanvraag­Soort = Aanvraagsoort­Value::calamiteitenmelding implies (self.graafpolygoon-&amp;gt;not­Empty()
-                              and self.orientatiepolygoon-&amp;gt;is­Empty()) and self.aanvraag­Soort = Aanvraagsoort­Value::orientatieverzoek
-                              implies (self.graafpolygoon-&amp;gt;is­Empty() and self.informatiepolygoon-&amp;gt;is­Empty()
-                              and self.orientatiepolygoon-&amp;gt;not­Empty())</td>
+                              or self.aanvraag­Soort = Aanvraagsoort­Value::calamiteitenmelding implies (self.graafpolygoon-&gt;not­Empty()
+                              and self.orientatiepolygoon-&gt;is­Empty()) and self.aanvraag­Soort = Aanvraagsoort­Value::orientatieverzoek
+                              implies (self.graafpolygoon-&gt;is­Empty() and self.informatiepolygoon-&gt;is­Empty()
+                              and self.orientatiepolygoon-&gt;not­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -37203,8 +37203,8 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&amp;gt; size
-                              () = 1 implies self.netbeheerder -&amp;gt; is­Empty()</td>
+                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&gt; size
+                              () = 1 implies self.netbeheerder -&gt; is­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -38112,9 +38112,9 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&amp;gt; size
-                              () = 1 implies (self.beheerdersinformatie­Geleverd-&amp;gt;not­Empty() and self.betrokken­Bij­Aanvraag-&amp;gt;not­Empty()
-                              and self.netbeheerder.bronhoudercode-&amp;gt;not­Empty())</td>
+                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&gt; size
+                              () = 1 implies (self.beheerdersinformatie­Geleverd-&gt;not­Empty() and self.betrokken­Bij­Aanvraag-&gt;not­Empty()
+                              and self.netbeheerder.bronhoudercode-&gt;not­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -38135,8 +38135,8 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv verplicht­Indien­Beheerdersinformatie­Geleverd: if (Gebiedsinformatielevering
-                              :: all­Instances() -&amp;gt; size () = 1 and self.beheerdersinformatie­Geleverd ) then
-                              self.betrokken­Bij­Aanvraag-&amp;gt;not­Empty() and self.eis­Voorzorgsmaatregel-&amp;gt;not­Empty()</td>
+                              :: all­Instances() -&gt; size () = 1 and self.beheerdersinformatie­Geleverd ) then
+                              self.betrokken­Bij­Aanvraag-&gt;not­Empty() and self.eis­Voorzorgsmaatregel-&gt;not­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
@@ -38157,12 +38157,12 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Decentrale­Aanlevering: Gebiedsinformatielevering :: all­Instances() -&amp;gt;
-                              size () = 0 implies (self.netbeheerder.bronhoudercode-&amp;gt;not­Empty() and self.betrokken­Bij­Aanvraag-&amp;gt;not­Empty()
-                              and self.eis­Voorzorgsmaatregel-&amp;gt;not­Empty() and self.beheerders­Informatie­Geleverd-&amp;gt;is­Empty()
-                              and self.geraakt­Belang­Bij­Orientatiepolygoon-&amp;gt;is­Empty() and self.geraakt­Belang­Bij­Informatiepolygoon-&amp;gt;is­Empty()
-                              and self.geraakt­Belang­Bij­Graafpolygoon-&amp;gt;is­Empty() and self.netbeheerder.website­Klic-&amp;gt;is­Empty()
-                              and self.netbeheerder.organisatie-&amp;gt;is­Empty)</td>
+                           <td> Inv Regels­Decentrale­Aanlevering: Gebiedsinformatielevering :: all­Instances() -&gt;
+                              size () = 0 implies (self.netbeheerder.bronhoudercode-&gt;not­Empty() and self.betrokken­Bij­Aanvraag-&gt;not­Empty()
+                              and self.eis­Voorzorgsmaatregel-&gt;not­Empty() and self.beheerders­Informatie­Geleverd-&gt;is­Empty()
+                              and self.geraakt­Belang­Bij­Orientatiepolygoon-&gt;is­Empty() and self.geraakt­Belang­Bij­Informatiepolygoon-&gt;is­Empty()
+                              and self.geraakt­Belang­Bij­Graafpolygoon-&gt;is­Empty() and self.netbeheerder.website­Klic-&gt;is­Empty()
+                              and self.netbeheerder.organisatie-&gt;is­Empty)</td>
                         </tr>
                      </tbody>
                   </table>
@@ -38184,10 +38184,10 @@ informatie over GWSW is te vinden op:
                         <tr>
                            <th>OCL</th>
                            <td> Inv Regels­Indien­Beheerders­Informatie­Geleverd­Nee: not(self.beheerdersinformatie­Geleverd)
-                              implies (self.netbeheerder.bronhoudercode-&amp;gt;not­Empty() and not(self.geraakt­Belang­Bij­Orientatiepolygoon-&amp;gt;is­Empty()
-                              and self.geraakt­Belang­Bij­Informatiepolygoon-&amp;gt;is­Empty() and self.geraakt­Belang­Bij­Graafpolygoon-&amp;gt;is­Empty())
-                              and self.bijlage-&amp;gt;is­Empty() and self.eigen­Topografie-&amp;gt;is­Empty() and self.netinformatie-&amp;gt;is­Empty()
-                              and self.betrokken­Bij­Aanvraag-&amp;gt;is­Empty() and self.eis­Voorzorgsmaatregel-&amp;gt;is­Empty())</td>
+                              implies (self.netbeheerder.bronhoudercode-&gt;not­Empty() and not(self.geraakt­Belang­Bij­Orientatiepolygoon-&gt;is­Empty()
+                              and self.geraakt­Belang­Bij­Informatiepolygoon-&gt;is­Empty() and self.geraakt­Belang­Bij­Graafpolygoon-&gt;is­Empty())
+                              and self.bijlage-&gt;is­Empty() and self.eigen­Topografie-&gt;is­Empty() and self.netinformatie-&gt;is­Empty()
+                              and self.betrokken­Bij­Aanvraag-&gt;is­Empty() and self.eis­Voorzorgsmaatregel-&gt;is­Empty())</td>
                         </tr>
                      </tbody>
                   </table>
@@ -38207,9 +38207,9 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Indien­Nietbetrokken: (Gebiedsinformatielevering :: all­Instances() -&amp;gt;
-                              size () = 1 and not(self.betrokken­Bij­Aanvraag)) implies (self.netinformatie-&amp;gt;is­Empty()
-                              and self.eigen­Topografie-&amp;gt;is­Empty() and not(self.eis­Voorzorgsmaatregel) and
+                           <td> Inv Regels­Indien­Nietbetrokken: (Gebiedsinformatielevering :: all­Instances() -&gt;
+                              size () = 1 and not(self.betrokken­Bij­Aanvraag)) implies (self.netinformatie-&gt;is­Empty()
+                              and self.eigen­Topografie-&gt;is­Empty() and not(self.eis­Voorzorgsmaatregel) and
                               not(self.bijlage.ocl­Is­Type­Of(Eis­Voorzorgsmaatregel­Bijlage))</td>
                         </tr>
                      </tbody>
@@ -38580,9 +38580,9 @@ informatie over GWSW is te vinden op:
                         </tr>
                         <tr>
                            <th>OCL</th>
-                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&amp;gt; size
-                              () = 1 implies self.gewenste­Ingangsdatum-&amp;gt;is­Empty() and self.ingangsdatum-&amp;gt;is­Empty()
-                              and self.gewenste­Einddatum-&amp;gt;is­Empty() and self.einddatum-&amp;gt;is­Empty() and self.beheerpolygoon-&amp;gt;is­Empty()</td>
+                           <td> Inv Regels­Bij­Uitlevering: Gebiedsinformatielevering :: all­Instances() -&gt; size
+                              () = 1 implies self.gewenste­Ingangsdatum-&gt;is­Empty() and self.ingangsdatum-&gt;is­Empty()
+                              and self.gewenste­Einddatum-&gt;is­Empty() and self.einddatum-&gt;is­Empty() and self.beheerpolygoon-&gt;is­Empty()</td>
                         </tr>
                      </tbody>
                   </table>
