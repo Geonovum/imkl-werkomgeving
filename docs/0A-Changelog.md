@@ -1,4 +1,4 @@
-# Wijzigingen in hetInformatiemodel kabels en leidingen
+# Bijlage: Changelog. Wijzigingen in het Informatiemodel kabels en leidingen
 
 Hieronder staan de wijzigingen die in deze versie hebben plaatsgevonden na [IMKL versie 2.0](https://docs.geostandaarden.nl/kl/def-st-imkl-20210715/)
 Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokkenen als software-ontwikkelaars. Dus bv geen correcties op typefouten, spelling of leesbaarheid.
@@ -49,3 +49,4 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 38       |[318](https://github.com/Geonovum/imkl2015-review/issues/318)| Multipliciteit aangepast             |Adres.landcode 0..1 -> 1: Let op dit was in het IMKL-wibon.xsd al zo en is dus geen schema aanpassing |
 | 39       |[318](https://github.com/Geonovum/imkl2015-review/issues/346)| Constraint aangepast             |GebiedsinformatieAanvraag: soortWerkzaamheden verplicht bij Graafmelding en bij Calamiteitenmelding|
 | 40       |[333](https://github.com/Geonovum/imkl2015-review/issues/333)| Constraint toegevoegd             |GebiedsinformatieAanvraag.referentie heeft maximaal 60 karakters|
+| 41       |[309](https://github.com/Geonovum/imkl2015-review/issues/309)| Tekst/regel aanpassing            |In paragraaf [Nadere GML implementatie specificaties](#nadere-gml-implementatie-specificaties): gml:Arc en gml:Circle zijn niet toegestaan|
