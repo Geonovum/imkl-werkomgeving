@@ -114,11 +114,6 @@ deleted attribute: postbusadres
 	<complexType name="AanvraagSoortContactType">
 		<sequence>
 			<element name="aanvraagSoort" type="gml:ReferenceType">
-				<annotation>
-				<appinfo>
-					<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
-				</appinfo>
-				</annotation>
 
 			</element>
 			<element name="naam" type="string" minOccurs="0">
@@ -165,11 +160,7 @@ deleted attribute: postbusadres
 	<complexType name="AchtergrondkaartType">
 		<sequence>
 			<element name="achtergrondkaartSoort" type="gml:ReferenceType">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AchtergrondkaartSoortValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 			<element name="kaartreferentie" type="anyURI">
 
@@ -211,11 +202,7 @@ deleted attribute: postbusadres
 			</element>
 			
 			<element name="landcode" type="gml:ReferenceType">
-				<annotation>
-				<appinfo>
-					<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LandcodeValue</targetCodeList>
-				</appinfo>
-				</annotation>
+
 			</element>
 		</sequence>
 	</complexType>
@@ -242,11 +229,7 @@ deleted attribute: postbusadres
 
 			</element>
 			<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 			<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 			</element>
@@ -274,11 +257,7 @@ deleted attribute: postbusadres
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
 					<element name="annotatieType" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AnnotatieTypeValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0">
 
@@ -313,11 +292,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="eanCode" type="string" minOccurs="0">
 
@@ -402,11 +377,7 @@ deleted attribute: postbusadres
 			<extension base="wibon:BelangGeneriekType">
 				<sequence>
 					<element name="thema" type="gml:ReferenceType" maxOccurs="unbounded">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="contactNetinformatie" type="wibon:AanvraagSoortContactPropertyType" minOccurs="0" maxOccurs="3">
 
@@ -603,11 +574,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="diepteNauwkeurigheid" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidDiepteValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="dieptePeil" type="gml:MeasureType">
 
@@ -692,11 +659,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
@@ -759,18 +722,10 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="status" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">EigenTopografieStatusValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="typeTopografischObject" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">TopografischObjectTypeValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="ligging" type="gml:GeometryPropertyType">
 
@@ -810,21 +765,13 @@ deleted attribute: postbusadres
 					</element>
 					
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BestandMediaTypeValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="bestandIdentificator" type="anyURI">
 
 					</element>
 					<element name="thema" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ThemaValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="eisVoorzorgsmaatregel" type="string">
 
@@ -851,23 +798,15 @@ deleted attribute: postbusadres
 			<extension base="us-net-el:ElectricityCableType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -920,11 +859,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BestandMediaTypeValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="bestandIdentificator" type="anyURI">
 
@@ -1066,11 +1001,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="aanvraagSoort" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					
 					<element name="voorbereidingCoordinatieCivieleWerken" type="boolean" minOccurs="0">
@@ -1327,11 +1258,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
@@ -1399,18 +1326,10 @@ deleted attribute: postbusadres
 	<complexType name="LabelpositieType">
 		<sequence>
 			<element name="aangrijpingHorizontaal" type="gml:ReferenceType">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LabelpositieValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 			<element name="aangrijpingVerticaal" type="gml:ReferenceType">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LabelpositieValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1434,11 +1353,7 @@ deleted attribute: postbusadres
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
 					<element name="maatvoeringsType" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">MaatvoeringsTypeValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0">
 
@@ -1473,11 +1388,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
@@ -1598,11 +1509,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
@@ -1668,22 +1575,14 @@ deleted attribute: postbusadres
 			<extension base="us-net-ogc:OilGasChemicalsPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -1817,22 +1716,14 @@ deleted attribute: postbusadres
 			<extension base="us-net-common:UtilityLinkSetType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -1908,11 +1799,7 @@ deleted attribute: postbusadres
 			</element>
 			
 			<element name="landcode" type="gml:ReferenceType">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LandcodeValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 		</sequence>
 	</complexType>
@@ -1950,22 +1837,14 @@ deleted attribute: postbusadres
 			<extension base="us-net-sw:SewerPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -2014,11 +1893,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
@@ -2063,23 +1938,15 @@ deleted attribute: postbusadres
 			<extension base="us-net-tc:TelecommunicationsCableType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -2123,22 +1990,14 @@ deleted attribute: postbusadres
 			<extension base="us-net-th:ThermalPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -2187,11 +2046,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
 
@@ -2251,11 +2106,7 @@ deleted attribute: postbusadres
 
 					</element>
 					<element name="thema" type="gml:ReferenceType">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="standaardDieptelegging" type="gml:MeasureType" minOccurs="0">
 
@@ -2303,22 +2154,14 @@ deleted attribute: postbusadres
 			<extension base="us-net-wa:WaterPipeType">
 				<sequence>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
-							</appinfo>
-						</annotation>
+
 					</element>
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
-						<annotation>
-							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
-							</appinfo>
-						</annotation>
+					<element name ="Kleur" type ="gml:ReferenceType" minOccurs="0">
+
 					</element>
 					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
 					</element>
@@ -2362,18 +2205,10 @@ deleted attribute: postbusadres
 	<complexType name="WerkzaamhedenInfoType">
 		<sequence>
 			<element name="soortWerkzaamheden" type="gml:ReferenceType" minOccurs="1"  maxOccurs="unbounded" >
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">SoortWerkzaamhedenValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 			<element name="methode" type="gml:ReferenceType" minOccurs="1"  maxOccurs="unbounded">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">GraafmethodeValue</targetCodeList>
-					</appinfo>
-				</annotation>
+
 			</element>
 			<!-- let op maximaleWerkdiepte(cm) is niet valide -->
 			<element name="maximaleWerkdiepte" type="gml:MeasureType" minOccurs="1">
