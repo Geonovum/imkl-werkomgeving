@@ -3,7 +3,7 @@ Inleiding en leeswijzer
 
 ----- IN ONTWIKKELING!!! -----
 
-De IMKL 3.0 standaard omvat een achttal onderdelen waarvan dit het hoofddocument
+De IMKL 3.0 standaard omvat een zevental onderdelen waarvan dit het hoofddocument
 is. De volgende lijst geeft alle onderdelen:
 
 -   Informatiemodel Kabels en Leidingen (IMKL): Dit document;
