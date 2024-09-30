@@ -34,3 +34,5 @@ temporele referentiesysteem waarin gegevens gepubliceerd moeten worden.
 Het hoofdstuk [Levering](#levering) geeft de implementatiespecificaties opgenomen in de vorm van
 referenties aan XML schema’s. [Visualisatie](#visualisatie) tenslotte, behandelt de specificatie
 van de visualisatie van ruimtelijke data in een kaartbeeld.
+
+In [A Bijlage: Changelog](#changelog) zijn de modelwijzigingen ten opzichte van de vorige versie opgenomen.
