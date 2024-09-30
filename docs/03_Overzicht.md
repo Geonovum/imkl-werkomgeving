@@ -170,7 +170,7 @@ beschreven.</figcaption>
 
 -	[MIM - Metamodel Informatie Modellering, versie 1.2](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/)
 
--   NEN 3610:2011/A1:2016 Basismodel Geo-informatie.
+-   NEN 3610:2022 Basismodel Geo-informatie.
 
 -   NEN 3116:1990 Tekeningen in de bouw. Basissymbolen voor de uitwisseling van
     gegevens over de ligging van ondergrondse leidingen.
