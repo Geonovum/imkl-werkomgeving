@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><gml:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://www.opengis.net/gml/3.2 ../../../schema-dev/imkl3-0-0/imkl-wibon-2024-01.xsd"
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+========================================================	
+	IMKL-WIBON versie 3.0rc-intern - Data example
+========================================================
+2024-10-21
+Remark:
+Additional optional attributes and values not yet included
+
+-->
+
+<gml:FeatureCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.opengis.net/gml/3.2 https://register.geostandaarden.nl/gmlapplicatieschema/imkl/3.0.0rc1/imkl-wibon-3.0rc-intern.xsd"
  xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0"
  xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0"
  xmlns:gml="http://www.opengis.net/gml/3.2"
