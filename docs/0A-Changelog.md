@@ -51,3 +51,5 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 38       |[318](https://github.com/Geonovum/imkl2015-review/issues/318)| Multipliciteit aangepast             |Adres.landcode 0..1 -> 1: Let op dit was in het IMKL-wibon.xsd al zo en is dus geen schema aanpassing |
 | 39       |[333](https://github.com/Geonovum/imkl2015-review/issues/333)| Constraint toegevoegd             |GebiedsinformatieAanvraag.referentie heeft maximaal 60 karakters|
 | 40       |[309](https://github.com/Geonovum/imkl2015-review/issues/309)| Tekst/regel aanpassing            |In paragraaf [Nadere GML implementatie specificaties](#nadere-gml-implementatie-specificaties): gml:Arc en gml:Circle zijn niet toegestaan|
+| 41       || Attribuut toegevoegd            |Mantelbuis.kleur|
+| 42       |[346](https://github.com/Geonovum/imkl2015-review/issues/346)| Constraints            |GebiedsinformatieAanvraag: constraints herformuleerd|

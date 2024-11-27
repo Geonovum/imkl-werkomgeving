@@ -9,6 +9,10 @@ Changelog.
 General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
 Startversion is imkl-wibon.xsd version 2.0.0 published on https://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd
 
+2024-11-27:
+Mantelbuis:
+added attribute: kleur 
+
 2024-11-26:
 Inhoud gekopieeerd van imkl-wibon3.0rc-intern.xsd en hernoemd naar imkl-wibon3.0rc-extern.xsd
 
@@ -16,7 +20,7 @@ ExtraDetailinfoType/aanlegmethodeGestuurdeBoring
 attribuut: aanlegmethodeGestuurdeBoring: 1 -> 0..1
 
 PostbusAdres:
-Wordt niet meer gebruikt en is verwijderd.
+deleted
 
 
 2024-09-19:
@@ -1524,9 +1528,6 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Mantelbuis" type="wibon:MantelbuisType" substitutionGroup="us-net-common:Pipe">
-
-
-
 		<!-- addapted 4-3.0 -->
 	</element>
 	<element name="eigenaar" type="boolean"></element>
@@ -1538,7 +1539,6 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 
@@ -1573,15 +1573,17 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-
 					</element>
-
 					<!-- adapted 4-3.0 -->
-
 					<element name="eigenaar" type="boolean"></element>
-
 					<element name="gebruiktVan" type="string" minOccurs="0"></element>
-
+					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+						<annotation>
+							<appinfo>
+								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+							</appinfo>
+						</annotation>
+					</element>
 					<!-- end adapted -->
 				</sequence>
 			</extension>
