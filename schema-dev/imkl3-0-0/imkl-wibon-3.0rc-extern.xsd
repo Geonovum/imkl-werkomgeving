@@ -9,6 +9,11 @@ Changelog.
 General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
 Startversion is imkl-wibon.xsd version 2.0.0 published on https://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd
 
+2024-11-29:
+ExtraDetailInfo:
+attribute: bestandIdentificator: 1 -> 0..1
+attribute: ligging: 1 -> 0..1
+
 2024-11-27:
 Mantelbuis:
 added attribute: kleur 
@@ -21,7 +26,6 @@ attribuut: aanlegmethodeGestuurdeBoring: 1 -> 0..1
 
 PostbusAdres:
 deleted
-
 
 2024-09-19:
 
@@ -40,8 +44,11 @@ Buisspecifiek:
 attribute: buismateriaalType: 0..1 -> 1
 Kabelspecifiek:
 attribute:kabelDiameter: 0..1 -> 1
-KabelEnLeidingContainer:
+Kabelbed:
 attribute: aantalKabelsLeidingen: 0..1 -> 1
+Duct:
+attribute: aantalKabelsLeidingen: 0..1 -> 1
+KabelEnLeidingContainer
 attribute: bovengrondsZichtbaar: 0..1 -> 1
 OverigSpecifiek:
 attribute: pressure: 0..1 -> 1
@@ -716,7 +723,7 @@ deleted attribute: postbusadres
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="aantalKabelsLeidingen" type="integer">
-						<!-- end adapted -->
+					<!-- end adapted -->
 
 					</element>
 					
@@ -939,15 +946,16 @@ deleted attribute: postbusadres
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="bestandIdentificator" type="anyURI">
-
-					</element>
 					<!-- adapted 4-3.0 -->
+					<element name="bestandIdentificator" type="anyURI" minOccurs="0">
+					
+					</element>
+					
 					<element name="aanlegmethodeGestuurdeBoring" type="boolean" minOccurs="0">
 					</element>
+					
+					<element name="ligging" type="gml:GeometryPropertyType" minOccurs="0">
 					<!-- end adapted 4-3.0 -->
-					<element name="ligging" type="gml:GeometryPropertyType">
-
 					</element>
 				</sequence>
 			</extension>
@@ -1546,9 +1554,9 @@ deleted attribute: postbusadres
 					<element name="toelichting" type="string" minOccurs="0">
 
 					</element>
-					<!-- adapted 4-3.0 -->
-					<element name="aantalKabelsLeidingen" type="integer">
-						<!-- end adapted -->
+					
+					<element name="aantalKabelsLeidingen" type="integer" minOccurs="0">
+						
 
 					</element>
 					
@@ -2387,8 +2395,12 @@ deleted attribute: postbusadres
 					</appinfo>
 				</annotation>
 			</element>
-			<!-- let op maximaleWerkdiepte(cm) is niet valide -->
-			<element name="maximaleWerkdiepte" type="gml:MeasureType" minOccurs="1">
+			<element name="maximaleWerkdiepte" type="gml:ReferenceType" minOccurs="1">
+				<annotation>
+					<appinfo>
+						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">MaximaleWerkdiepteValue</targetCodeList>
+					</appinfo>
+				</annotation>
 
 			</element>
 		</sequence>

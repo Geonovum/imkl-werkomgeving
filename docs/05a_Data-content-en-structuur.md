@@ -1324,7 +1324,7 @@ GebiedsinformatieAanvraag die de aanvraaggegevens bevat en een graaf- en/of een
 oriëntatiepolygoon. De informatiepolygoon is de weergave door een grondroerder
 van het gebied, waarvoor gebiedsinformatie wordt aangevraagd. Bij de uitlevering
 wordt die ook meegegeven inclusief de visualisatie van het gebied tussen de
-graaf- en de informatiepolygoon. In [Bijlage 3: Toelichting op informatiepolygoon](#bijlage-3-toelichting-op-informatiepolygoon) wordt dit gebied toegelicht.
+graaf- en de informatiepolygoon. In [Bijlage D: Toelichting op informatiepolygoon](#bijlage-toelichting-op-informatiepolygoon) wordt dit gebied toegelicht.
 
 
 De GebiedsinformatieLevering verwijst naar een object Belanghebbende waarin de

@@ -19,7 +19,7 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 6        |[344](https://github.com/Geonovum/imkl2015-review/issues/344)| Attribuut verwijderd                     | Verwijderd: Organisatie.postbusadres |
 | 7        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | Buisspecifiek.buismateriaalType 0..1 -> 1|
 | 8        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | KabelSpecifiek.kabeldiameter 0..1 -> 1|
-| 9        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | KabelEnLeidingContainer.aantalKabelsLeidingen 0..1 -> 1|
+| 9        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Constraint              | Voor Duct en Kabelbed: AantalKabelsIsVerplicht|
 | 10       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | KabelEnLeidingContainer.bovengrondsZichtbaar 0..1 -> 1|
 | 11       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | OverigSpecifiek.pressure 0..1 -> 1|
 | 12       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Constraint              | Appurtenance.specifiekAppurtenanceType 0..1 -> 0|
@@ -53,3 +53,5 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 40       |[309](https://github.com/Geonovum/imkl2015-review/issues/309)| Tekst/regel aanpassing            |In paragraaf [Nadere GML implementatie specificaties](#nadere-gml-implementatie-specificaties): gml:Arc en gml:Circle zijn niet toegestaan|
 | 41       || Attribuut toegevoegd            |Mantelbuis.kleur|
 | 42       |[346](https://github.com/Geonovum/imkl2015-review/issues/346)| Constraints            |GebiedsinformatieAanvraag: constraints herformuleerd|
+| 43       |[307](https://github.com/Geonovum/imkl2015-review/issues/307)| Multipliciteit aangepast           |ExtraDetailInfo.bestandIdentificator 1 -> 0..1|
+| 44       |[307](https://github.com/Geonovum/imkl2015-review/issues/307)| Multipliciteit aangepast           |ExtraDetailInfo.ligging 1 -> 0..1|
