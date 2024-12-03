@@ -9,6 +9,12 @@ Changelog.
 General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
 Startversion is imkl-wibon.xsd version 2.0.0 published on https://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd
 
+2024-12-3:
+target codelists adapted to real targets.
+Example:
+was: <targetCodeList mlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
+changed to: <targetCodeList xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst">AanvraagSoortValue</targetCodeList>
+
 2024-11-29:
 ExtraDetailInfo:
 attribute: bestandIdentificator: 1 -> 0..1
@@ -92,20 +98,39 @@ deleted attribute: postbusadres
 
 
 
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr" xmlns:wibon="http://www.geostandaarden.nl/imkl/wibon" xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" targetNamespace="http://www.geostandaarden.nl/imkl/wibon" elementFormDefault="qualified" version="2.0.0">
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd"/>
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0/TelecommunicationsNetwork.xsd"/>
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-th/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd"/>
-	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd"/>
-	<import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-	<import namespace="http://www.opengis.net/gml/3.3/exr" schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2"
+	xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr"
+	xmlns:wibon="http://www.geostandaarden.nl/imkl/wibon"
+	xmlns:us-net-common="http://inspire.ec.europa.eu/schemas/us-net-common/4.0"
+	xmlns:us-net-el="http://inspire.ec.europa.eu/schemas/us-net-el/4.0"
+	xmlns:us-net-ogc="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0"
+	xmlns:us-net-sw="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0"
+	xmlns:us-net-tc="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0"
+	xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0"
+	xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0"
+	targetNamespace="http://www.geostandaarden.nl/imkl/wibon" elementFormDefault="qualified"
+	version="2.0.0">
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0/TelecommunicationsNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-th/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd"/>
+	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0"
+		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd"/>
+	<import namespace="http://www.opengis.net/gml/3.2"
+		schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<import namespace="http://www.opengis.net/gml/3.3/exr"
+		schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<!--XML Schema document created by ShapeChange - http://shapechange.net/-->
-	<element name="AanduidingEisVoorzorgsmaatregel" type="wibon:AanduidingEisVoorzorgsmaatregelType" substitutionGroup="wibon:ExtraInformatie">
-
-	</element>
+	<element name="AanduidingEisVoorzorgsmaatregel" type="wibon:AanduidingEisVoorzorgsmaatregelType"
+		substitutionGroup="wibon:ExtraInformatie"> </element>
 	<complexType name="AanduidingEisVoorzorgsmaatregelType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
@@ -115,7 +140,6 @@ deleted attribute: postbusadres
 					<element name="netbeheerderNetOmschrijving" type="string" minOccurs="0"/>
 					<element name="netbeheerderNetAanduiding" type="string"/>
 					<element name="netbeheerderWerkAanduiding" type="string" minOccurs="0"/>
-					
 					<element name="geometrie" type="gml:GeometryPropertyType"/>
 				</sequence>
 			</extension>
@@ -128,28 +152,22 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="AanvraagSoortContact" type="wibon:AanvraagSoortContactType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="AanvraagSoortContact" type="wibon:AanvraagSoortContactType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="AanvraagSoortContactType">
 		<sequence>
 			<element name="aanvraagSoort" type="gml:ReferenceType">
 				<annotation>
-				<appinfo>
-					<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
-				</appinfo>
+					<appinfo>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>AanvraagSoortValue</targetCodeList>
+					</appinfo>
 				</annotation>
-
 			</element>
-			<element name="naam" type="string" minOccurs="0">
-
-			</element>
-			<element name="telefoon" type="string" minOccurs="0">
-
-			</element>
-			<element name="email" type="string" minOccurs="0">
-
-			</element>
+			<element name="naam" type="string" minOccurs="0"> </element>
+			<element name="telefoon" type="string" minOccurs="0"> </element>
+			<element name="email" type="string" minOccurs="0"> </element>
 		</sequence>
 	</complexType>
 	<complexType name="AanvraagSoortContactPropertyType">
@@ -157,21 +175,12 @@ deleted attribute: postbusadres
 			<element ref="wibon:AanvraagSoortContact"/>
 		</sequence>
 	</complexType>
-	<element name="Aanvrager" type="wibon:AanvragerType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Aanvrager" type="wibon:AanvragerType" substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="AanvragerType">
 		<sequence>
-			<element name="contactpersoon" type="wibon:ContactPropertyType" minOccurs="0">
-
-			</element>
-			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
-
-			</element>
-			
-			<element name="extraContact" type="wibon:ContactPropertyType" minOccurs="0">
-
-			</element>
+			<element name="contactpersoon" type="wibon:ContactPropertyType" minOccurs="0"> </element>
+			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0"> </element>
+			<element name="extraContact" type="wibon:ContactPropertyType" minOccurs="0"> </element>
 		</sequence>
 	</complexType>
 	<complexType name="AanvragerPropertyType">
@@ -179,21 +188,20 @@ deleted attribute: postbusadres
 			<element ref="wibon:Aanvrager"/>
 		</sequence>
 	</complexType>
-	<element name="Achtergrondkaart" type="wibon:AchtergrondkaartType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Achtergrondkaart" type="wibon:AchtergrondkaartType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="AchtergrondkaartType">
 		<sequence>
 			<element name="achtergrondkaartSoort" type="gml:ReferenceType">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AchtergrondkaartSoortValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>AchtergrondkaartSoortValue</targetCodeList>
 					</appinfo>
 				</annotation>
 			</element>
-			<element name="kaartreferentie" type="anyURI">
-
-			</element>
+			<element name="kaartreferentie" type="anyURI"> </element>
 		</sequence>
 	</complexType>
 	<complexType name="AchtergrondkaartPropertyType">
@@ -201,40 +209,23 @@ deleted attribute: postbusadres
 			<element ref="wibon:Achtergrondkaart"/>
 		</sequence>
 	</complexType>
-	<element name="Adres" type="wibon:AdresType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Adres" type="wibon:AdresType" substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="AdresType">
 		<sequence>
-			
-			<element name="BAGid" type="string" minOccurs="0">
-
-			</element>
-			<element name="openbareRuimteNaam" type="string">
-
-			</element>
-			<element name="huisnummer" type="string">
-
-			</element>
-			<element name="huisletter" type="string" minOccurs="0">
-
-			</element>
-			<element name="huisnummertoevoeging" type="string" minOccurs="0">
-
-			</element>
-			<element name="woonplaatsNaam" type="string">
-
-			</element>
-			
-			<element name="postcode" type="string" minOccurs="0">
-
-			</element>
-			
+			<element name="BAGid" type="string" minOccurs="0"> </element>
+			<element name="openbareRuimteNaam" type="string"> </element>
+			<element name="huisnummer" type="string"> </element>
+			<element name="huisletter" type="string" minOccurs="0"> </element>
+			<element name="huisnummertoevoeging" type="string" minOccurs="0"> </element>
+			<element name="woonplaatsNaam" type="string"> </element>
+			<element name="postcode" type="string" minOccurs="0"> </element>
 			<element name="landcode" type="gml:ReferenceType">
 				<annotation>
-				<appinfo>
-					<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LandcodeValue</targetCodeList>
-				</appinfo>
+					<appinfo>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>LandcodeValue</targetCodeList>
+					</appinfo>
 				</annotation>
 			</element>
 		</sequence>
@@ -245,50 +236,33 @@ deleted attribute: postbusadres
 		</sequence>
 	</complexType>
 	<!-- adapted 4-3.0 -->
-	<element name="InfoKabelbedkabel" type="wibon:InfoKabelbedkabelType" substitutionGroup="gml:AbstractObject">
-	</element>
+	<element name="InfoKabelbedkabel" type="wibon:InfoKabelbedkabelType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="InfoKabelbedkabelType">
 		<sequence>
-			<element name="currentStatus" type="gml:ReferenceType" minOccurs="0">
-
-			</element>
-			<element name="nominalVoltage" type="gml:MeasureType" minOccurs="0">
-
-			</element>
-			<element name="kabelDiameter" type="gml:MeasureType" minOccurs="0">
-
-			</element>
-			<element name="materiaal" type="string" minOccurs="0">
-
-			</element>
-			<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+			<element name="currentStatus" type="gml:ReferenceType" minOccurs="0"> </element>
+			<element name="nominalVoltage" type="gml:MeasureType" minOccurs="0"> </element>
+			<element name="kabelDiameter" type="gml:MeasureType" minOccurs="0"> </element>
+			<element name="materiaal" type="string" minOccurs="0"> </element>
+			<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>KleurKabelOfLeidingValue</targetCodeList>
 					</appinfo>
 				</annotation>
 			</element>
-			<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-			</element>
+			<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 		</sequence>
-
 	</complexType>
 	<complexType name="InfoKabelbedkabelPropertyType">
 		<sequence>
 			<element ref="wibon:InfoKabelbedkabel"/>
 		</sequence>
 	</complexType>
-
-
-
 	<!-- end adapted -->
-
-
-
-
-	<element name="Annotatie" type="wibon:AnnotatieType" substitutionGroup="wibon:ExtraInformatie">
-
-	</element>
+	<element name="Annotatie" type="wibon:AnnotatieType" substitutionGroup="wibon:ExtraInformatie"> </element>
 	<complexType name="AnnotatieType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
@@ -296,19 +270,15 @@ deleted attribute: postbusadres
 					<element name="annotatieType" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AnnotatieTypeValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>AnnotatieTypeValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="labelpositie" type="wibon:LabelpositiePropertyType" minOccurs="0">
-
-					</element>
-					<element name="ligging" type="gml:GeometryPropertyType">
-
-					</element>
+					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="labelpositie" type="wibon:LabelpositiePropertyType" minOccurs="0"> </element>
+					<element name="ligging" type="gml:GeometryPropertyType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -320,9 +290,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Appurtenance" type="wibon:AppurtenanceType" substitutionGroup="us-net-common:Appurtenance">
-
-	</element>
+	<element name="Appurtenance" type="wibon:AppurtenanceType"
+		substitutionGroup="us-net-common:Appurtenance"> </element>
 	<complexType name="AppurtenanceType">
 		<complexContent>
 			<extension base="us-net-common:AppurtenanceType">
@@ -330,43 +299,26 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="eanCode" type="string" minOccurs="0">
-
-					</element>
-					
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
-					<element name="hoogte" type="gml:LengthType" minOccurs="0">
-
-					</element>
+					<element name="eanCode" type="string" minOccurs="0"> </element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
+					<element name="hoogte" type="gml:LengthType" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -378,31 +330,18 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Beheerder" type="wibon:BeheerderType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="Beheerder" type="wibon:BeheerderType" substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="BeheerderType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="bronhoudercode" type="string" minOccurs="0">
-
-					</element>
-					<element name="websiteKlic" type="string" minOccurs="0">
-
-					</element>
-					<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="bronhoudercode" type="string" minOccurs="0"> </element>
+					<element name="websiteKlic" type="string" minOccurs="0"> </element>
+					<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0"
+					> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -414,9 +353,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Belang" type="wibon:BelangType" substitutionGroup="wibon:BelangGeneriek">
-
-	</element>
+	<element name="Belang" type="wibon:BelangType" substitutionGroup="wibon:BelangGeneriek"> </element>
 	<complexType name="BelangType">
 		<complexContent>
 			<extension base="wibon:BelangGeneriekType">
@@ -424,20 +361,18 @@ deleted attribute: postbusadres
 					<element name="thema" type="gml:ReferenceType" maxOccurs="unbounded">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>Thema</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="contactNetinformatie" type="wibon:AanvraagSoortContactPropertyType" minOccurs="0" maxOccurs="3">
-
-					</element>
+					<element name="contactNetinformatie"
+						type="wibon:AanvraagSoortContactPropertyType" minOccurs="0" maxOccurs="3"> </element>
 					<!-- adapted 4-2.0: attribute deleted -->
-					<element name="contactBeschadiging" type="wibon:ContactPropertyType" minOccurs="0">
-
-					</element>
-					<element name="netbeheerder" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
+					<element name="contactBeschadiging" type="wibon:ContactPropertyType"
+						minOccurs="0"> </element>
+					<element name="netbeheerder" type="gml:ReferenceType" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -449,43 +384,23 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="BelangGeneriek" type="wibon:BelangGeneriekType" abstract="true" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="BelangGeneriek" type="wibon:BelangGeneriekType" abstract="true"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="BelangGeneriekType" abstract="true">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string">
-
-					</element>
-					<element name="gewensteIngangsdatum" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="ingangsdatum" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="gewensteEinddatum" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="einddatum" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="beheerpolygoon" type="gml:MultiSurfacePropertyType" minOccurs="0">
-
-					</element>
-					<element name="contactAanvraag" type="wibon:AanvraagSoortContactPropertyType" minOccurs="0" maxOccurs="3">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="omschrijving" type="string"> </element>
+					<element name="gewensteIngangsdatum" type="dateTime" minOccurs="0"> </element>
+					<element name="ingangsdatum" type="dateTime" minOccurs="0"> </element>
+					<element name="gewensteEinddatum" type="dateTime" minOccurs="0"> </element>
+					<element name="einddatum" type="dateTime" minOccurs="0"> </element>
+					<element name="beheerpolygoon" type="gml:MultiSurfacePropertyType" minOccurs="0"> </element>
+					<element name="contactAanvraag" type="wibon:AanvraagSoortContactPropertyType"
+						minOccurs="0" maxOccurs="3"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -497,53 +412,32 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Belanghebbende" type="wibon:BelanghebbendeType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="Belanghebbende" type="wibon:BelanghebbendeType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="BelanghebbendeType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="beheerdersinformatieGeleverd" type="boolean" minOccurs="0"> </element>
+					<element name="betrokkenBijAanvraag" type="boolean" minOccurs="0"> </element>
 
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="beheerdersinformatieGeleverd" type="boolean" minOccurs="0">
-
-					</element>
-					<element name="betrokkenBijAanvraag" type="boolean" minOccurs="0">
-
-					</element>
-					
-					<element name="indicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0">
-
-					</element>
-					<element name="utiliteitsnet" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="eigenTopografie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="bijlage" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="geraaktBelangBijInformatiepolygoon" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="geraaktBelangBijGraafpolygoon" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="geraaktBelangBijOrientatiepolygoon" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="netbeheerder" type="gml:ReferenceType">
-
-					</element>
+					<element name="indicatieEisVoorzorgsmaatregel" type="boolean" minOccurs="0"> </element>
+					<element name="utiliteitsnet" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="eigenTopografie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="bijlage" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="geraaktBelangBijInformatiepolygoon" type="gml:ReferenceType"
+						minOccurs="0" maxOccurs="unbounded"> </element>
+					<element name="geraaktBelangBijGraafpolygoon" type="gml:ReferenceType"
+						minOccurs="0" maxOccurs="unbounded"> </element>
+					<element name="geraaktBelangBijOrientatiepolygoon" type="gml:ReferenceType"
+						minOccurs="0" maxOccurs="unbounded"> </element>
+					<element name="netbeheerder" type="gml:ReferenceType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -555,7 +449,6 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-
 	<complexType name="BuisSpecifiekPropertyType">
 		<choice minOccurs="0">
 			<element ref="wibon:Mantelbuis"/>
@@ -568,20 +461,12 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Contact" type="wibon:ContactType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Contact" type="wibon:ContactType" substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="ContactType">
 		<sequence>
-			<element name="naam" type="string" minOccurs="0">
-
-			</element>
-			<element name="telefoon" type="string" minOccurs="0">
-
-			</element>
-			<element name="email" type="string" minOccurs="0">
-
-			</element>
+			<element name="naam" type="string" minOccurs="0"> </element>
+			<element name="telefoon" type="string" minOccurs="0"> </element>
+			<element name="email" type="string" minOccurs="0"> </element>
 		</sequence>
 	</complexType>
 	<complexType name="ContactPropertyType">
@@ -600,53 +485,33 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Diepte" type="wibon:DiepteType" abstract="true" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="Diepte" type="wibon:DiepteType" abstract="true"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="DiepteType" abstract="true">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<element name="diepteNauwkeurigheid" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidDiepteValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidDiepteValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="dieptePeil" type="gml:MeasureType">
-
-					</element>
-					<element name="datumOpmetingDieptePeil" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="diepteAangrijpingspunt" type="gml:ReferenceType">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="ligging" type="gml:PointPropertyType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
+					<element name="dieptePeil" type="gml:MeasureType"> </element>
+					<element name="datumOpmetingDieptePeil" type="dateTime" minOccurs="0"> </element>
+					<element name="diepteAangrijpingspunt" type="gml:ReferenceType"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="ligging" type="gml:PointPropertyType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"
+					> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -658,19 +523,14 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="DiepteNAP" type="wibon:DiepteNAPType" substitutionGroup="wibon:Diepte">
-
-	</element>
+	<element name="DiepteNAP" type="wibon:DiepteNAPType" substitutionGroup="wibon:Diepte"> </element>
 	<complexType name="DiepteNAPType">
 		<complexContent>
 			<extension base="wibon:DiepteType">
 				<sequence>
-					<element name="maaiveldPeil" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="datumOpmetingMaaiveldPeil" type="dateTime" minOccurs="0">
-
-					</element>
+					<element name="maaiveldPeil" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="datumOpmetingMaaiveldPeil" type="dateTime" minOccurs="0"
+					> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -682,9 +542,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="DiepteTovMaaiveld" type="wibon:DiepteTovMaaiveldType" substitutionGroup="wibon:Diepte">
-
-	</element>
+	<element name="DiepteTovMaaiveld" type="wibon:DiepteTovMaaiveldType"
+		substitutionGroup="wibon:Diepte"> </element>
 	<complexType name="DiepteTovMaaiveldType">
 		<complexContent>
 			<extension base="wibon:DiepteType">
@@ -699,9 +558,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Duct" type="wibon:DuctType" substitutionGroup="us-net-common:Duct">
-
-	</element>
+	<element name="Duct" type="wibon:DuctType" substitutionGroup="us-net-common:Duct"> </element>
 	<complexType name="DuctType">
 		<complexContent>
 			<extension base="us-net-common:DuctType">
@@ -709,42 +566,29 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="aantalKabelsLeidingen" type="integer">
-					<!-- end adapted -->
-
+						<!-- end adapted -->
 					</element>
-					
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -756,45 +600,36 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="EigenTopografie" type="wibon:EigenTopografieType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="EigenTopografie" type="wibon:EigenTopografieType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="EigenTopografieType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<element name="status" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">EigenTopografieStatusValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>EigenTopografieStatusValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
 					<element name="typeTopografischObject" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">TopografischObjectTypeValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>TopografischObjectTypeValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="ligging" type="gml:GeometryPropertyType">
-
-					</element>
+					<element name="ligging" type="gml:GeometryPropertyType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -806,9 +641,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="EisVoorzorgsmaatregelBijlage" type="wibon:EisVoorzorgsmaatregelBijlageType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="EisVoorzorgsmaatregelBijlage" type="wibon:EisVoorzorgsmaatregelBijlageType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="EisVoorzorgsmaatregelBijlageType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
@@ -816,42 +650,30 @@ deleted attribute: postbusadres
 					<element name="identificatie" type="wibon:NEN3610IDPropertyType"/>
 					<element name="beginLifespanVersion" type="dateTime"/>
 					<element name="endLifespanVersion" type="dateTime" minOccurs="0"/>
-<!-- adapted 4-3.0 attribute deleted -->
-<!--					<element name="bijlageType" type="gml:ReferenceType">
-
-					</element> -->
-
-<!-- end adapted -->
-
-
-					
-					<element name="bestandLocatie" type="anyURI" minOccurs="0">
-
-					</element>
-					
+					<!-- adapted 4-3.0 attribute deleted -->
+					<!-- end adapted -->
+					<element name="bestandLocatie" type="anyURI" minOccurs="0"> </element>
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BestandMediaTypeValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>BestandMediaTypeValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="bestandIdentificator" type="anyURI">
-
-					</element>
+					<element name="bestandIdentificator" type="anyURI"> </element>
 					<element name="thema" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">ThemaValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>ThemaValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="eisVoorzorgsmaatregel" type="string">
-
-					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="eisVoorzorgsmaatregel" type="string"> </element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -863,9 +685,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Elektriciteitskabel" type="wibon:ElektriciteitskabelType" substitutionGroup="us-net-el:ElectricityCable">
-
-	</element>
+	<element name="Elektriciteitskabel" type="wibon:ElektriciteitskabelType"
+		substitutionGroup="us-net-el:ElectricityCable"> </element>
 	<complexType name="ElektriciteitskabelType">
 		<complexContent>
 			<extension base="us-net-el:ElectricityCableType">
@@ -873,44 +694,35 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
-
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="kabelDiameter" type="gml:MeasureType">
 						<!-- end adapted -->
-
 					</element>
 				</sequence>
 			</extension>
@@ -923,39 +735,29 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="ExtraDetailinfo" type="wibon:ExtraDetailinfoType" substitutionGroup="wibon:ExtraInformatie">
-
-	</element>
+	<element name="ExtraDetailinfo" type="wibon:ExtraDetailinfoType"
+		substitutionGroup="wibon:ExtraInformatie"> </element>
 	<complexType name="ExtraDetailinfoType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
 				<sequence>
-					<element name="adres" type="wibon:AdresPropertyType" minOccurs="0">
-
-					</element>
-					<element name="extraInfoType" type="gml:ReferenceType">
-
-					</element>
-					<element name="bestandLocatie" type="anyURI" minOccurs="0">
-
-					</element>
+					<element name="adres" type="wibon:AdresPropertyType" minOccurs="0"> </element>
+					<element name="extraInfoType" type="gml:ReferenceType"> </element>
+					<element name="bestandLocatie" type="anyURI" minOccurs="0"> </element>
 					<element name="bestandMediaType" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">BestandMediaTypeValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>BestandMediaTypeValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name="bestandIdentificator" type="anyURI" minOccurs="0">
-					
-					</element>
-					
-					<element name="aanlegmethodeGestuurdeBoring" type="boolean" minOccurs="0">
-					</element>
-					
+					<element name="bestandIdentificator" type="anyURI" minOccurs="0"> </element>
+					<element name="aanlegmethodeGestuurdeBoring" type="boolean" minOccurs="0"> </element>
 					<element name="ligging" type="gml:GeometryPropertyType" minOccurs="0">
-					<!-- end adapted 4-3.0 -->
+						<!-- end adapted 4-3.0 -->
 					</element>
 				</sequence>
 			</extension>
@@ -968,42 +770,24 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="ExtraGeometrie" type="wibon:ExtraGeometrieType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="ExtraGeometrie" type="wibon:ExtraGeometrieType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="ExtraGeometrieType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
 
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
+					<element name="vlakgeometrie2D" type="gml:GeometryPropertyType" minOccurs="0"> </element>
+					<element name="puntgeometrie2.5D" type="gml:PointPropertyType" minOccurs="0"> </element>
+					<element name="lijngeometrie2.5D" type="gml:CurvePropertyType" minOccurs="0"> </element>
 
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					
-					<element name="vlakgeometrie2D" type="gml:GeometryPropertyType" minOccurs="0">
-
-					</element>
-					<element name="puntgeometrie2.5D" type="gml:PointPropertyType" minOccurs="0">
-
-					</element>
-					<element name="lijngeometrie2.5D" type="gml:CurvePropertyType" minOccurs="0">
-
-					</element>
-					
-					<element name="vlakgeometrie2.5D" type="gml:GeometryPropertyType" minOccurs="0">
-
-					</element>
-					<element name="geometrie3D" type="gml:SolidPropertyType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
+					<element name="vlakgeometrie2.5D" type="gml:GeometryPropertyType" minOccurs="0"> </element>
+					<element name="geometrie3D" type="gml:SolidPropertyType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"
+					> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1015,31 +799,19 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="ExtraInformatie" type="wibon:ExtraInformatieType" abstract="true" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="ExtraInformatie" type="wibon:ExtraInformatieType" abstract="true"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="ExtraInformatieType" abstract="true">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"
+					> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1051,95 +823,51 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="GebiedsinformatieAanvraag" type="wibon:GebiedsinformatieAanvraagType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="GebiedsinformatieAanvraag" type="wibon:GebiedsinformatieAanvraagType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="GebiedsinformatieAanvraagType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="ordernummer" type="string" minOccurs="0">
-
-					</element>
-					<element name="positienummer" type="string" minOccurs="0">
-
-					</element>
-					<element name="klicMeldnummer" type="string" minOccurs="0">
-
-					</element>
-					<element name="aanvrager" type="wibon:AanvragerPropertyType">
-
-					</element>
-					
-					<element name="referentie" type="string">
-
-					</element>
-					<element name="opdrachtgever" type="wibon:OpdrachtgeverPropertyType" minOccurs="0">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="ordernummer" type="string" minOccurs="0"> </element>
+					<element name="positienummer" type="string" minOccurs="0"> </element>
+					<element name="klicMeldnummer" type="string" minOccurs="0"> </element>
+					<element name="aanvrager" type="wibon:AanvragerPropertyType"> </element>
+					<element name="referentie" type="string"> </element>
+					<element name="opdrachtgever" type="wibon:OpdrachtgeverPropertyType"
+						minOccurs="0"> </element>
 					<element name="aanvraagSoort" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">AanvraagSoortValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>AanvraagSoortValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					
-					<element name="voorbereidingCoordinatieCivieleWerken" type="boolean" minOccurs="0">
-
-					</element>
-					<element name="voorbereidingMedegebruikFysiekeInfrastructuur" type="boolean" minOccurs="0">
-
-					</element>
-					
-					<element name="aanvraagDatum" type="dateTime">
-
-					</element>
-
+					<element name="voorbereidingCoordinatieCivieleWerken" type="boolean"
+						minOccurs="0"> </element>
+					<element name="voorbereidingMedegebruikFysiekeInfrastructuur" type="boolean"
+						minOccurs="0"> </element>
+					<element name="aanvraagDatum" type="dateTime"> </element>
 					<!-- adapted 4-3.0-->
-					<element name="soortWerkzaamheden" type="wibon:WerkzaamhedenInfoType" minOccurs="0">
-
-					</element>
-
+					<element name="soortWerkzaamheden" type="wibon:WerkzaamhedenInfoType"
+						minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="omschrijvingWerkzaamheden" type="string" minOccurs="0">
-
-					</element>
-					
-					<element name="locatieWerkzaamheden" type="wibon:AdresPropertyType">
-
-					</element>
-					
-					<element name="locatieOmschrijving" type="string" minOccurs="0">
-
-					</element>
-					<element name="startDatum" type="date" minOccurs="0">
-
-					</element>
-					<element name="eindDatum" type="date" minOccurs="0">
-
-					</element>
-					<element name="huisaansluitingAdressen" type="wibon:AdresPropertyType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="informatiepolygoon" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="graafpolygoon" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="orientatiepolygoon" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
+					<element name="omschrijvingWerkzaamheden" type="string" minOccurs="0"> </element>
+					<element name="locatieWerkzaamheden" type="wibon:AdresPropertyType"> </element>
+					<element name="locatieOmschrijving" type="string" minOccurs="0"> </element>
+					<element name="startDatum" type="date" minOccurs="0"> </element>
+					<element name="eindDatum" type="date" minOccurs="0"> </element>
+					<element name="huisaansluitingAdressen" type="wibon:AdresPropertyType"
+						minOccurs="0" maxOccurs="unbounded"> </element>
+					<element name="informatiepolygoon" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="graafpolygoon" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="orientatiepolygoon" type="gml:ReferenceType" minOccurs="0"
+					> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1151,40 +879,23 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="GebiedsinformatieLevering" type="wibon:GebiedsinformatieLeveringType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="GebiedsinformatieLevering" type="wibon:GebiedsinformatieLeveringType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="GebiedsinformatieLeveringType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="leveringsvolgnummer" type="integer">
-
-					</element>
-					<element name="datumLeveringSamengesteld" type="dateTime">
-
-					</element>
-					<element name="indicatieLeveringCompleet" type="boolean">
-
-					</element>
-					<element name="achtergrondkaart" type="wibon:AchtergrondkaartPropertyType" maxOccurs="2">
-
-					</element>
-					<element name="belanghebbende" type="wibon:BelanghebbendePropertyType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="aanvraag" type="gml:ReferenceType">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="leveringsvolgnummer" type="integer"> </element>
+					<element name="datumLeveringSamengesteld" type="dateTime"> </element>
+					<element name="indicatieLeveringCompleet" type="boolean"> </element>
+					<element name="achtergrondkaart" type="wibon:AchtergrondkaartPropertyType"
+						maxOccurs="2"> </element>
+					<element name="belanghebbende" type="wibon:BelanghebbendePropertyType"
+						minOccurs="0" maxOccurs="unbounded"> </element>
+					<element name="aanvraag" type="gml:ReferenceType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1196,25 +907,16 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Graafpolygoon" type="wibon:GraafpolygoonType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="Graafpolygoon" type="wibon:GraafpolygoonType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="GraafpolygoonType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="geometrie" type="gml:SurfacePropertyType">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="geometrie" type="gml:SurfacePropertyType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1246,29 +948,18 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Informatiepolygoon" type="wibon:InformatiepolygoonType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="Informatiepolygoon" type="wibon:InformatiepolygoonType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="InformatiepolygoonType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="geometrie" type="gml:SurfacePropertyType">
-
-					</element>
-					
-					<element name="geometrieVoorVisualisatie" type="gml:GeometryPropertyType" minOccurs="0">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="geometrie" type="gml:SurfacePropertyType"> </element>
+					<element name="geometrieVoorVisualisatie" type="gml:GeometryPropertyType"
+						minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1310,23 +1001,18 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Kabelbed" type="wibon:KabelbedType" substitutionGroup="wibon:Duct">
-
-	</element>
-
+	<element name="Kabelbed" type="wibon:KabelbedType" substitutionGroup="wibon:Duct"> </element>
 	<!-- adapted 4-3.0 -->
 	<complexType name="KabelbedType">
 		<complexContent>
 			<extension base="wibon:DuctType">
 				<sequence minOccurs="0">
-					<element name="infoKabels" type="wibon:InfoKabelbedkabelType" minOccurs="0" maxOccurs="unbounded"></element>
-
+					<element name="infoKabels" type="wibon:InfoKabelbedkabelType" minOccurs="0"
+						maxOccurs="unbounded"/>
 				</sequence>
-
 			</extension>
 		</complexContent>
 	</complexType>
-
 	<!-- end adapted -->
 	<complexType name="KabelbedPropertyType">
 		<sequence minOccurs="0">
@@ -1335,9 +1021,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Kast" type="wibon:KastType" substitutionGroup="us-net-common:Cabinet">
-
-	</element>
+	<element name="Kast" type="wibon:KastType" substitutionGroup="us-net-common:Cabinet"> </element>
 	<complexType name="KastType">
 		<complexContent>
 			<extension base="us-net-common:CabinetType">
@@ -1345,39 +1029,25 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1414,22 +1084,25 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Labelpositie" type="wibon:LabelpositieType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Labelpositie" type="wibon:LabelpositieType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="LabelpositieType">
 		<sequence>
 			<element name="aangrijpingHorizontaal" type="gml:ReferenceType">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LabelpositieValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>LabelpositieValue</targetCodeList>
 					</appinfo>
 				</annotation>
 			</element>
 			<element name="aangrijpingVerticaal" type="gml:ReferenceType">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LabelpositieValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>LabelpositieValue</targetCodeList>
 					</appinfo>
 				</annotation>
 			</element>
@@ -1447,9 +1120,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Maatvoering" type="wibon:MaatvoeringType" substitutionGroup="wibon:ExtraInformatie">
-
-	</element>
+	<element name="Maatvoering" type="wibon:MaatvoeringType"
+		substitutionGroup="wibon:ExtraInformatie"> </element>
 	<complexType name="MaatvoeringType">
 		<complexContent>
 			<extension base="wibon:ExtraInformatieType">
@@ -1457,19 +1129,15 @@ deleted attribute: postbusadres
 					<element name="maatvoeringsType" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">MaatvoeringsTypeValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>MaatvoeringsTypeValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="labelpositie" type="wibon:LabelpositiePropertyType" minOccurs="0">
-
-					</element>
-					<element name="ligging" type="gml:GeometryPropertyType">
-
-					</element>
+					<element name="rotatiehoek" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="labelpositie" type="wibon:LabelpositiePropertyType" minOccurs="0"> </element>
+					<element name="ligging" type="gml:GeometryPropertyType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1481,9 +1149,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Mangat" type="wibon:MangatType" substitutionGroup="us-net-common:Manhole">
-
-	</element>
+	<element name="Mangat" type="wibon:MangatType" substitutionGroup="us-net-common:Manhole"> </element>
 	<complexType name="MangatType">
 		<complexContent>
 			<extension base="us-net-common:ManholeType">
@@ -1491,39 +1157,25 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1538,7 +1190,7 @@ deleted attribute: postbusadres
 	<element name="Mantelbuis" type="wibon:MantelbuisType" substitutionGroup="us-net-common:Pipe">
 		<!-- addapted 4-3.0 -->
 	</element>
-	<element name="eigenaar" type="boolean"></element>
+	<element name="eigenaar" type="boolean"/>
 	<!-- end adapted -->
 	<complexType name="MantelbuisType">
 		<complexContent>
@@ -1548,47 +1200,30 @@ deleted attribute: postbusadres
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
 					</element>
-					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
-					
-					<element name="aantalKabelsLeidingen" type="integer" minOccurs="0">
-						
-
-					</element>
-					
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
+					<element name="aantalKabelsLeidingen" type="integer" minOccurs="0"> </element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
 					</element>
 					<!-- adapted 4-3.0 -->
-					<element name="eigenaar" type="boolean"></element>
-					<element name="gebruiktVan" type="string" minOccurs="0"></element>
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="eigenaar" type="boolean"/>
+					<element name="gebruiktVan" type="string" minOccurs="0"/>
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
@@ -1604,9 +1239,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Mast" type="wibon:MastType" substitutionGroup="us-net-common:Pole">
-
-	</element>
+	<element name="Mast" type="wibon:MastType" substitutionGroup="us-net-common:Pole"> </element>
 	<complexType name="MastType">
 		<complexContent>
 			<extension base="us-net-common:PoleType">
@@ -1614,39 +1247,25 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1658,20 +1277,12 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="NEN3610ID" type="wibon:NEN3610IDType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="NEN3610ID" type="wibon:NEN3610IDType" substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="NEN3610IDType">
 		<sequence>
-			<element name="namespace" type="string">
-
-			</element>
-			<element name="lokaalID" type="string">
-
-			</element>
-			<element name="versie" type="string" minOccurs="0">
-
-			</element>
+			<element name="namespace" type="string"> </element>
+			<element name="lokaalID" type="string"> </element>
+			<element name="versie" type="string" minOccurs="0"> </element>
 		</sequence>
 	</complexType>
 	<complexType name="NEN3610IDPropertyType">
@@ -1679,9 +1290,8 @@ deleted attribute: postbusadres
 			<element ref="wibon:NEN3610ID"/>
 		</sequence>
 	</complexType>
-	<element name="OlieGasChemicalienPijpleiding" type="wibon:OlieGasChemicalienPijpleidingType" substitutionGroup="us-net-ogc:OilGasChemicalsPipe">
-
-	</element>
+	<element name="OlieGasChemicalienPijpleiding" type="wibon:OlieGasChemicalienPijpleidingType"
+		substitutionGroup="us-net-ogc:OilGasChemicalsPipe"> </element>
 	<complexType name="OlieGasChemicalienPijpleidingType">
 		<complexContent>
 			<extension base="us-net-ogc:OilGasChemicalsPipeType">
@@ -1689,43 +1299,35 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-
 					</element>
 				</sequence>
 			</extension>
@@ -1738,17 +1340,13 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Opdrachtgever" type="wibon:OpdrachtgeverType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Opdrachtgever" type="wibon:OpdrachtgeverType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="OpdrachtgeverType">
 		<sequence>
-			<element name="contactpersoon" type="wibon:ContactPropertyType" minOccurs="0">
-
-			</element>
-			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0">
-
-			</element>
+			<element name="contactpersoon" type="wibon:ContactPropertyType" minOccurs="0"> </element>
+			<element name="organisatie" type="wibon:OrganisatiePropertyType" minOccurs="0"
+			> </element>
 		</sequence>
 	</complexType>
 	<complexType name="OpdrachtgeverPropertyType">
@@ -1756,40 +1354,20 @@ deleted attribute: postbusadres
 			<element ref="wibon:Opdrachtgever"/>
 		</sequence>
 	</complexType>
-	<element name="Organisatie" type="wibon:OrganisatieType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="Organisatie" type="wibon:OrganisatieType" substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="OrganisatieType">
 		<sequence>
-			<element name="naam" type="string" minOccurs="0" maxOccurs="2">
-
-			</element>
-			<element name="kvkNummer" type="string" minOccurs="0">
-
-			</element>
-			<element name="bezoekAdres" type="wibon:AdresPropertyType" minOccurs="0">
-
-			</element>
-
+			<element name="naam" type="string" minOccurs="0" maxOccurs="2"> </element>
+			<element name="kvkNummer" type="string" minOccurs="0"> </element>
+			<element name="bezoekAdres" type="wibon:AdresPropertyType" minOccurs="0"> </element>
 			<!-- adapted 4-3.0 -->
 			<!-- attribute postbusAdres deleted -->
-			<!-- element name="postbusAdres" type="wibon:PostbusAdresPropertyType" minOccurs="0">
-			</element> -->
-			<element name="telefoon" type="string" minOccurs="0">
-
-			</element>
-			<element name="mobiel" type="string" minOccurs="0">
-
-			</element>
-			<element name="fax" type="string" minOccurs="0">
-
-			</element>
-			<element name="email" type="string" minOccurs="0" maxOccurs="1">
-
-			</element>
-			<element name="website" type="string" minOccurs="0">
-
-			</element>
+			<!-- end adapted -->
+			<element name="telefoon" type="string" minOccurs="0"> </element>
+			<element name="mobiel" type="string" minOccurs="0"> </element>
+			<element name="fax" type="string" minOccurs="0"> </element>
+			<element name="email" type="string" minOccurs="0" maxOccurs="1"> </element>
+			<element name="website" type="string" minOccurs="0"> </element>
 		</sequence>
 	</complexType>
 	<complexType name="OrganisatiePropertyType">
@@ -1797,25 +1375,16 @@ deleted attribute: postbusadres
 			<element ref="wibon:Organisatie"/>
 		</sequence>
 	</complexType>
-	<element name="Orientatiepolygoon" type="wibon:OrientatiepolygoonType" substitutionGroup="gml:AbstractFeature">
-
-	</element>
+	<element name="Orientatiepolygoon" type="wibon:OrientatiepolygoonType"
+		substitutionGroup="gml:AbstractFeature"> </element>
 	<complexType name="OrientatiepolygoonType">
 		<complexContent>
 			<extension base="gml:AbstractFeatureType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="geometrie" type="gml:SurfacePropertyType">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="geometrie" type="gml:SurfacePropertyType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1827,9 +1396,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Overig" type="wibon:OverigType" substitutionGroup="us-net-common:UtilityLinkSet">
-
-	</element>
+	<element name="Overig" type="wibon:OverigType" substitutionGroup="us-net-common:UtilityLinkSet"> </element>
 	<complexType name="OverigType">
 		<complexContent>
 			<extension base="us-net-common:UtilityLinkSetType">
@@ -1837,61 +1404,46 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="kabelDiameter" type="gml:MeasureType">
 						<!-- end adapted -->
-
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-
 					</element>
-					<element name="pipeDiameter" type="gml:MeasureType" minOccurs="0">
-
-					</element>
+					<element name="pipeDiameter" type="gml:MeasureType" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="pressure" type="gml:MeasureType">
 						<!-- end adapted -->
-
-
 					</element>
-					<element name="producttype" type="string" minOccurs="0">
-
-					</element>
+					<element name="producttype" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -1911,50 +1463,14 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<!-- adapted 4-3.0 -->
-	<!-- 
-	<element name="PostbusAdres" type="wibon:PostbusAdresType" substitutionGroup="gml:AbstractObject">
-	</element>
-	<complexType name="PostbusAdresType">
-		<sequence>
-			<element name="postbusnummer" type="string">
-
-			</element>
-			<element name="postcode" type="string">
-
-			</element>
-			<element name="woonplaatsNaam" type="string">
-
-			</element>
-			
-			<element name="landcode" type="gml:ReferenceType">
-				<annotation>
-					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">LandcodeValue</targetCodeList>
-					</appinfo>
-				</annotation>
-			</element>
-		</sequence>
-	</complexType>		
-	<complexType name="PostbusAdresPropertyType">
-		<sequence>
-			<element ref="wibon:PostbusAdres"/>
-		</sequence>
-	</complexType> -->
 	<!-- end adapted -->
-	<element name="PuntLijnVlak" type="wibon:PuntLijnVlakType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="PuntLijnVlak" type="wibon:PuntLijnVlakType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="PuntLijnVlakType">
 		<choice>
-			<element name="punt" type="gml:PointPropertyType">
-
-			</element>
-			<element name="lijn" type="gml:CurvePropertyType">
-
-			</element>
-			<element name="vlak" type="gml:SurfacePropertyType">
-
-			</element>
+			<element name="punt" type="gml:PointPropertyType"> </element>
+			<element name="lijn" type="gml:CurvePropertyType"> </element>
+			<element name="vlak" type="gml:SurfacePropertyType"> </element>
 		</choice>
 	</complexType>
 	<complexType name="PuntLijnVlakPropertyType">
@@ -1962,9 +1478,8 @@ deleted attribute: postbusadres
 			<element ref="wibon:PuntLijnVlak"/>
 		</sequence>
 	</complexType>
-	<element name="Rioolleiding" type="wibon:RioolleidingType" substitutionGroup="us-net-sw:SewerPipe">
-
-	</element>
+	<element name="Rioolleiding" type="wibon:RioolleidingType"
+		substitutionGroup="us-net-sw:SewerPipe"> </element>
 	<complexType name="RioolleidingType">
 		<complexContent>
 			<extension base="us-net-sw:SewerPipeType">
@@ -1972,43 +1487,35 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-
 					</element>
 				</sequence>
 			</extension>
@@ -2021,9 +1528,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="TechnischGebouw" type="wibon:TechnischGebouwType" substitutionGroup="us-net-common:Cabinet">
-
-	</element>
+	<element name="TechnischGebouw" type="wibon:TechnischGebouwType"
+		substitutionGroup="us-net-common:Cabinet"> </element>
 	<complexType name="TechnischGebouwType">
 		<complexContent>
 			<extension base="us-net-common:CabinetType">
@@ -2031,39 +1537,25 @@ deleted attribute: postbusadres
 					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -2075,9 +1567,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Telecommunicatiekabel" type="wibon:TelecommunicatiekabelType" substitutionGroup="us-net-tc:TelecommunicationsCable">
-
-	</element>
+	<element name="Telecommunicatiekabel" type="wibon:TelecommunicatiekabelType"
+		substitutionGroup="us-net-tc:TelecommunicationsCable"> </element>
 	<complexType name="TelecommunicatiekabelType">
 		<complexContent>
 			<extension base="us-net-tc:TelecommunicationsCableType">
@@ -2085,44 +1576,35 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
-
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="kabelDiameter" type="gml:MeasureType">
 						<!-- end adapted -->
-
 					</element>
 				</sequence>
 			</extension>
@@ -2135,9 +1617,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="ThermischePijpleiding" type="wibon:ThermischePijpleidingType" substitutionGroup="us-net-th:ThermalPipe">
-
-	</element>
+	<element name="ThermischePijpleiding" type="wibon:ThermischePijpleidingType"
+		substitutionGroup="us-net-th:ThermalPipe"> </element>
 	<complexType name="ThermischePijpleidingType">
 		<complexContent>
 			<extension base="us-net-th:ThermalPipeType">
@@ -2145,43 +1626,35 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-
 					</element>
 				</sequence>
 			</extension>
@@ -2194,49 +1667,33 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Toren" type="wibon:TorenType" substitutionGroup="us-net-common:Tower">
-
-	</element>
+	<element name="Toren" type="wibon:TorenType" substitutionGroup="us-net-common:Tower"> </element>
 	<complexType name="TorenType">
 		<complexContent>
 			<extension base="us-net-common:TowerType">
 				<sequence>
-										<!-- adapted 4-3.0 -->
+					<!-- adapted 4-3.0 -->
 					<element name="bovengrondsZichtbaar" type="boolean">
 						<!-- end adapted -->
-
 					</element>
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0">
-
-					</element>
-					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="BGT_ID" type="wibon:NEN3610IDPropertyType" minOccurs="0"> </element>
+					<element name="rotatiehoekSymbool" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="inNetwork" type="gml:ReferenceType" maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -2248,41 +1705,29 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Utiliteitsnet" type="wibon:UtiliteitsnetType" substitutionGroup="us-net-common:UtilityNetwork">
-
-	</element>
+	<element name="Utiliteitsnet" type="wibon:UtiliteitsnetType"
+		substitutionGroup="us-net-common:UtilityNetwork"> </element>
 	<complexType name="UtiliteitsnetType">
 		<complexContent>
 			<extension base="us-net-common:UtilityNetworkType">
 				<sequence>
-					<element name="identificatie" type="wibon:NEN3610IDPropertyType">
-
-					</element>
-					<element name="beginLifespanVersion" type="dateTime">
-
-					</element>
-					<element name="endLifespanVersion" type="dateTime" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="identificatie" type="wibon:NEN3610IDPropertyType"> </element>
+					<element name="beginLifespanVersion" type="dateTime"> </element>
+					<element name="endLifespanVersion" type="dateTime" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<element name="thema" type="gml:ReferenceType">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">Thema</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>Thema</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="standaardDieptelegging" type="gml:MeasureType" minOccurs="0">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
+					<element name="standaardDieptelegging" type="gml:MeasureType" minOccurs="0"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -2294,16 +1739,13 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Veiligheidsgebied" type="wibon:VeiligheidsgebiedType" substitutionGroup="wibon:BelangGeneriek">
-
-	</element>
+	<element name="Veiligheidsgebied" type="wibon:VeiligheidsgebiedType"
+		substitutionGroup="wibon:BelangGeneriek"> </element>
 	<complexType name="VeiligheidsgebiedType">
 		<complexContent>
 			<extension base="wibon:BelangGeneriekType">
 				<sequence>
-					<element name="beheerderVeiligheidsgebied" type="gml:ReferenceType">
-
-					</element>
+					<element name="beheerderVeiligheidsgebied" type="gml:ReferenceType"> </element>
 				</sequence>
 			</extension>
 		</complexContent>
@@ -2315,9 +1757,8 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-	<element name="Waterleiding" type="wibon:WaterleidingType" substitutionGroup="us-net-wa:WaterPipe">
-
-	</element>
+	<element name="Waterleiding" type="wibon:WaterleidingType"
+		substitutionGroup="us-net-wa:WaterPipe"> </element>
 	<complexType name="WaterleidingType">
 		<complexContent>
 			<extension base="us-net-wa:WaterPipeType">
@@ -2325,43 +1766,35 @@ deleted attribute: postbusadres
 					<element name="geoNauwkeurigheidXY" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">NauwkeurigheidXYvalue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>NauwkeurigheidXYvalue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="toelichting" type="string" minOccurs="0">
-
-					</element>
+					<element name="toelichting" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name ="kleur" type ="gml:ReferenceType" minOccurs="0">
+					<element name="kleur" type="gml:ReferenceType" minOccurs="0">
 						<annotation>
 							<appinfo>
-								<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">KleurKabelOfLeidingValue</targetCodeList>
+								<targetCodeList
+									xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+									>KleurKabelOfLeidingValue</targetCodeList>
 							</appinfo>
 						</annotation>
 					</element>
-					<element name="fysiekeIdentificatie" type="string" minOccurs="0">
-					</element>
+					<element name="fysiekeIdentificatie" type="string" minOccurs="0"> </element>
 					<!-- end adapted -->
-					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0" maxOccurs="unbounded">
-
-					</element>
-					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0">
-
-					</element>
-					<element name="label" type="string" minOccurs="0">
-
-					</element>
-					<element name="omschrijving" type="string" minOccurs="0">
-
-					</element>
+					<element name="dieptelegging" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="heeftExtraInformatie" type="gml:ReferenceType" minOccurs="0"
+						maxOccurs="unbounded"> </element>
+					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
+					<element name="label" type="string" minOccurs="0"> </element>
+					<element name="omschrijving" type="string" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
 						<!-- end adapted -->
-
 					</element>
 				</sequence>
 			</extension>
@@ -2374,34 +1807,38 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:AssociationAttributeGroup"/>
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
-
 	<!-- adapted 4-3.0 -->
-	<element name="WerkzaamhedenInfo" type="wibon:WerkzaamhedenInfoType" substitutionGroup="gml:AbstractObject">
-
-	</element>
+	<element name="WerkzaamhedenInfo" type="wibon:WerkzaamhedenInfoType"
+		substitutionGroup="gml:AbstractObject"> </element>
 	<complexType name="WerkzaamhedenInfoType">
 		<sequence>
-			<element name="soortWerkzaamheden" type="gml:ReferenceType" minOccurs="1"  maxOccurs="unbounded" >
+			<element name="soortWerkzaamheden" type="gml:ReferenceType" minOccurs="1"
+				maxOccurs="unbounded">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">SoortWerkzaamhedenValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>SoortWerkzaamhedenValue</targetCodeList>
 					</appinfo>
 				</annotation>
 			</element>
-			<element name="methode" type="gml:ReferenceType" minOccurs="1"  maxOccurs="unbounded">
+			<element name="methode" type="gml:ReferenceType" minOccurs="1" maxOccurs="unbounded">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">GraafmethodeValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>GraafmethodeValue</targetCodeList>
 					</appinfo>
 				</annotation>
 			</element>
 			<element name="maximaleWerkdiepte" type="gml:ReferenceType" minOccurs="1">
 				<annotation>
 					<appinfo>
-						<targetCodeList xmlns="http://www.opengis.net/gml/3.3/exr">MaximaleWerkdiepteValue</targetCodeList>
+						<targetCodeList
+							xmlns="http://definities.geostandaarden.nl/imkl2015/id/waardelijst"
+							>MaximaleWerkdiepteValue</targetCodeList>
 					</appinfo>
 				</annotation>
-
 			</element>
 		</sequence>
 	</complexType>
