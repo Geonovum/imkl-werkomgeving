@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0"
+    xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
+    <NamedLayer>
+        <Name>ExtraDetailinfo - punt</Name>
+        <UserStyle>
+            <Title>ExtraDetailinfo Punt</Title>
+            <Abstract>Deze stylesheet bevat de regels voor de visualisatie van alle objecten uit de objectklasse ExtraDetailinfo</Abstract>
+            <FeatureTypeStyle>
+                <Rule>
+                    <Name>extradetailinfo-punt-z15-16</Name>
+                    <Title>ExtraDetailinfo op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:Or>
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:Function name="PropertyExists">
+                                        <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>true</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    <ogc:Literal>Nee</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>false</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="extradetailinfo.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>25</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailinfo-gestuurde-boring-punt-z15-16</Name>
+                    <Title>ExtraDetailinfo gestuurde boring op zoomniveau 15 en 16</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>true</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                <ogc:Literal>Ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>0</MinScaleDenominator>
+                    <MaxScaleDenominator>500</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="gestuurdeboring.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>25</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailinfo-punt-z14</Name>
+                    <Title>ExtraDetailinfo op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:Or>
+                            <ogc:And>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:Function name="PropertyExists">
+                                        <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    </ogc:Function>
+                                    <ogc:Literal>true</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                                <ogc:PropertyIsEqualTo>
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                    <ogc:Literal>Nee</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+                            </ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>false</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>640000</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="extradetailinfo.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>11</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+                <Rule>
+                    <Name>extradetailinfo-gestuurdeboring-punt-z14</Name>
+                    <Title>ExtraDetailinfo gestuurde boring op zoomniveau 14</Title>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:Function name="PropertyExists">
+                                    <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                </ogc:Function>
+                                <ogc:Literal>true</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>aanlegmethodegestuurdeboring</ogc:PropertyName>
+                                <ogc:Literal>Ja</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
+                    <MinScaleDenominator>501</MinScaleDenominator>
+                    <MaxScaleDenominator>640000</MaxScaleDenominator>
+                    <PointSymbolizer>
+                        <Graphic>
+                            <ExternalGraphic>
+                                <OnlineResource xlink:type="simple" xlink:href="gestuurdeboring.svg"/>
+                                <Format>image/svg+xml</Format>
+                            </ExternalGraphic>
+                            <Size>11</Size>
+                        </Graphic>
+                    </PointSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

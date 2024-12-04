@@ -19,5 +19,5 @@ van de geometrie voor visualisatie.
 <!-- ![](docs/media/Bijlage3-2.png) -->
 <figure id="afb_Bijlage3-2.png">
     <img src="docs/media/Bijlage3-2.png" alt="Afbeelding Bijlage3-2">
-    <figcaption></figcaption>
+    <figcaption>Vier situaties voor bepalen van de geometrieVoorVisualisatie</figcaption>
 </figure>
