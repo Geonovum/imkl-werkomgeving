@@ -1,1 +1,1 @@
-Deze standaard beschrijft de specificaties van het Informatiemodel Kabels en Leidingen (IMKL) versie 3.0rc (release candidate).
+Deze standaard beschrijft de specificaties van het Informatiemodel Kabels en Leidingen (IMKL) versie 3.0rc2 (release candidate 2).
