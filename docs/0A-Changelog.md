@@ -47,8 +47,8 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 34       |[347](https://github.com/Geonovum/imkl2015-review/issues/347)| Attribuut toegevoegd              | InfoKabelbedkabel.fysiekeIdentificatie|
 | 35       |[353](https://github.com/Geonovum/imkl2015-review/issues/353)| Objecttype aangepast             | Bijlage en EisVoorzorgsmaatregelBijlage samengevoegd en Bijlage verwijderd|
 | 36       |[353](https://github.com/Geonovum/imkl2015-review/issues/353)| Objecttype aangepast             | Bijlage en EisVoorzorgsmaatregelBijlage samengevoegd en Bijlage verwijderd|
-| 37       |[318](https://github.com/Geonovum/imkl2015-review/issues/318)| Multipliciteit aangepast             |PostbusAdres.landcode 0..1 -> 1: Let op! dit was in het IMKL-wiond.xsd al zo en is dus geen schema aanpassing |
-| 38       |[318](https://github.com/Geonovum/imkl2015-review/issues/318)| Multipliciteit aangepast             |Adres.landcode 0..1 -> 1: Let op dit was in het IMKL-wibon.xsd al zo en is dus geen schema aanpassing |
+| 37       |[318](https://github.com/Geonovum/imkl2015-review/issues/318)| Multipliciteit aangepast             |PostbusAdres.landcode 0..1 -> 1: Let op! dit was in het IMKL-wibon.xsd versie 2.0 al zo en is dus geen schema aanpassing |
+| 38       |[318](https://github.com/Geonovum/imkl2015-review/issues/318)| Multipliciteit aangepast             |Adres.landcode 0..1 -> 1: Let op dit was in het IMKL-wibon.xsd versie 2.0 al zo en is dus geen schema aanpassing |
 | 39       |[333](https://github.com/Geonovum/imkl2015-review/issues/333)| Constraint toegevoegd             |GebiedsinformatieAanvraag.referentie heeft maximaal 60 karakters|
 | 40       |[309](https://github.com/Geonovum/imkl2015-review/issues/309)| Tekst/regel aanpassing            |In paragraaf [Nadere GML implementatie specificaties](#nadere-gml-implementatie-specificaties): gml:Arc en gml:Circle zijn niet toegestaan|
 | 41       || Attribuut toegevoegd            |Mantelbuis.kleur|
