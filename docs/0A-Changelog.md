@@ -54,4 +54,3 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 41       || Attribuut toegevoegd            |Mantelbuis.kleur|
 | 42       |[346](https://github.com/Geonovum/imkl2015-review/issues/346)| Constraints            |GebiedsinformatieAanvraag: constraints herformuleerd|
 | 43       |[307](https://github.com/Geonovum/imkl2015-review/issues/307)| Multipliciteit aangepast           |ExtraDetailInfo.bestandIdentificator 1 -> 0..1|
-| 44       |[307](https://github.com/Geonovum/imkl2015-review/issues/307)| Multipliciteit aangepast           |ExtraDetailInfo.ligging 1 -> 0..1|

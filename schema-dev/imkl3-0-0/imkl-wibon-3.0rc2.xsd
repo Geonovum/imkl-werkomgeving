@@ -18,7 +18,6 @@ changed to: <targetCodeList xmlns="http://definities.geostandaarden.nl/imkl2015/
 2024-11-29:
 ExtraDetailInfo:
 attribute: bestandIdentificator: 1 -> 0..1
-attribute: ligging: 1 -> 0..1
 
 2024-11-27:
 Mantelbuis:
@@ -755,9 +754,9 @@ deleted attribute: postbusadres
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="bestandIdentificator" type="anyURI" minOccurs="0"> </element>
+					<!-- end adapted 4-3.0 -->
 					<element name="aanlegmethodeGestuurdeBoring" type="boolean" minOccurs="0"> </element>
-					<element name="ligging" type="gml:GeometryPropertyType" minOccurs="0">
-						<!-- end adapted 4-3.0 -->
+					<element name="ligging" type="gml:GeometryPropertyType">					
 					</element>
 				</sequence>
 			</extension>

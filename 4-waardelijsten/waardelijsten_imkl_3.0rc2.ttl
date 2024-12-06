@@ -1,0 +1,1480 @@
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publications.europa.eu/resource/authority/country/SWE>
+        a               skos:Concept ;
+        rdfs:label      "Zweden"@nl ;
+        skos:notation   "SWE" ;
+        skos:prefLabel  "Zweden"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/saumur>
+        a               skos:Concept ;
+        rdfs:label      "saumur"@nl ;
+        skos:notation   "saumur" ;
+        skos:prefLabel  "saumur"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/TelecommunicationsAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "TelecommunicationsAppurtenanceTypeIMKLValue"@nl ;
+        skos:notation   "TelecommunicationsAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "TelecommunicationsAppurtenanceTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterExhaustPoint>
+        a               skos:Concept ;
+        rdfs:label      "aftappunt"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                97 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "aansluiting"@nl ;
+        skos:notation   "waterExhaustPoint" ;
+        skos:prefLabel  "aftappunt"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PVC>
+        a               skos:Concept ;
+        rdfs:label      "polyvinylchloride (PVC)"@nl ;
+        skos:notation   "PVC" ;
+        skos:prefLabel  "polyvinylchloride (PVC)"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/steel>
+        a               skos:Concept ;
+        rdfs:label      "staal"@nl ;
+        skos:notation   "steel" ;
+        skos:prefLabel  "staal"@nl .
+
+<http://publications.europa.eu/resource/authority/country/CYP>
+        a               skos:Concept ;
+        rdfs:label      "Cyprus"@nl ;
+        skos:notation   "CYP" ;
+        skos:prefLabel  "Cyprus"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/dischargeStructure>
+        a               skos:Concept ;
+        rdfs:label      "afvoerinrichting"@nl ;
+        skos:notation   "dischargeStructure" ;
+        skos:prefLabel  "afvoerinrichting"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/tideGate>
+        a               skos:Concept ;
+        rdfs:label      "wachtdeur"@nl ;
+        skos:notation   "tideGate" ;
+        skos:prefLabel  "wachtdeur"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ThermalProductTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "ThermalProductTypeIMKLValue"@nl ;
+        skos:notation   "ThermalProductTypeIMKLValue" ;
+        skos:prefLabel  "ThermalProductTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/water>
+        a               skos:Concept ;
+        rdfs:label      "water"@nl ;
+        skos:notation   "water" ;
+        skos:prefLabel  "water"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/OverigAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "OverigAppurtenanceTypeIMKLValue"@nl ;
+        skos:notation   "OverigAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "OverigAppurtenanceTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/carbonMonoxide>
+        a               skos:Concept ;
+        rdfs:label      "koolmonoxide"@nl ;
+        skos:notation   "carbonMonoxide" ;
+        skos:prefLabel  "koolmonoxide"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/SewerWaterTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "SewerWaterTypeValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/reclaimed> , <http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/storm> , <http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/combined> , <http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/sanitary> ;
+        skos:notation   "SewerWaterTypeValue" ;
+        skos:prefLabel  "SewerWaterTypeValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/RioolleidingTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "RioolleidingTypeValue" @nl;
+        skos:member     <http://data.gwsw.nl/totaal/hemelwaterriool> , <http://data.gwsw.nl/totaal/bergingsleiding> , <http://data.gwsw.nl/totaal/vuilwaterriool> , <http://data.gwsw.nl/totaal/overstortleiding> , <http://data.gwsw.nl/totaal/zinker> , <http://data.gwsw.nl/totaal/doorlatendeleiding> , <http://data.gwsw.nl/totaal/openLeiding> , <http://data.gwsw.nl/totaal/transportrioolleiding> , <http://data.gwsw.nl/totaal/stuwrioolleiding> , <http://data.gwsw.nl/totaal/bergbezinkleiding> , <http://data.gwsw.nl/totaal/aansluitleiding> , <http://data.gwsw.nl/totaal/gemengdRiool> ;
+        skos:notation   "RioolleidingTypeValue" ;
+        skos:prefLabel  "RioolleidingTypeValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/LandcodeValue>
+        a               skos:Collection ;
+        rdfs:label      "LandcodeValue" @nl;
+        skos:member     <http://publications.europa.eu/resource/authority/country/SVN> , <http://publications.europa.eu/resource/authority/country/DNK> , <http://publications.europa.eu/resource/authority/country/SWE> , <http://publications.europa.eu/resource/authority/country/CZE> , <http://publications.europa.eu/resource/authority/country/FIN> , <http://publications.europa.eu/resource/authority/country/HUN> , <http://publications.europa.eu/resource/authority/country/BEL> , <http://publications.europa.eu/resource/authority/country/HRV> , <http://publications.europa.eu/resource/authority/country/LTU> , <http://publications.europa.eu/resource/authority/country/LVA> , <http://publications.europa.eu/resource/authority/country/TUR> , <http://publications.europa.eu/resource/authority/country/SVK> , <http://publications.europa.eu/resource/authority/country/LUX> , <http://publications.europa.eu/resource/authority/country/NLD> , <http://publications.europa.eu/resource/authority/country/DEU> , <http://publications.europa.eu/resource/authority/country/FRA> , <http://publications.europa.eu/resource/authority/country/GRC> , <http://publications.europa.eu/resource/authority/country/CYP> , <http://publications.europa.eu/resource/authority/country/CHE> , <http://publications.europa.eu/resource/authority/country/MKD> , <http://publications.europa.eu/resource/authority/country/SRB> , <http://publications.europa.eu/resource/authority/country/MNE> , <http://publications.europa.eu/resource/authority/country/BGR> , <http://publications.europa.eu/resource/authority/country/ESP> , <http://publications.europa.eu/resource/authority/country/ALB> , <http://publications.europa.eu/resource/authority/country/GBR> , <http://publications.europa.eu/resource/authority/country/ITA> , <http://publications.europa.eu/resource/authority/country/IRL> , <http://publications.europa.eu/resource/authority/country/EST> , <http://publications.europa.eu/resource/authority/country/AUT> , <http://publications.europa.eu/resource/authority/country/MLT> , <http://publications.europa.eu/resource/authority/country/ROU> , <http://publications.europa.eu/resource/authority/country/PRT> , <http://publications.europa.eu/resource/authority/country/ISL> , <http://publications.europa.eu/resource/authority/country/POL> ;
+        skos:notation   "LandcodeValue" ;
+        skos:prefLabel  "LandcodeValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterTypeValue/potable>
+        a                skos:Concept ;
+        rdfs:label       "drinkbaar" @nl;
+        skos:definition  "Drinkwater."@nl ;
+        skos:notation    "potable" ;
+        skos:prefLabel   "drinkbaar"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterTypeValue/salt>
+        a                skos:Concept ;
+        rdfs:label       "zout" @nl;
+        skos:definition  "Zout water."@nl ;
+        skos:notation    "salt" ;
+        skos:prefLabel   "zout"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/controlValve>
+        a               skos:Concept ;
+        rdfs:label      "controleventiel"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                100 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "afsluiter"@nl ;
+        skos:notation   "controlValve" ;
+        skos:prefLabel  "controleventiel"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/storage>
+        a               skos:Concept ;
+        rdfs:label      "opslagvoorziening"@nl ;
+        skos:notation   "storage" ;
+        skos:prefLabel  "opslagvoorziening"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/collection>
+        a                skos:Concept ;
+        rdfs:label       "inzameling" @nl;
+        skos:definition  "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd door middel van inzameling (bv. het opvangen van afvalwater van klanten in het geval van een rioleringsnet)."@nl ;
+        skos:notation    "collection" ;
+        skos:prefLabel   "inzameling"@nl .
+
+<http://publications.europa.eu/resource/authority/country/CHE>
+        a               skos:Concept ;
+        rdfs:label      "Zwitserland"@nl ;
+        skos:notation   "CHE" ;
+        skos:prefLabel  "Zwitserland"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/MVC>
+        a               skos:Concept ;
+        rdfs:label      "MVC"@nl ;
+        skos:notation   "MVC" ;
+        skos:prefLabel  "MVC"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/watertankOrChamber>
+        a               skos:Concept ;
+        rdfs:label      "watertank of -kelder"@nl ;
+        skos:notation   "watertankOrChamber" ;
+        skos:prefLabel  "watertank of -kelder"@nl .
+
+<http://data.gwsw.nl/totaal/uitlaatconstructie>
+        a               skos:Concept ;
+        rdfs:label      "uitlaatconstructie"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                117 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "put"@nl ;
+        skos:notation   "uitlaatconstructie" ;
+        skos:prefLabel  "uitlaatconstructie"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/phenol>
+        a               skos:Concept ;
+        rdfs:label      "fenol"@nl ;
+        skos:notation   "phenol" ;
+        skos:prefLabel  "fenol"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/butane>
+        a               skos:Concept ;
+        rdfs:label      "butaan"@nl ;
+        skos:notation   "butane" ;
+        skos:prefLabel  "butaan"@nl .
+
+<http://publications.europa.eu/resource/authority/country/POL>
+        a               skos:Concept ;
+        rdfs:label      "Polen"@nl ;
+        skos:notation   "POL" ;
+        skos:prefLabel  "Polen"@nl .
+
+<http://publications.europa.eu/resource/authority/country/ALB>
+        a               skos:Concept ;
+        rdfs:label      "Albanië"@nl ;
+        skos:notation   "ALB" ;
+        skos:prefLabel  "Albanië"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/argon>
+        a               skos:Concept ;
+        rdfs:label      "argon"@nl ;
+        skos:notation   "argon" ;
+        skos:prefLabel  "argon"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/reclaimed>
+        a                skos:Concept ;
+        rdfs:label       "teruggewonnen" @nl;
+        skos:definition  "Teruggewonnen water."@nl ;
+        skos:notation    "reclaimed" ;
+        skos:prefLabel   "teruggewonnen"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/galvanizedSteel>
+        a               skos:Concept ;
+        rdfs:label      "gegalvaniseerd staal"@nl ;
+        skos:notation   "galvanizedSteel" ;
+        skos:prefLabel  "gegalvaniseerd staal"@nl .
+
+<http://publications.europa.eu/resource/authority/country/FRA>
+        a               skos:Concept ;
+        rdfs:label      "Frankrijk"@nl ;
+        skos:notation   "FRA" ;
+        skos:prefLabel  "Frankrijk"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/UtilityNetworkTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "UtilityNetworkTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/telecommunications> , <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity> , <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical> , <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/thermal> , <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/water> , <http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/sewer> ;
+        skos:notation   "UtilityNetworkTypeIMKLValue" ;
+        skos:prefLabel  "UtilityNetworkTypeIMKLValue"@nl .
+
+<http://data.gwsw.nl/totaal/aansluitleiding>
+        a               skos:Concept ;
+        rdfs:label      "aansluitleiding"@nl ;
+        skos:notation   "aansluitleiding" ;
+        skos:prefLabel  "aansluitleiding"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/mainStation>
+        a               skos:Concept ;
+        rdfs:label      "centrale"@nl ;
+        skos:notation   "mainStation" ;
+        skos:prefLabel  "centrale"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/wood>
+        a               skos:Concept ;
+        rdfs:label      "hout"@nl ;
+        skos:notation   "wood" ;
+        skos:prefLabel  "hout"@nl .
+
+<http://publications.europa.eu/resource/authority/country/EST>
+        a               skos:Concept ;
+        rdfs:label      "Estland"@nl ;
+        skos:notation   "EST" ;
+        skos:prefLabel  "Estland"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/catchBasin>
+        a               skos:Concept ;
+        rdfs:label      "opvangbekken"@nl ;
+        skos:notation   "catchBasin" ;
+        skos:prefLabel  "opvangbekken"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/subStation>
+        a               skos:Concept ;
+        rdfs:label      "onderstation"@nl ;
+        skos:notation   "subStation" ;
+        skos:prefLabel  "onderstation"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/EigenTopografieStatusValue>
+        a               skos:Collection ;
+        rdfs:label      "EigenTopografieStatusValue"@nl ;
+        skos:notation   "EigenTopografieStatusValue" ;
+        skos:prefLabel  "EigenTopografieStatusValue"@nl .
+
+<http://publications.europa.eu/resource/authority/country/HRV>
+        a               skos:Concept ;
+        rdfs:label      "Kroatië"@nl ;
+        skos:notation   "HRV" ;
+        skos:prefLabel  "Kroatië"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/electricity>
+        a               skos:Concept ;
+        rdfs:label      "elektriciteit"@nl ;
+        skos:notation   "electricity" ;
+        skos:prefLabel  "elektriciteit"@nl .
+
+<http://data.gwsw.nl/totaal/bergbezinkleiding>
+        a               skos:Concept ;
+        rdfs:label      "bergbezinkleiding"@nl ;
+        skos:notation   "bergbezinkleiding" ;
+        skos:prefLabel  "bergbezinkleiding"@nl .
+
+<http://publications.europa.eu/resource/authority/country/ISL>
+        a               skos:Concept ;
+        rdfs:label      "IJsland"@nl ;
+        skos:notation   "ISL" ;
+        skos:prefLabel  "IJsland"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/diesel>
+        a               skos:Concept ;
+        rdfs:label      "diesel"@nl ;
+        skos:notation   "diesel" ;
+        skos:prefLabel  "diesel"@nl .
+
+<http://publications.europa.eu/resource/authority/country/BGR>
+        a               skos:Concept ;
+        rdfs:label      "Bulgarije"@nl ;
+        skos:notation   "BGR" ;
+        skos:prefLabel  "Bulgarije"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/oxygen>
+        a               skos:Concept ;
+        rdfs:label      "zuurstof"@nl ;
+        skos:notation   "oxygen" ;
+        skos:prefLabel  "zuurstof"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WarningTypeValue/concretePaving>
+        a                skos:Concept ;
+        rdfs:label       "betonnen plaveisel" @nl;
+        skos:definition  "Een reeks betonnen stenen of tegels ter afdekking van kabels of pijpleidingen."@nl ;
+        skos:notation    "concretePaving" ;
+        skos:prefLabel   "betonnen plaveisel"@nl .
+
+<http://publications.europa.eu/resource/authority/country/DEU>
+        a               skos:Concept ;
+        rdfs:label      "Duitsland"@nl ;
+        skos:notation   "DEU" ;
+        skos:prefLabel  "Duitsland"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/BijlageTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "BijlageTypeValue"@nl ;
+        skos:notation   "BijlageTypeValue" ;
+        skos:prefLabel  "BijlageTypeValue"@nl .
+
+<http://data.gwsw.nl/totaal/kolk>
+        a               skos:Concept ;
+        rdfs:label      "kolk"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                117 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "put"@nl ;
+        skos:notation   "kolk" ;
+        skos:prefLabel  "kolk"@nl .
+
+<http://publications.europa.eu/resource/authority/country/AUT>
+        a               skos:Concept ;
+        rdfs:label      "Oostenrijk"@nl ;
+        skos:notation   "AUT" ;
+        skos:prefLabel  "Oostenrijk"@nl .
+
+<http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated>
+        a                skos:Concept ;
+        rdfs:label       "niet ondersteund" @nl;
+        skos:definition  "The characteristic is not part of the dataset maintained by the data provider. However, the characteristic may exist in the real world."@nl ;
+        skos:notation    "Unpopulated" ;
+        skos:prefLabel   "niet ondersteund"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barrel>
+        a               skos:Concept ;
+        rdfs:label      "mangatbuis"@nl ;
+        skos:notation   "barrel" ;
+        skos:prefLabel  "mangatbuis"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/UtilityDeliveryTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "UtilityDeliveryTypeValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/transport> , <http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/private> , <http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/collection> , <http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/distribution> ;
+        skos:notation   "UtilityDeliveryTypeValue" ;
+        skos:prefLabel  "UtilityDeliveryTypeValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterTypeValue/raw>
+        a                skos:Concept ;
+        rdfs:label       "onbehandeld" @nl;
+        skos:definition  "Onbehandeld water."@nl ;
+        skos:notation    "raw" ;
+        skos:prefLabel   "onbehandeld"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PEX>
+        a               skos:Concept ;
+        rdfs:label      "cross-linked high-density polyethylene (PEX) "@nl ;
+        skos:notation   "PEX" ;
+        skos:prefLabel  "cross-linked high-density polyethylene (PEX) "@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/terracotta>
+        a               skos:Concept ;
+        rdfs:label      "terracotta"@nl ;
+        skos:notation   "terracotta" ;
+        skos:prefLabel  "terracotta"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/checkValve>
+        a               skos:Concept ;
+        rdfs:label      "afsluitklep"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                100 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "afsluiter"@nl ;
+        skos:notation   "checkValve" ;
+        skos:prefLabel  "afsluitklep"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/clay>
+        a               skos:Concept ;
+        rdfs:label      "klei"@nl ;
+        skos:notation   "clay" ;
+        skos:prefLabel  "klei"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AanvraagSoortValue>
+        a               skos:Collection ;
+        rdfs:label      "AanvraagSoortValue"@nl ;
+        skos:notation   "AanvraagSoortValue" ;
+        skos:prefLabel  "AanvraagSoortValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/well>
+        a                skos:Concept ;
+        rdfs:label       "bron"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                104 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "bron" @nl;
+        skos:definition  "Winningsbron."@nl ;
+        skos:notation    "well" ;
+        skos:prefLabel   "bron"@nl .
+
+<http://data.gwsw.nl/totaal/transportrioolleiding>
+        a               skos:Concept ;
+        rdfs:label      "transportrioolleiding"@nl ;
+        skos:notation   "transportrioolleiding" ;
+        skos:prefLabel  "transportrioolleiding"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/LabelpositieValue>
+        a               skos:Collection ;
+        rdfs:label      "LabelpositieValue"@nl ;
+        skos:notation   "LabelpositieValue" ;
+        skos:prefLabel  "LabelpositieValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/distribution>
+        a                skos:Concept ;
+        rdfs:label       "distributie" @nl;
+        skos:definition  "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd door middel van lokal distributie (bv. de lokale distributie van elektriciteit) via een rechstreekse verbinding met de klanten."@nl ;
+        skos:notation    "distribution" ;
+        skos:prefLabel   "distributie"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/naturalGas>
+        a               skos:Concept ;
+        rdfs:label      "aardgas"@nl ;
+        skos:notation   "naturalGas" ;
+        skos:prefLabel  "aardgas"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pump>
+        a               skos:Concept ;
+        rdfs:label      "pomp"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                116 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "pomp"@nl ;
+        skos:notation   "pump" ;
+        skos:prefLabel  "pomp"@nl .
+
+<http://publications.europa.eu/resource/authority/country/BEL>
+        a               skos:Concept ;
+        rdfs:label      "België"@nl ;
+        skos:notation   "BEL" ;
+        skos:prefLabel  "België"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WarningTypeValue/tape>
+        a                skos:Concept ;
+        rdfs:label       "lint" @nl;
+        skos:definition  "Waarschuwingslint (ook markeringslint genoemd) is een sterk kunststofband in een signaalkleur of met een fel contrasterende kleurencombinatie (zoals geel-zwart of rood-wit)."@nl ;
+        skos:notation    "tape" ;
+        skos:prefLabel   "lint"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/WaterAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "WaterAppurtenanceTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/well> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/controlValve> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageFacility> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/checkValve> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureController> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pumpStation> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fireHydrant> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/anode> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/samplingStation> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/treatmentPlant> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterExhaustPoint> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/meter> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/lateralPoint> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterDischargePoint> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/junction> , <http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterServicePoint> ;
+        skos:notation   "WaterAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "WaterAppurtenanceTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/liquidHydrocarbon>
+        a               skos:Concept ;
+        rdfs:label      "vloeibaar koolwaterstof"@nl ;
+        skos:notation   "liquidHydrocarbon" ;
+        skos:prefLabel  "vloeibaar koolwaterstof"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/deliveryPoint>
+        a               skos:Concept ;
+        rdfs:label      "punt van levering"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                97 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "aansluiting"@nl ;
+        skos:notation   "deliveryPoint" ;
+        skos:prefLabel  "punt van levering"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/propylene>
+        a               skos:Concept ;
+        rdfs:label      "propyleen"@nl ;
+        skos:notation   "propylene" ;
+        skos:prefLabel  "propyleen"@nl .
+
+<http://publications.europa.eu/resource/authority/country/TUR>
+        a               skos:Concept ;
+        rdfs:label      "Turkije"@nl ;
+        skos:notation   "TUR" ;
+        skos:prefLabel  "Turkije"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/multiProduct>
+        a               skos:Concept ;
+        rdfs:label      "multi product"@nl ;
+        skos:notation   "multiProduct" ;
+        skos:prefLabel  "multi product"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ThermalAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "ThermalAppurtenanceTypeIMKLValue"@nl ;
+        skos:notation   "ThermalAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "ThermalAppurtenanceTypeIMKLValue"@nl .
+
+<http://data.gwsw.nl/totaal/gemaal>
+        a               skos:Concept ;
+        rdfs:label      "gemaal"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                116 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "pomp"@nl ;
+        skos:notation   "gemaal" ;
+        skos:prefLabel  "gemaal"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/VerticalPositionValue>
+        a               skos:Collection ;
+        rdfs:label      "VerticalPositionValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface> , <http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground> , <http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated> ;
+        skos:notation   "VerticalPositionValue" ;
+        skos:prefLabel  "VerticalPositionValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/generator>
+        a               skos:Concept ;
+        rdfs:label      "generator"@nl ;
+        skos:notation   "generator" ;
+        skos:prefLabel  "generator"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/castIron>
+        a                skos:Concept ;
+        rdfs:label       "gietijzer" @nl;
+        skos:definition  "Iron with a high Carbon content (above 2%). "@nl ;
+        skos:notation    "castIron" ;
+        skos:prefLabel   "gietijzer"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/lateralPoint>
+        a               skos:Concept ;
+        rdfs:label      "lateraal punt"@nl ;
+        skos:notation   "lateralPoint" ;
+        skos:prefLabel  "lateraal punt"@nl .
+
+<http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/authority>
+        a                skos:Concept ;
+        rdfs:label       "autoriteit" @nl;
+        skos:definition  "Een betrokkene die wettelijk is verplicht om toe te zien op een hulpbron en/of bij een hulpbron betrokkenen."@nl ;
+        skos:notation    "authority" ;
+        skos:prefLabel   "autoriteit"@nl .
+
+<http://data.gwsw.nl/totaal/reservoir>
+        a               skos:Concept ;
+        rdfs:label      "reservoir"@nl ;
+        skos:notation   "reservoir" ;
+        skos:prefLabel  "reservoir"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ElectricityAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "ElectricityAppurtenanceTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/generator> , <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/netStation> , <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/subStation> , <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/deliveryPoint> , <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/connectionBox> , <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/streetLight> , <http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/mainStation> ;
+        skos:notation   "ElectricityAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "ElectricityAppurtenanceTypeIMKLValue"@nl .
+
+<http://data.gwsw.nl/totaal/infiltratievoorziening>
+        a               skos:Concept ;
+        rdfs:label      "infiltratievoorziening"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                109 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "infiltratievoorziening"@nl ;
+        skos:notation   "infiltratievoorziening" ;
+        skos:prefLabel  "infiltratievoorziening"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/telecommunications>
+        a               skos:Concept ;
+        rdfs:label      "telecommunicatie"@nl ;
+        skos:notation   "telecommunications" ;
+        skos:prefLabel  "telecommunicatie"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/blackSteel>
+        a                skos:Concept ;
+        rdfs:label       "zwart staal" @nl;
+        skos:definition  "Steel with a surface layer of dark coloured iron oxides. "@nl ;
+        skos:notation    "blackSteel" ;
+        skos:prefLabel   "zwart staal"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/RPMP>
+        a               skos:Concept ;
+        rdfs:label      "reinforced polymer mortar (RPMP)"@nl ;
+        skos:notation   "RPMP" ;
+        skos:prefLabel  "reinforced polymer mortar (RPMP)"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/dichloroethane>
+        a               skos:Concept ;
+        rdfs:label      "dichloorethaan"@nl ;
+        skos:notation   "dichloroethane" ;
+        skos:prefLabel  "dichloorethaan"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/netStation>
+        a               skos:Concept ;
+        rdfs:label      "netstation"@nl ;
+        skos:notation   "netStation" ;
+        skos:prefLabel  "netstation"@nl .
+
+<http://publications.europa.eu/resource/authority/country/IRL>
+        a               skos:Concept ;
+        rdfs:label      "Ierland"@nl ;
+        skos:notation   "IRL" ;
+        skos:prefLabel  "Ierland"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/WarningTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "WarningTypeValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/WarningTypeValue/net> , <http://inspire.ec.europa.eu/codelist/WarningTypeValue/concretePaving> , <http://inspire.ec.europa.eu/codelist/WarningTypeValue/tape> ;
+        skos:notation   "WarningTypeValue" ;
+        skos:prefLabel  "WarningTypeValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/OilGasChemicalsAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "OilGasChemicalsAppurtenanceTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pump> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/storage> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pumpingStation> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/productionRegion> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/marker> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/gasStation> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/oilGasChemicalsNode> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/deliveryPoint> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/terminal> ;
+        skos:notation   "OilGasChemicalsAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "OilGasChemicalsAppurtenanceTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/crude>
+        a               skos:Concept ;
+        rdfs:label      "ruwe olie"@nl ;
+        skos:notation   "crude" ;
+        skos:prefLabel  "ruwe olie"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/chlorine>
+        a               skos:Concept ;
+        rdfs:label      "chloor"@nl ;
+        skos:notation   "chlorine" ;
+        skos:prefLabel  "chloor"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/streetLight>
+        a               skos:Concept ;
+        rdfs:label      "straatverlichting"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                120 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "straatlantaarn"@nl ;
+        skos:notation   "streetLight" ;
+        skos:prefLabel  "straatverlichting"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/thermal>
+        a               skos:Concept ;
+        rdfs:label      "warmte"@nl ;
+        skos:notation   "thermal" ;
+        skos:prefLabel  "warmte"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional>
+        a                skos:Concept ;
+        rdfs:label       "functioneel" @nl;
+        skos:definition  "De faciliteit is functioneel."@nl ;
+        skos:notation    "functional" ;
+        skos:prefLabel   "functioneel"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/thrustProtection>
+        a               skos:Concept ;
+        rdfs:label      "stootbeschermer"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                119 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "stootbeschermer"@nl ;
+        skos:notation   "thrustProtection" ;
+        skos:prefLabel  "stootbeschermer"@nl .
+
+<http://data.gwsw.nl/totaal/openLeiding>
+        a               skos:Concept ;
+        rdfs:label      "open leiding"@nl ;
+        skos:notation   "openLeiding" ;
+        skos:prefLabel  "open leiding"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/gasStation>
+        a               skos:Concept ;
+        rdfs:label      "gasstation"@nl ;
+        skos:notation   "gasStation" ;
+        skos:prefLabel  "gasstation"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ExtraDetailInfoTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "ExtraDetailInfoTypeValue"@nl ;
+        skos:notation   "ExtraDetailInfoTypeValue" ;
+        skos:prefLabel  "ExtraDetailInfoTypeValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/cleanOut>
+        a               skos:Concept ;
+        rdfs:label      "afsluiter"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                100 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "afsluiter"@nl ;
+        skos:notation   "cleanOut" ;
+        skos:prefLabel  "afsluiter"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/storm>
+        a                skos:Concept ;
+        rdfs:label       "hemelwater" @nl;
+        skos:definition  "Regenwater."@nl ;
+        skos:notation    "storm" ;
+        skos:prefLabel   "hemelwater"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/CPVC>
+        a               skos:Concept ;
+        rdfs:label      "chloorpolyvinylchloride (CPVC) "@nl ;
+        skos:notation   "CPVC" ;
+        skos:prefLabel  "chloorpolyvinylchloride (CPVC) "@nl .
+
+<http://publications.europa.eu/resource/authority/country/LUX>
+        a               skos:Concept ;
+        rdfs:label      "Luxemburg"@nl ;
+        skos:notation   "LUX" ;
+        skos:prefLabel  "Luxemburg"@nl .
+
+<http://publications.europa.eu/resource/authority/country/SVK>
+        a               skos:Concept ;
+        rdfs:label      "Slowakije"@nl ;
+        skos:notation   "SVK" ;
+        skos:prefLabel  "Slowakije"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/blackIron>
+        a                skos:Concept ;
+        rdfs:label       "zwart gietijzer" @nl;
+        skos:definition  "Iron without any finish on it, gray-black in color. "@nl ;
+        skos:notation    "blackIron" ;
+        skos:prefLabel   "zwart gietijzer"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterDischargePoint>
+        a               skos:Concept ;
+        rdfs:label      "afvoerpunt"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                97 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "aansluiting"@nl ;
+        skos:notation   "waterDischargePoint" ;
+        skos:prefLabel  "afvoerpunt"@nl .
+
+<http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/underground>
+        a                skos:Concept ;
+        rdfs:label       "ondergronds" @nl;
+        skos:definition  "Het ruimtelijk object bevindt zich ondergronds."@nl ;
+        skos:notation    "underground" ;
+        skos:prefLabel   "ondergronds"@nl .
+
+<http://data.gwsw.nl/totaal/hemelwaterriool>
+        a               skos:Concept ;
+        rdfs:label      "hemelwaterriool"@nl ;
+        skos:notation   "hemelwaterriool" ;
+        skos:prefLabel  "hemelwaterriool"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/DiepteAangrijpingspuntValue>
+        a               skos:Collection ;
+        rdfs:label      "DiepteAangrijpingspuntValue"@nl ;
+        skos:notation   "DiepteAangrijpingspuntValue" ;
+        skos:prefLabel  "DiepteAangrijpingspuntValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/compositeConcrete>
+        a               skos:Concept ;
+        rdfs:label      "composiet beton"@nl ;
+        skos:notation   "compositeConcrete" ;
+        skos:prefLabel  "composiet beton"@nl .
+
+<http://publications.europa.eu/resource/authority/country/LVA>
+        a               skos:Concept ;
+        rdfs:label      "Letland"@nl ;
+        skos:notation   "LVA" ;
+        skos:prefLabel  "Letland"@nl .
+
+<http://publications.europa.eu/resource/authority/country/LTU>
+        a               skos:Concept ;
+        rdfs:label      "Litouwen"@nl ;
+        skos:notation   "LTU" ;
+        skos:prefLabel  "Litouwen"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pumpStation>
+        a               skos:Concept ;
+        rdfs:label      "pompstation"@nl ;
+        skos:notation   "pumpStation" ;
+        skos:prefLabel  "pompstation"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AnnotatieTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "AnnotatieTypeValue"@nl ;
+        skos:notation   "AnnotatieTypeValue" ;
+        skos:prefLabel  "AnnotatieTypeValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/FRP>
+        a               skos:Concept ;
+        rdfs:label      "vezelversterkte kunststoffen"@nl ;
+        skos:notation   "FRP" ;
+        skos:prefLabel  "vezelversterkte kunststoffen"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/TopografischObjectTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "TopografischObjectTypeValue"@nl ;
+        skos:notation   "TopografischObjectTypeValue" ;
+        skos:prefLabel  "TopografischObjectTypeValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/waterServicePoint>
+        a               skos:Concept ;
+        rdfs:label      "toevoerpunt"@nl ;
+        skos:notation   "waterServicePoint" ;
+        skos:prefLabel  "toevoerpunt"@nl .
+
+<http://data.gwsw.nl/totaal/zinker>
+        a               skos:Concept ;
+        rdfs:label      "zinker"@nl ;
+        skos:notation   "zinker" ;
+        skos:prefLabel  "zinker"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PB>
+        a               skos:Concept ;
+        rdfs:label      "polybutyleen (PB)"@nl ;
+        skos:notation   "PB" ;
+        skos:prefLabel  "polybutyleen (PB)"@nl .
+
+<http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown>
+        a                skos:Concept ;
+        rdfs:label       "waarde onbekend" @nl;
+        skos:definition  "The correct value for the specific spatial object is not known to, and not computable by, the data provider. However, a correct value may exist."@nl ;
+        skos:notation    "Unknown" ;
+        skos:prefLabel   "waarde onbekend"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/OilGasChemicalsProductTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "OilGasChemicalsProductTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/kerosene> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/accetone> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/saltWater> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/naturalGas> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/propylene> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/gasFabricationOfCocs> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/gasHFx> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/liquidHydrocarbon> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/carbonMonoxide> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/propane> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/JET-A1> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/gasoil> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/butadiene1,3> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/chlorine> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/butane> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/MVC> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/phenol> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/crude> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/nitrogen> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/hydrogen> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/dichloroethane> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/argon> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/diesel> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/oxygen> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/isobutane> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/multiProduct> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/liquidAmmonia> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/ethylene> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/air> , <http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/saumur> ;
+        skos:notation   "OilGasChemicalsProductTypeIMKLValue" ;
+        skos:prefLabel  "OilGasChemicalsProductTypeIMKLValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/TelecommunicationsCableMaterialTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "TelecommunicationsCableMaterialTypeIMKLValue"@nl ;
+        skos:notation   "TelecommunicationsCableMaterialTypeIMKLValue" ;
+        skos:prefLabel  "TelecommunicationsCableMaterialTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/butadiene1,3>
+        a               skos:Concept ;
+        rdfs:label      "butadiene1,3"@nl ;
+        skos:notation   "butadiene1,3" ;
+        skos:prefLabel  "butadiene1,3"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/terminal>
+        a               skos:Concept ;
+        rdfs:label      "terminal"@nl ;
+        skos:notation   "terminal" ;
+        skos:prefLabel  "terminal"@nl .
+
+<http://data.gwsw.nl/totaal/bergingsleiding>
+        a               skos:Concept ;
+        rdfs:label      "bergingsleiding"@nl ;
+        skos:notation   "bergingsleiding" ;
+        skos:prefLabel  "bergingsleiding"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/saltWater>
+        a               skos:Concept ;
+        rdfs:label      "zout water"@nl ;
+        skos:notation   "saltWater" ;
+        skos:prefLabel  "zout water"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ConditionOfFacilityIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "Toestand faciliteit" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional> , <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/disused> , <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected> ;
+        skos:notation   "ConditionOfFacilityIMKLValue" ;
+        skos:prefLabel  "Toestand faciliteit"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/Thema>
+        a               skos:Collection ;
+        rdfs:label      "Thema"@nl ;
+        skos:notation   "Thema" ;
+        skos:prefLabel  "Thema"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/hydrogen>
+        a               skos:Concept ;
+        rdfs:label      "waterstof"@nl ;
+        skos:notation   "hydrogen" ;
+        skos:prefLabel  "waterstof"@nl .
+
+<http://publications.europa.eu/resource/authority/country/HUN>
+        a               skos:Concept ;
+        rdfs:label      "Hongarije"@nl ;
+        skos:notation   "HUN" ;
+        skos:prefLabel  "Hongarije"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/disused>
+        a                skos:Concept ;
+        rdfs:label       "buiten gebruik" @nl;
+        skos:definition  "De faciliteit wordt niet meer gebruikt, maar wordt niet of is niet ontmanteld."@nl ;
+        skos:notation    "disused" ;
+        skos:prefLabel   "buiten gebruik"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/sewer>
+        a               skos:Concept ;
+        rdfs:label      "riolering"@nl ;
+        skos:notation   "sewer" ;
+        skos:prefLabel  "riolering"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected>
+        a                skos:Concept ;
+        rdfs:label       "geprojecteerd" @nl;
+        skos:definition  "De faciliteit wordt ontworpen. De bouwwerkzaamheden zijn nog niet begonnen."@nl ;
+        skos:notation    "projected" ;
+        skos:prefLabel   "geprojecteerd"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/gasFabricationOfCocs>
+        a               skos:Concept ;
+        rdfs:label      "gas fabrication of cocs"@nl ;
+        skos:notation   "gasFabricationOfCocs" ;
+        skos:prefLabel  "gas fabrication of cocs"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/samplingStation>
+        a               skos:Concept ;
+        rdfs:label      "meetstation"@nl ;
+        skos:notation   "samplingStation" ;
+        skos:prefLabel  "meetstation"@nl .
+
+<http://publications.europa.eu/resource/authority/country/MNE>
+        a               skos:Concept ;
+        rdfs:label      "Montenegro"@nl ;
+        skos:notation   "MNE" ;
+        skos:prefLabel  "Montenegro"@nl .
+
+<http://data.gwsw.nl/totaal/stuwrioolleiding>
+        a               skos:Concept ;
+        rdfs:label      "stuwrioolleiding"@nl ;
+        skos:notation   "stuwrioolleiding" ;
+        skos:prefLabel  "stuwrioolleiding"@nl .
+
+<http://publications.europa.eu/resource/authority/country/PRT>
+        a               skos:Concept ;
+        rdfs:label      "Portugal"@nl ;
+        skos:notation   "PRT" ;
+        skos:prefLabel  "Portugal"@nl .
+
+<http://publications.europa.eu/resource/authority/country/ROU>
+        a               skos:Concept ;
+        rdfs:label      "Roemenië"@nl ;
+        skos:notation   "ROU" ;
+        skos:prefLabel  "Roemenië"@nl .
+
+<http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld>
+        a                skos:Concept ;
+        rdfs:label       "niet geautoriseerd" @nl;
+        skos:definition  "The characteristic may exist, but is confidential and not divulged by the data provider."@nl ;
+        skos:notation    "Withheld" ;
+        skos:prefLabel   "niet geautoriseerd"@nl .
+
+<http://publications.europa.eu/resource/authority/country/SVN>
+        a               skos:Concept ;
+        rdfs:label      "Slovenië"@nl ;
+        skos:notation   "SVN" ;
+        skos:prefLabel  "Slovenië"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WarningTypeValue/net>
+        a                skos:Concept ;
+        rdfs:label       "net" @nl;
+        skos:definition  "Waarschuwingsnet ter bescherming van kabels en pijpleidingen."@nl ;
+        skos:notation    "net" ;
+        skos:prefLabel   "net"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/combined>
+        a                skos:Concept ;
+        rdfs:label       "gemengd" @nl;
+        skos:definition  "Gecombineerd afvalwater."@nl ;
+        skos:notation    "combined" ;
+        skos:prefLabel   "gemengd"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/WaterTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "WaterTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/WaterTypeValue/raw> , <http://inspire.ec.europa.eu/codelist/WaterTypeValue/potable> , <http://inspire.ec.europa.eu/codelist/WaterTypeValue/treated> , <http://inspire.ec.europa.eu/codelist/WaterTypeValue/salt> ;
+        skos:notation   "WaterTypeIMKLValue" ;
+        skos:prefLabel  "WaterTypeIMKLValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/KleurKabelOfLeidingValue>
+        a               skos:Collection ;
+        rdfs:label      "KleurKabelOfLeidingValue"@nl ;
+        skos:notation   "KleurKabelOfLeidingValue" ;
+        skos:prefLabel  "KleurKabelOfLeidingValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/oilGasChemicalsNode>
+        a                skos:Concept ;
+        rdfs:label       "olie-, gas- of chemicaliënnode" @nl;
+        skos:definition  "Knooppunt in een olie-, gas- en chemicaliënnet."@nl ;
+        skos:notation    "oilGasChemicalsNode" ;
+        skos:prefLabel   "olie-, gas- of chemicaliënnode"@nl .
+
+<http://publications.europa.eu/resource/authority/country/NLD>
+        a               skos:Concept ;
+        rdfs:label      "Nederland"@nl ;
+        skos:notation   "NLD" ;
+        skos:prefLabel  "Nederland"@nl .
+
+<http://publications.europa.eu/resource/authority/country/CZE>
+        a               skos:Concept ;
+        rdfs:label      "Tsjechië"@nl ;
+        skos:notation   "CZE" ;
+        skos:prefLabel  "Tsjechië"@nl .
+
+<http://data.gwsw.nl/totaal/overstortleiding>
+        a               skos:Concept ;
+        rdfs:label      "overstortleiding"@nl ;
+        skos:notation   "overstortleiding" ;
+        skos:prefLabel  "overstortleiding"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/ABS>
+        a               skos:Concept ;
+        rdfs:label      "acrylonitrile butadiene styrene (ABS) "@nl ;
+        skos:notation   "ABS" ;
+        skos:prefLabel  "acrylonitrile butadiene styrene (ABS) "@nl .
+
+<http://publications.europa.eu/resource/authority/country/ESP>
+        a               skos:Concept ;
+        rdfs:label      "Spanje"@nl ;
+        skos:notation   "ESP" ;
+        skos:prefLabel  "Spanje"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerWaterTypeValue/sanitary>
+        a                skos:Concept ;
+        rdfs:label       "huishoudelijk afvalwater" @nl;
+        skos:definition  "Huishoudelijk afvalwater."@nl ;
+        skos:notation    "sanitary" ;
+        skos:prefLabel   "huishoudelijk afvalwater"@nl .
+
+<http://data.gwsw.nl/totaal/vuilwaterriool>
+        a               skos:Concept ;
+        rdfs:label      "vuilwaterriool"@nl ;
+        skos:notation   "vuilwaterriool" ;
+        skos:prefLabel  "vuilwaterriool"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PE>
+        a               skos:Concept ;
+        rdfs:label      "polyethyleen (PE)"@nl ;
+        skos:notation   "PE" ;
+        skos:prefLabel  "polyethyleen (PE)"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/JET-A1>
+        a               skos:Concept ;
+        rdfs:label      "JET-A1"@nl ;
+        skos:notation   "JET-A1" ;
+        skos:prefLabel  "JET-A1"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/NauwkeurigheidDiepteValue>
+        a               skos:Collection ;
+        rdfs:label      "NauwkeurigheidDiepteValue"@nl ;
+        skos:notation   "NauwkeurigheidDiepteValue" ;
+        skos:prefLabel  "NauwkeurigheidDiepteValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/gasoil>
+        a               skos:Concept ;
+        rdfs:label      "diesel"@nl ;
+        skos:notation   "gasoil" ;
+        skos:prefLabel  "diesel"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/asbestos>
+        a               skos:Concept ;
+        rdfs:label      "asbest"@nl ;
+        skos:notation   "asbestos" ;
+        skos:prefLabel  "asbest"@nl .
+
+<http://publications.europa.eu/resource/authority/country/DNK>
+        a               skos:Concept ;
+        rdfs:label      "Denemarken"@nl ;
+        skos:notation   "DNK" ;
+        skos:prefLabel  "Denemarken"@nl .
+
+<http://publications.europa.eu/resource/authority/country/MLT>
+        a               skos:Concept ;
+        rdfs:label      "Malta"@nl ;
+        skos:notation   "MLT" ;
+        skos:prefLabel  "Malta"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/NauwkeurigheidXYvalue>
+        a               skos:Collection ;
+        rdfs:label      "NauwkeurigheidXYvalue"@nl ;
+        skos:notation   "NauwkeurigheidXYvalue" ;
+        skos:prefLabel  "NauwkeurigheidXYvalue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/private>
+        a                skos:Concept ;
+        rdfs:label       "particulier" @nl;
+        skos:definition  "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd via een klein particulier net (dat bv. eigendom is van een particulier bedrijf)."@nl ;
+        skos:notation    "private" ;
+        skos:prefLabel   "particulier"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/nitrogen>
+        a               skos:Concept ;
+        rdfs:label      "stikstof"@nl ;
+        skos:notation   "nitrogen" ;
+        skos:prefLabel  "stikstof"@nl .
+
+<http://data.gwsw.nl/totaal/kunstwerk>
+        a               skos:Concept ;
+        rdfs:label      "kunstwerk"@nl ;
+        skos:notation   "kunstwerk" ;
+        skos:prefLabel  "kunstwerk"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/pressureController>
+        a               skos:Concept ;
+        rdfs:label      "drukregelaar"@nl ;
+        skos:notation   "pressureController" ;
+        skos:prefLabel  "drukregelaar"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityDeliveryTypeValue/transport>
+        a                skos:Concept ;
+        rdfs:label       "transport" @nl;
+        skos:definition  "Beschrijving van een nutsvoorzieningennet waarbij het nutsproduct wordt aangeleverd via een groot vervoernet (bv. voor het overbrengen van olie-, gas- of chemische producten over grotere afstanden)."@nl ;
+        skos:notation    "transport" ;
+        skos:prefLabel   "transport"@nl .
+
+<http://data.gwsw.nl/totaal/doorlatendeleiding>
+        a               skos:Concept ;
+        rdfs:label      "doorlatendeleiding"@nl ;
+        skos:notation   "doorlatendeleiding" ;
+        skos:prefLabel  "doorlatendeleiding"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/gasHFx>
+        a               skos:Concept ;
+        rdfs:label      "gasHFx"@nl ;
+        skos:notation   "gasHFx" ;
+        skos:prefLabel  "gasHFx"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/pumpingStation>
+        a               skos:Concept ;
+        rdfs:label      "pompstation"@nl ;
+        skos:notation   "pumpingStation" ;
+        skos:prefLabel  "pompstation"@nl .
+
+<http://publications.europa.eu/resource/authority/country/GBR>
+        a               skos:Concept ;
+        rdfs:label      "Verenigd Koninkrijk"@nl ;
+        skos:notation   "GBR" ;
+        skos:prefLabel  "Verenigd Koninkrijk"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/isobutane>
+        a               skos:Concept ;
+        rdfs:label      "isobutaan"@nl ;
+        skos:notation   "isobutane" ;
+        skos:prefLabel  "isobutaan"@nl .
+
+<http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator>
+        a                skos:Concept ;
+        rdfs:label       "exploitant" @nl;
+        skos:definition  "Een betrokkene die een hulpbron beheert."@nl ;
+        skos:notation    "operator" ;
+        skos:prefLabel   "exploitant"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/air>
+        a               skos:Concept ;
+        rdfs:label      "lucht"@nl ;
+        skos:notation   "air" ;
+        skos:prefLabel  "lucht"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/prestressedReinforcedConcrete>
+        a               skos:Concept ;
+        rdfs:label      "prestressed reinforced concrete"@nl ;
+        skos:notation   "prestressedReinforcedConcrete" ;
+        skos:prefLabel  "prestressed reinforced concrete"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/specificStructure>
+        a               skos:Concept ;
+        rdfs:label      "specifieke structuur"@nl ;
+        skos:notation   "specificStructure" ;
+        skos:prefLabel  "specifieke structuur"@nl .
+
+<http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/owner>
+        a                skos:Concept ;
+        rdfs:label       "eigenaar" @nl;
+        skos:definition  "Een betrokkene die een hulpbron bezit, d.w.z. aan wie een hulpbron wettelijk toebehoort."@nl ;
+        skos:notation    "owner" ;
+        skos:prefLabel   "eigenaar"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/marker>
+        a               skos:Concept ;
+        rdfs:label      "markering"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                112 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "markering"@nl ;
+        skos:notation   "marker" ;
+        skos:prefLabel  "markering"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaximaleWerkdiepteValue>
+        a               skos:Collection ;
+        rdfs:label      "MaximaleWerkdiepteValue"@nl ;
+        skos:notation   "MaximaleWerkdiepteValue" ;
+        skos:prefLabel  "MaximaleWerkdiepteValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/kerosene>
+        a               skos:Concept ;
+        rdfs:label      "kerosine"@nl ;
+        skos:notation   "kerosene" ;
+        skos:prefLabel  "kerosine"@nl .
+
+<http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/suspendedOrElevated>
+        a                skos:Concept ;
+        rdfs:label       "boven maaiveld" @nl;
+        skos:definition  "Het ruimtelijk object bevindt zich op een hoogte."@nl ;
+        skos:notation    "suspendedOrElevated" ;
+        skos:prefLabel   "boven maaiveld"@nl .
+
+<http://publications.europa.eu/resource/authority/country/MKD>
+        a               skos:Concept ;
+        rdfs:label      "Noord-Macedonië"@nl ;
+        skos:notation   "MKD" ;
+        skos:prefLabel  "Noord-Macedonië"@nl .
+
+<http://publications.europa.eu/resource/authority/country/SRB>
+        a               skos:Concept ;
+        rdfs:label      "Servië"@nl ;
+        skos:notation   "SRB" ;
+        skos:prefLabel  "Servië"@nl .
+
+<http://inspire.ec.europa.eu/enumeration/VerticalPositionValue/onGroundSurface>
+        a                skos:Concept ;
+        rdfs:label       "op maaiveld" @nl;
+        skos:definition  "Het ruimtelijk object bevindt zich op het maaiveld."@nl ;
+        skos:notation    "onGroundSurface" ;
+        skos:prefLabel   "op maaiveld"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/BuisleidingTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "BuisleidingTypeValue"@nl ;
+        skos:notation   "BuisleidingTypeValue" ;
+        skos:prefLabel  "BuisleidingTypeValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/RelatedPartyRoleValue>
+        a               skos:Collection ;
+        rdfs:label      "RelatedPartyRoleValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/owner> , <http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/operator> , <http://inspire.ec.europa.eu/codelist/RelatedPartyRoleValue/authority> ;
+        skos:notation   "RelatedPartyRoleValue" ;
+        skos:prefLabel  "RelatedPartyRoleValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/SoortWerkzaamhedenValue>
+        a               skos:Collection ;
+        rdfs:label      "SoortWerkzaamhedenValue"@nl ;
+        skos:notation   "SoortWerkzaamhedenValue" ;
+        skos:prefLabel  "SoortWerkzaamhedenValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/UtilityNetworkTypeValue/oilGasChemical>
+        a               skos:Concept ;
+        rdfs:label      "olie, gas of chemicaliën"@nl ;
+        skos:notation   "oilGasChemical" ;
+        skos:prefLabel  "olie, gas of chemicaliën"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/VoidReasonValue>
+        a               skos:Collection ;
+        rdfs:label      "VoidReasonValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown> , <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unpopulated> , <http://inspire.ec.europa.eu/codelist/VoidReasonValue/Withheld> ;
+        skos:notation   "VoidReasonValue" ;
+        skos:prefLabel  "VoidReasonValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/connection>
+        a               skos:Concept ;
+        rdfs:label      "aansluiting"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                97 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "aansluiting"@nl ;
+        skos:notation   "connection" ;
+        skos:prefLabel  "aansluiting"@nl .
+
+<http://publications.europa.eu/resource/authority/country/ITA>
+        a               skos:Concept ;
+        rdfs:label      "Italië"@nl ;
+        skos:notation   "ITA" ;
+        skos:prefLabel  "Italië"@nl .
+
+<http://publications.europa.eu/resource/authority/country/FIN>
+        a               skos:Concept ;
+        rdfs:label      "Finland"@nl ;
+        skos:notation   "FIN" ;
+        skos:prefLabel  "Finland"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/productionRegion>
+        a               skos:Concept ;
+        rdfs:label      "productiegebied"@nl ;
+        skos:notation   "productionRegion" ;
+        skos:prefLabel  "productiegebied"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/storageFacility>
+        a                skos:Concept ;
+        rdfs:label       "opslagfaciliteit" @nl;
+        skos:definition  "Afgesloten opslagfaciliteit."@nl ;
+        skos:notation    "storageFacility" ;
+        skos:prefLabel   "opslagfaciliteit"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PP>
+        a               skos:Concept ;
+        rdfs:label      "polypropyleen (PP)"@nl ;
+        skos:notation   "PP" ;
+        skos:prefLabel  "polypropyleen (PP)"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/meter>
+        a               skos:Concept ;
+        rdfs:label      "meter"@nl ;
+        skos:notation   "meter" ;
+        skos:prefLabel  "meter"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/EffectScenarioType>
+        a               skos:Collection ;
+        rdfs:label      "EffectScenarioType"@nl ;
+        skos:notation   "EffectScenarioType" ;
+        skos:prefLabel  "EffectScenarioType"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/BestandMediaTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "BestandMediaTypeValue"@nl ;
+        skos:notation   "BestandMediaTypeValue" ;
+        skos:prefLabel  "BestandMediaTypeValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/GraafmethodeValue>
+        a               skos:Collection ;
+        rdfs:label      "GraafmethodeValue"@nl ;
+        skos:notation   "GraafmethodeValue" ;
+        skos:prefLabel  "GraafmethodeValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/treatmentPlant>
+        a               skos:Concept ;
+        rdfs:label      "zuiveringsinstallatie"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                97 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "aansluiting"@nl ;
+        skos:notation   "treatmentPlant" ;
+        skos:prefLabel  "zuiveringsinstallatie"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/masonry>
+        a               skos:Concept ;
+        rdfs:label      "metselwerk"@nl ;
+        skos:notation   "masonry" ;
+        skos:prefLabel  "metselwerk"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/concrete>
+        a               skos:Concept ;
+        rdfs:label      "beton"@nl ;
+        skos:notation   "concrete" ;
+        skos:prefLabel  "beton"@nl .
+
+<http://data.gwsw.nl/totaal/inspectieput>
+        a               skos:Concept ;
+        rdfs:label      "inspectieput"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                117 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "put"@nl ;
+        skos:notation   "inspectieput" ;
+        skos:prefLabel  "inspectieput"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/accetone>
+        a               skos:Concept ;
+        rdfs:label      "aceton"@nl ;
+        skos:notation   "accetone" ;
+        skos:prefLabel  "aceton"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/reinforcedConcrete>
+        a               skos:Concept ;
+        rdfs:label      "gewapend beton"@nl ;
+        skos:notation   "reinforcedConcrete" ;
+        skos:prefLabel  "gewapend beton"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/anode>
+        a               skos:Concept ;
+        rdfs:label      "anode"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                101 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "anode"@nl ;
+        skos:notation   "anode" ;
+        skos:prefLabel  "anode"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/AchtergrondkaartSoortValue>
+        a               skos:Collection ;
+        rdfs:label      "AchtergrondkaartSoortValue"@nl ;
+        skos:notation   "AchtergrondkaartSoortValue" ;
+        skos:prefLabel  "AchtergrondkaartSoortValue"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/SewerAppurtenanceTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "SewerAppurtenanceTypeIMKLValue" @nl;
+        skos:member     <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/catchBasin> , <http://data.gwsw.nl/totaal/inspectieput> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/watertankOrChamber> , <http://data.gwsw.nl/totaal/kolk> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/tideGate> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/dischargeStructure> , <http://data.gwsw.nl/totaal/reservoir> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/specificStructure> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/connection> , <http://data.gwsw.nl/totaal/infiltratievoorziening> , <http://data.gwsw.nl/totaal/uitlaatconstructie> , <http://data.gwsw.nl/totaal/kunstwerk> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/cleanOut> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/barrel> , <http://inspire.ec.europa.eu/codelist/SewerAppurtenanceTypeValue/thrustProtection> , <http://data.gwsw.nl/totaal/gemaal> ;
+        skos:notation   "SewerAppurtenanceTypeIMKLValue" ;
+        skos:prefLabel  "SewerAppurtenanceTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsAppurtenanceTypeValue/deliveryPoint>
+        a               skos:Concept ;
+        rdfs:label      "punt van levering"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                97 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "aansluiting"@nl ;
+        skos:notation   "deliveryPoint" ;
+        skos:prefLabel  "punt van levering"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/junction>
+        a               skos:Concept ;
+        rdfs:label      "knooppunt"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                117 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "put"@nl ;
+        skos:notation   "junction" ;
+        skos:prefLabel  "knooppunt"@nl .
+
+<http://publications.europa.eu/resource/authority/country/GRC>
+        a               skos:Concept ;
+        rdfs:label      "Griekenland"@nl ;
+        skos:notation   "GRC" ;
+        skos:prefLabel  "Griekenland"@nl .
+
+<http://data.gwsw.nl/totaal/gemengdRiool>
+        a               skos:Concept ;
+        rdfs:label      "gemengd riool"@nl ;
+        skos:notation   "gemengdRiool" ;
+        skos:prefLabel  "gemengd riool"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterAppurtenanceTypeValue/fireHydrant>
+        a               skos:Concept ;
+        rdfs:label      "brandkraan"@nl ;
+        <http://definities.geostandaarden.nl/def/imkl2015#icon>
+                103 ;
+        <http://definities.geostandaarden.nl/def/imkl2015#symbol>
+                "brandkraan"@nl ;
+        skos:notation   "fireHydrant" ;
+        skos:prefLabel  "brandkraan"@nl .
+
+<http://inspire.ec.europa.eu/codelist/WaterTypeValue/treated>
+        a                skos:Concept ;
+        rdfs:label       "behandeld" @nl;
+        skos:definition  "Behandeld water."@nl ;
+        skos:notation    "treated" ;
+        skos:prefLabel   "behandeld"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/propane>
+        a               skos:Concept ;
+        rdfs:label      "propaan"@nl ;
+        skos:notation   "propane" ;
+        skos:prefLabel  "propaan"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/PipeMaterialTypeIMKLValue>
+        a               skos:Collection ;
+        rdfs:label      "PipeMaterialTypeIMKLValue" @nl;
+        skos:member     <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PE> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/ABS> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/reinforcedConcrete> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/galvanizedSteel> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/masonry> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/prestressedReinforcedConcrete> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/steel> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/blackIron> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/clay> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PP> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PEX> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/FRP> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/wood> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/blackSteel> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PB> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/compositeConcrete> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/concrete> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/castIron> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/PVC> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/asbestos> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/RPMP> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/CPVC> , <http://definities.geostandaarden.nl/imkl2015/id/waarde/PipeMaterialTypeIMKLValue/terracotta> ;
+        skos:notation   "PipeMaterialTypeIMKLValue" ;
+        skos:prefLabel  "PipeMaterialTypeIMKLValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/ElectricityAppurtenanceTypeValue/connectionBox>
+        a               skos:Concept ;
+        rdfs:label      "aansluitkast"@nl ;
+        skos:notation   "connectionBox" ;
+        skos:prefLabel  "aansluitkast"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/liquidAmmonia>
+        a               skos:Concept ;
+        rdfs:label      "vloeibaar amoniak"@nl ;
+        skos:notation   "liquidAmmonia" ;
+        skos:prefLabel  "vloeibaar amoniak"@nl .
+
+<http://definities.geostandaarden.nl/imkl2015/id/waardelijst/MaatvoeringsTypeValue>
+        a               skos:Collection ;
+        rdfs:label      "MaatvoeringsTypeValue"@nl ;
+        skos:notation   "MaatvoeringsTypeValue" ;
+        skos:prefLabel  "MaatvoeringsTypeValue"@nl .
+
+<http://inspire.ec.europa.eu/codelist/OilGasChemicalsProductTypeValue/ethylene>
+        a               skos:Concept ;
+        rdfs:label      "ethyleen"@nl ;
+        skos:notation   "ethylene" ;
+        skos:prefLabel  "ethyleen"@nl .
