@@ -8,7 +8,7 @@ is. De volgende lijst geeft alle onderdelen:
 
 -   IMKL object-attributen-ExtraRegels (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl)): Excel-document met alle IMKL objecten, alle attributen en associaties en extra modelregels die daar op van toepassing zijn;
 
--	IMKL begrippenkader: Alle termen en definities van IMKL model gepubliceerd in rdf, turtle en json. Termen zijn zowel in Nederlands als in de technische naamgeving. Publicatie daarvan via [definities.geostandaarden.nl/imkl](https://definities.geostandaarden.nl/imkl) ;
+-	IMKL begrippenkader: Alle termen en definities van IMKL model gepubliceerd in rdf, turtle en json. Termen zijn zowel in Nederlands als in de technische naamgeving. Publicatie daarvan via [definities.geostandaarden.nl](https://definities.geostandaarden.nl/) ;
 
 -   IMKL – waardelijsten (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl)) : Waardelijsten behorend bij het IMKL model;
 
