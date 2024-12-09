@@ -166,7 +166,7 @@ beschreven.</figcaption>
 ## Normatieve referenties
 
 
--   [Raamwerk Geo-standaarden 3.0](https://www.geonovum.nl/documents/raamwerk-geo-standaarden-v30pdf).
+-   [Raamwerk Geo-standaarden 4.0](https://docs.geostandaarden.nl/rwgs/rw/).
 
 -	[MIM - Metamodel Informatie Modellering, versie 1.2](https://docs.geostandaarden.nl/mim/def-st-mim-20240613/)
 
