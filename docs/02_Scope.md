@@ -24,6 +24,8 @@ uit verschillende wetgevingen, regelingen en processen. Deze zijn:
     Dataspecificaties voor uitwisseling kabel en leidingen informatie voor de
     netten: datatransport, riolering, water, elektriciteit, gas, warmte en
     andere kabels & leidingen.
+	
+> [!NOTE]**Het hieronder volgende besluit BevB en het bijbehorende register RRGS was onderdeel van de beschrijvende data scope van IMKL tot aan versie 1.2. Voor deze IMKL versie is dat niet meer zo.**
 
 -   **Besluit externe veiligheid buisleidingen (BevB):** Besluit houdende
     milieukwaliteitseisen externe veiligheid voor het vervoer van gevaarlijke

@@ -10,6 +10,8 @@ klassediagrammen wordt het model beschreven.
 In de volgende paragrafen wordt de inhoud en structuur van het IMKL beschreven
 middels UML diagrammen en een bijbehorende objectcatalogus.
 
+> [!note]** OPMERKING. Aanpassen door Buiseleidingen Risicoregister en Stedelijk water weg telaten of te benoemen dat ze niet zijn  meegenomen in deze update.**
+
 De verschillende uitwisselprocessen WIBON, Buisleidingen voor Risicoregister en
 Stedelijk water worden in aparte paragrafen behandeld. Dit resulteert in drie
 deelmodellen respectievelijk benoemd als:  
@@ -1553,6 +1555,8 @@ uitgewisseld worden omdat er dan slechts 1 versie hoeft te worden uitgewisseld.
 
 Andere toepassingen van IMKL
 -----------------------------
+
+> [!NOTE] **OPMERKING: Deze paragrafen kunnen weg. Of moeten we deze wel laten staan en benoemen dat deze niet meegenomen zijn in de 2.0 update?**
 
 IMKL beschrijft het totaal aan informatie die voorziet in een aantal
 dataleveringsprocessen. Naast WIBON en INSPIRE utilities zijn dat Buisleidingen

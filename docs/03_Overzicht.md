@@ -50,14 +50,15 @@ representatie.
 Een utiliteitsnet wordt beschreven door de ligging en topologie van de
 netelementen maar ook door beschrijvende informatie over type utiliteitsnet (het
 thema), verantwoordelijke organisaties, type product, type leiding en velerlei
-relevante directe, gerelateerde of afgeleide kenmerken en eigenschappen. Voor de
-bepaling van het domein in relatie tot de opgenomen eigenschappen staan een
+relevante directe, gerelateerde of afgeleide kenmerken en eigenschappen. 
+
+> [!NOTE] **AANPASSEN: Voor de bepaling van het domein in relatie tot de opgenomen eigenschappen staan een
 aantal data-uitwisselingsprocessen centraal: INSPIRE Utilities, WIBON,
 Risicoregister Gevaarlijke Stoffen, Stedelijk afvalwater. Al deze processen
 stellen eisen aan begrippenkaders in relatie tot utiliteitsnetten en de
 onderdelen daarvan. IMKL integreert de begrippenkaders voor deze verschillende
 processen en creëert hiermee een basis voor synergie in de
-data-uitwisselingsprocessen.
+data-uitwisselingsprocessen.**
 
 
 <!-- Jouw manier ![Plaatje](./media/2d104aab4bf4bcf7f08c51f2274af36f.png) -->
@@ -71,6 +72,7 @@ Buisleidingen gevaarlijke inhoud (Risicoregister gevaarlijke stoffen). WIBON
 integreert ook de Europese wetgeving EC61: Richtlijn kostenreductie breedband.</figcaption>
 </figure>
 
+> [!NOTE] **OPMERKING. Aanpassen voor SWater en BevB profiel.**
 
 Bij de implementatie van IMKL wordt er voor elk dataleveringsproces een apart
 profiel gemaakt. Elk profiel bevat alleen die informatie die bij dat profiel
