@@ -7,6 +7,9 @@
 
 Changelog in rc3:
 
+2025-01-28:
+Mantelbuis: attribuut eigenaar kwam 2 keer voor. Nu nog 1 keer.
+
 2025-01-28 WilkoQuak: INSPIRE en opengis schemalocations van http naar https.
 
 Changelog eerder:
@@ -1192,10 +1195,7 @@ deleted attribute: postbusadres
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 	</complexType>
 	<element name="Mantelbuis" type="wibon:MantelbuisType" substitutionGroup="us-net-common:Pipe">
-		<!-- addapted 4-3.0 -->
 	</element>
-	<element name="eigenaar" type="boolean"/>
-	<!-- end adapted -->
 	<complexType name="MantelbuisType">
 		<complexContent>
 			<extension base="us-net-common:PipeType">
