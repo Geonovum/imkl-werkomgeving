@@ -2,9 +2,14 @@
 
 <!-- 
 ===================================================	
-	IMKL-WIBON versie 3.0rc2 - Geonovum, 2024
+	IMKL-WIBON versie 3.0rc3 - Geonovum, 2025
 ===================================================
-Changelog.
+
+Changelog in rc3:
+
+2025-01-28 WilkoQuak: INSPIRE en opengis schemalocations van http naar https.
+
+Changelog eerder:
 
 General: Changes to the 2.0.0 schema are indicated by "adapted 4-3.0".
 Startversion is imkl-wibon.xsd version 2.0.0 published on https://register.geostandaarden.nl/gmlapplicatieschema/imkl/2.0.0/imkl-wibon.xsd
@@ -110,23 +115,23 @@ deleted attribute: postbusadres
 	targetNamespace="http://www.geostandaarden.nl/imkl/wibon" elementFormDefault="qualified"
 	version="2.0.0">
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-el/4.0/ElectricityNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-ogc/4.0/OilGasChemicalsNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-sw/4.0/SewerNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-tc/4.0/TelecommunicationsNetwork.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-tc/4.0/TelecommunicationsNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-th/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-th/4.0/ThermalNetwork.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0"
-		schemaLocation="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd"/>
+		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-wa/4.0/WaterNetwork.xsd"/>
 	<import namespace="http://www.opengis.net/gml/3.2"
-		schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+		schemaLocation="https://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 	<import namespace="http://www.opengis.net/gml/3.3/exr"
-		schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
+		schemaLocation="https://schemas.opengis.net/gml/3.3/extdEncRule.xsd"/>
 	<!--XML Schema document created by ShapeChange - http://shapechange.net/-->
 	<element name="AanduidingEisVoorzorgsmaatregel" type="wibon:AanduidingEisVoorzorgsmaatregelType"
 		substitutionGroup="wibon:ExtraInformatie"> </element>
