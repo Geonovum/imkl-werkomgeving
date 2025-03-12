@@ -10,21 +10,6 @@ klassediagrammen wordt het model beschreven.
 In de volgende paragrafen wordt de inhoud en structuur van het IMKL beschreven
 middels UML diagrammen en een bijbehorende objectcatalogus.
 
-> [!note]** OPMERKING. Aanpassen door Buiseleidingen Risicoregister en Stedelijk water weg telaten of te benoemen dat ze niet zijn  meegenomen in deze update.**
-
-De verschillende uitwisselprocessen WIBON, Buisleidingen voor Risicoregister en
-Stedelijk water worden in aparte paragrafen behandeld. Dit resulteert in drie
-deelmodellen respectievelijk benoemd als:  
-
-IMKL – WIBON;
-
-IMKL – Buisleidingen Risicoregister;
-
-IMKL – Stedelijk water.
-
-De WIBON toepassing wordt als eerste beschreven. Omdat de andere toepassingen
-ook delen daarvan gebruiken is het nodig om dit model integraal door te nemen.
-
 Het eerste gedeelte van dit hoofdstuk bevat de UML diagrammen van alle
 deelmodellen. Schematisch is opgenomen wat de informatie-inhoud is middels
 objecten, hun attributen, datatypen, relaties tussen objecten met alle detail
@@ -1552,66 +1537,3 @@ statuswijziging uit wisselen. Dit komt omdat er van ieder object slechts 1
 versie wordt uitgewisseld en bij een geplande wijziging is er sprake van twee
 versies: de huidige en de gepland. Geplande aanleg en verwijdering kunnen wel
 uitgewisseld worden omdat er dan slechts 1 versie hoeft te worden uitgewisseld.
-
-Andere toepassingen van IMKL
------------------------------
-
-> [!NOTE] **OPMERKING: Deze paragrafen kunnen weg. Of moeten we deze wel laten staan en benoemen dat deze niet meegenomen zijn in de 2.0 update?**
-
-IMKL beschrijft het totaal aan informatie die voorziet in een aantal
-dataleveringsprocessen. Naast WIBON en INSPIRE utilities zijn dat Buisleidingen
-gevaarlijke inhoud (Risicoregister gevaarlijke stoffen) en Topografie Stedelijk
-Water.
-
-Bij de ontwikkeling van IMKL is er afstemming geweest met deze twee toepassingen
-en zijn resultaten daarvan in aparte profielen opgenomen. De volgende paragrafen
-beschrijven die profielen.
-
-### UML - Buisleidingen Risicoregister overzicht.
-
-<!-- ![](docs/media/22.RRGS-compleet.png) -->
-
-<figure id="afb_22.RRGS-compleet">
-    <img src="docs/media/22.RRGS-compleet.png" alt="Afbeelding RRGS-compleet">
-    <figcaption>Model Buisleidingen risicoregister</figcaption>
-</figure>
-
-
-Toelichting op diagram:
-
-Voor het Risicoregister is van uit het perspectief van de utiliteitsnetten
-alleen de informatie over buisleidingen gevaarlijke inhoud van belang. Er is een
-extensie op de OlieGasChemicalienLeiding voor specifieke informatie voor het
-risicoregister.
-
-Een object OlieGasChemicalienPijpleiding van een net van het thema buisleiding
-gevaarlijke inhoud wordt verbijzonderd in een object Transportroutedeel waarin
-een paar specifieke attributen zijn opgenomen. Locatie van Transportroutedeel en
-een aantal basisattributen worden via INSPIRE en het WIBON model geleverd. Een
-Transportroutedeel is een onderdeel van een Transportroute. De Transportroute is
-de referentie voor een optioneel object TransportrouteRisico met een
-risicocontour en een verplicht object EffectcontourDodelijk.
-
-### UML - Stedelijk water overzicht
-
-<!-- ![](docs/media/23.IMSW-totaal.png) -->
-
-<figure id="afb_23.IMSW-totaal">
-    <img src="docs/media/23.IMSW-totaal.png" alt="Afbeelding IMSW-totaal">
-    <figcaption>Model Stedelijk water</figcaption>
-</figure>
-
-Toelichting op diagram:
-
-Stedelijk water beperkt zich in het IMKL verband tot het thema riool onder
-overdruk of onderdruk en riool vrijverval. Als specifieke informatie is een
-waardelijst voor type rioolleiding opgenomen. Voor het geografisch
-informatiemodel van stedelijk water is een afstemming met het
-Gegevenswoordenboek Stedelijk Water (GWSW) van belang. De waarden uit de
-waardelijst vinden hun definitie in dat gegevenswoordenboek. Het GWSW is
-beschikbaar via [https://data.gwsw.nl](https://data.gwsw.nl). Elke term, definitie en attribuut is
-direct te bekijken via
-http://data.gwsw.nl/totaal/{term},
-bijvoorbeeld [http://data.gwsw.nl/totaal/vrijvervalrioolleiding/](http://data.gwsw.nl/totaal/vrijvervalrioolleiding/). Meer
-informatie over GWSW is te vinden op:
-[https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water](https://www.riool.net/applicaties/gegevenswoordenboek-stedelijk-water).

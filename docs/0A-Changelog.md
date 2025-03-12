@@ -18,7 +18,7 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 5        |[324](https://github.com/Geonovum/imkl2015-review/issues/324)| Attribuut toegevoegd                     | Toegevoegd: Mantelbuis.gebruiktVan |
 | 6        |[344](https://github.com/Geonovum/imkl2015-review/issues/344)| Attribuut verwijderd                     | Verwijderd: Organisatie.postbusadres |
 | 7        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | Buisspecifiek.buismateriaalType 0..1 -> 1|
-| 8        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | KabelSpecifiek.kabeldiameter 0..1 -> 1|
+| 8        |---| deze is verwijderd van rc2 naar definitieve versie            | ---|
 | 9        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Constraint              | Voor Duct en Kabelbed: AantalKabelsIsVerplicht|
 | 10       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | KabelEnLeidingContainer.bovengrondsZichtbaar 0..1 -> 1|
 | 11       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | OverigSpecifiek.pressure 0..1 -> 1|
@@ -54,3 +54,5 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 41       || Attribuut toegevoegd            |Mantelbuis.kleur|
 | 42       |[346](https://github.com/Geonovum/imkl2015-review/issues/346)| Constraints            |GebiedsinformatieAanvraag: constraints herformuleerd|
 | 43       |[307](https://github.com/Geonovum/imkl2015-review/issues/307)| Multipliciteit aangepast           |ExtraDetailInfo.bestandIdentificator 1 -> 0..1|
+| 44       |[368](https://github.com/Geonovum/imkl2015-review/issues/368)| RRGB en Stedelijk water verwijderd           |Alle referenties en modellen hiervan verwijderd|
+| 45       |[369](https://github.com/Geonovum/imkl2015-review/issues/369)| Tekstreferentie naar IMKL-wibonbr3.0.xsd verwijderd|schema is niet nodig|

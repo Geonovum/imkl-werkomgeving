@@ -2,10 +2,16 @@
 
 <!-- 
 ===================================================	
-	IMKL-WIBON versie 3.0rc3 - Geonovum, 2025
+	IMKL-WIBON versie 3.0rc3plus - Geonovum, 2025
 ===================================================
 
 Changelog in rc3:
+
+2025-02-20:
+github 345
+Kabelspecifiek:
+attribute:kabelDiameter: 1 -> 0..1
+Dit is een verandering op rc2.
 
 2025-01-28:
 Mantelbuis: attribuut eigenaar kwam 2 keer voor. Nu nog 1 keer.
@@ -727,9 +733,7 @@ deleted attribute: postbusadres
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
 					<element name="label" type="string" minOccurs="0"> </element>
 					<element name="omschrijving" type="string" minOccurs="0"> </element>
-					<!-- adapted 4-3.0 -->
-					<element name="kabelDiameter" type="gml:MeasureType">
-						<!-- end adapted -->
+					<element name="kabelDiameter" type="gml:MeasureType" minOccurs="0">
 					</element>
 				</sequence>
 			</extension>
@@ -1434,9 +1438,7 @@ deleted attribute: postbusadres
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
 					<element name="label" type="string" minOccurs="0"> </element>
 					<element name="omschrijving" type="string" minOccurs="0"> </element>
-					<!-- adapted 4-3.0 -->
-					<element name="kabelDiameter" type="gml:MeasureType">
-						<!-- end adapted -->
+					<element name="kabelDiameter" type="gml:MeasureType" minOccurs="0">
 					</element>
 					<!-- adapted 4-3.0 -->
 					<element name="buismateriaalType" type="gml:ReferenceType">
@@ -1606,9 +1608,7 @@ deleted attribute: postbusadres
 					<element name="extraGeometrie" type="gml:ReferenceType" minOccurs="0"> </element>
 					<element name="label" type="string" minOccurs="0"> </element>
 					<element name="omschrijving" type="string" minOccurs="0"> </element>
-					<!-- adapted 4-3.0 -->
-					<element name="kabelDiameter" type="gml:MeasureType">
-						<!-- end adapted -->
+					<element name="kabelDiameter" type="gml:MeasureType" minOccurs="0">
 					</element>
 				</sequence>
 			</extension>

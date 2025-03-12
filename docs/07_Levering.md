@@ -27,16 +27,8 @@ Voor IMKL is een GML applicatieschema gemaakt. Datasets van utiliteitsnetten die
 conform deze specificatie zijn gemaakt moeten foutloos valideren tegen het IMKL
 applicatieschema.
 
-Het IMKL UML is toegepast in vier profielen. Voor twee van die is er een GML
-applicatieschema gemaakt.
-
-WIBON profiel: IMKL-wibon3.0.xsd  
-WIBON Belangenregistratie: IMKL-wibonbr3.0.xsd. Subset van WIBON profiel met alleen objecttypen voor Belangenregistratie.
-
-Beide GML applicatieschemas zijn gepubliceerd op: https://register.geostandaarden.nl/gmlapplicatieschema/imkl/
-
-Voor de profielen voor het Risicoregister en Stedelijkwater zijn geen GML
-applicatieschema’s gemaakt.
+WIBON GML applicatieschema: IMKL-wibon3.0.xsd  
+GML applicatieschemas zijn gepubliceerd op: https://register.geostandaarden.nl/gmlapplicatieschema/imkl/
 
 Waardelijsten van het type codeList zijn toegepast in RDF en gepubliceerd op:
 
