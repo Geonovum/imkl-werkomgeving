@@ -41,7 +41,7 @@ imklbegrip:AantalKabelsLeidingen a skos:Concept;
                                  skos:inScheme begrippenkader:IMKL;
                                  skos:notation "aantalKabelsLeidingen";
                                  skos:prefLabel "aantal kabels en leidingen"@nl;
-                                 skos:scopeNote " Wordt opgenomen indien het aantal meer dan één is."@nl.
+                                 skos:scopeNote " Wordt opgenomen indien het aantal meer dan ÚÚn is."@nl.
 imklbegrip:AanvraagDatum a skos:Concept;
                          rdfs:label "aanvraagDatum"@nl;
                          skos:definition " De datum en tijd waarop de gebiedsinformatie-aanvraag is aangevraagd. "@nl;
@@ -92,7 +92,7 @@ imklbegrip:Annotatie a skos:Concept;
                      skos:inScheme begrippenkader:IMKL;
                      skos:notation "Annotatie";
                      skos:prefLabel "annotatie"@nl;
-                     skos:scopeNote "Annotatie kan worden gebruikt om informatie toe te voegen aan het kaartbeeld.  Via het attribuut 'label' kan tekst of numerieke waarde worden doorgegeven."@nl.
+                     skos:scopeNote "Annotatie kan worden gebruikt om informatie toe te voegen aan het kaartbeeld.  Via het attribuut ?label? kan tekst of numerieke waarde worden doorgegeven."@nl.
 imklbegrip:AnnotatieType a skos:Concept;
                          rdfs:label "annotatieType"@nl;
                          skos:definition " Soort van de opgenomen annotatie "@nl;
@@ -113,7 +113,7 @@ imklbegrip:BAGid a skos:Concept;
                  skos:inScheme begrippenkader:IMKL;
                  skos:notation "BAGid";
                  skos:prefLabel "BAG-identificatie"@nl;
-                 skos:scopeNote " Afhankelijk van de context waarin het adres wordt gebruikt wordt de BAGid van het AdresseerbaarObject of van de Nummeraanduiding gebruikt. Voor een koppeling aan ExtraDetailInfo is dit de BAGid van het AdresseerbaarObject. Voor een koppeling naar een bezoek of postadres de BAGid van de Nummeraanduiding."@nl.
+                 skos:scopeNote " Afhankelijk van de context waarin het adres wordt gebruikt wordt de BAGid van het AdresseerbaarObject of van de Nummeraanduiding gebruikt. Voor een koppeling aan ExtraDetailInfo is dit de BAGid van het AdresseerbaarObject. Voor een koppeling naar een bezoek of postadres de BAGid van de Nummeraanduiding. -- Source ?"@nl.
 imklbegrip:BGT_ID a skos:Concept;
                   rdfs:label "BGT_ID"@nl;
                   skos:definition " Verwijzing naar het ID van het overeenkomstige object uit de Basisregistratie Grootschalige Topografie of pluslaag. "@nl;
@@ -197,7 +197,7 @@ imklbegrip:BetrokkenBijAanvraag a skos:Concept;
                                 skos:inScheme begrippenkader:IMKL;
                                 skos:notation "betrokkenBijAanvraag";
                                 skos:prefLabel "betrokken bij aanvraag"@nl;
-                                skos:scopeNote " Indien binnen de gevraagde polygoon géén kabels/leidingen liggen, en er daarom geen netinformatie geleverd kan worden, wordt deze indicator op 'Nee' gezet, in alle andere gevallen is deze 'Ja'. Wordt ingevuld per thema."@nl.
+                                skos:scopeNote " Indien binnen de gevraagde polygoon gÚÚn kabels/leidingen liggen, en er daarom geen netinformatie geleverd kan worden, wordt deze indicator op ?Nee? gezet, in alle andere gevallen is deze ?Ja?. Wordt ingevuld per thema."@nl.
 imklbegrip:BezoekAdres a skos:Concept;
                        rdfs:label "bezoekAdres"@nl;
                        skos:definition " Het bezoekadres van de organisatie. "@nl;
@@ -276,7 +276,7 @@ imklbegrip:ContainerLeidingelement a skos:Concept;
                                    skos:inScheme begrippenkader:IMKL;
                                    skos:notation "ContainerLeidingelement";
                                    skos:prefLabel "container van leidingelementen"@nl;
-                                   skos:scopeNote " Bijvoorbeeld een elektriciteitskast met verschillende schakelaars, moffen. Of een mast met verschillende antennes. Containerleidingelementen kunnen bij meerdere themas geregistreerd staan. Ze moeten bij minstens één thema weergegeven worden maar het mag bij meerdere. Optioneel is er via het associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.  "@nl.
+                                   skos:scopeNote " Bijvoorbeeld een elektriciteitskast met verschillende schakelaars, moffen. Of een mast met verschillende antennes. Containerleidingelementen kunnen bij meerdere themas geregistreerd staan. Ze moeten bij minstens ÚÚn thema weergegeven worden maar het mag bij meerdere. Optioneel is er via het associatie-attribuut extraGeometrie een buitenbegrenzing of contour van het object op te nemen. De netbeheerder bepaalt zelf wanneer dat functioneel is.  "@nl.
 imklbegrip:CurrentStatus a skos:Concept;
                          rdfs:label "currentStatus"@nl;
                          skos:inScheme begrippenkader:IMKL;
@@ -326,14 +326,14 @@ imklbegrip:DiepteNauwkeurigheid a skos:Concept;
                                 skos:inScheme begrippenkader:IMKL;
                                 skos:notation "diepteNauwkeurigheid";
                                 skos:prefLabel "dieptenauwkeurigheid"@nl;
-                                skos:scopeNote " Dit attribuut gebruikt een codelijst - zie NauwkeurigheidDiepteValue."@nl.
+                                skos:scopeNote " Dit attribuut gebruikt een codelijst ? zie NauwkeurigheidDiepteValue."@nl.
 imklbegrip:DieptePeil a skos:Concept;
                       rdfs:label "dieptePeil"@nl;
-                      skos:definition " Geeft de afstand weer vanaf de referentie - NAP of maaiveld - tot bovenkant van een KabelOfLeiding, KabelEnLeidingcontainer, Leidingelement of ContainerLeidingelement. "@nl;
+                      skos:definition " Geeft de afstand weer vanaf de referentie ? NAP of maaiveld ? tot bovenkant van een KabelOfLeiding, KabelEnLeidingcontainer, Leidingelement of ContainerLeidingelement. "@nl;
                       skos:inScheme begrippenkader:IMKL;
                       skos:notation "dieptePeil";
                       skos:prefLabel "dieptepeil"@nl;
-                      skos:scopeNote " Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: - urn:ogc:def:uom:OGC::m - urn:ogc:def:uom:OGC::cm - urn:ogc:def:uom:OGC::mm. Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen."@nl.
+                      skos:scopeNote " Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: ? urn:ogc:def:uom:OGC::m ? urn:ogc:def:uom:OGC::cm ? urn:ogc:def:uom:OGC::mm. Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen."@nl.
 imklbegrip:DiepteTovMaaiveld a skos:Concept;
                              rdfs:label "DiepteTovMaaiveld"@nl;
                              skos:definition " Object dat dient om de afstand weer te geven vanaf het maaiveld tot de bovenkant van kabel of leiding, leidingcontainer, leidingelement of containerleidingelement. "@nl;
@@ -361,7 +361,7 @@ imklbegrip:EigenTopografie a skos:Concept;
                            skos:inScheme begrippenkader:IMKL;
                            skos:notation "EigenTopografie";
                            skos:prefLabel "eigen topografie"@nl;
-                           skos:scopeNote " In principe wordt er een standaard topografische ondergrond gebruikt maar optioneel kan een eigen topografie meegeleverd worden ter nadere bepaling of oriëntatie van de ligging van een leiding of leidingelement.  In geval van een geografisch object worden deze topografieën gesitueerd via het attribuut 'ligging' waarbij punt, lijn en polygoon geometrieën gebruikt kunnen worden."@nl.
+                           skos:scopeNote " In principe wordt er een standaard topografische ondergrond gebruikt maar optioneel kan een eigen topografie meegeleverd worden ter nadere bepaling of oriëntatie van de ligging van een leiding of leidingelement.  In geval van een geografisch object worden deze topografieën gesitueerd via het attribuut ?ligging? waarbij punt, lijn en polygoon geometrieën gebruikt kunnen worden."@nl.
 imklbegrip:Eigenaar a skos:Concept;
                     rdfs:label "eigenaar"@nl;
                     skos:definition " De bij deze mantelbuis opgenomen netbeheerder is wel (ja) of niet (nee) de eigenaar van deze mantelbuis. "@nl;
@@ -403,8 +403,8 @@ imklbegrip:Elektriciteitskabel a skos:Concept;
                                skos:definition " Een aansluiting of reeks aansluitingen van een nutsvoorzieningennet voor het overbrengen van elektriciteit van de ene locatie naar een andere. "@nl;
                                skos:inScheme begrippenkader:IMKL;
                                skos:notation "Elektriciteitskabel";
-                               skos:prefLabel "elektriciteitskabel"@nl.
-                               
+                               skos:prefLabel "elektriciteitskabel"@nl;
+                               skos:scopeNote " Opmerking PJA: kan hier een IMKL definitie of omschrijving analoog aan telecommunicatiekabel?  Inspire"@nl.
 imklbegrip:Email a skos:Concept;
                  rdfs:label "email"@nl;
                  skos:definition " E-mail adres van het contact. "@nl,
@@ -427,7 +427,7 @@ imklbegrip:ExtraContact a skos:Concept;
                         skos:prefLabel "extra contact"@nl.
 imklbegrip:ExtraDetailinfo a skos:Concept;
                            rdfs:label "ExtraDetailinfo"@nl;
-                           skos:definition " Object dat extra informatie over één of meerdere netwerkelementen weergeeft door een verwijzing naar bestanden. "@nl;
+                           skos:definition " Object dat extra informatie over ÚÚn of meerdere netwerkelementen weergeeft door een verwijzing naar bestanden. "@nl;
                            skos:inScheme begrippenkader:IMKL;
                            skos:notation "ExtraDetailinfo";
                            skos:prefLabel "extra detailinformatie"@nl;
@@ -538,7 +538,7 @@ imklbegrip:Hoogte a skos:Concept;
                   skos:inScheme begrippenkader:IMKL;
                   skos:notation "hoogte";
                   skos:prefLabel "hoogte"@nl;
-                  skos:scopeNote """ De hoogte betreft de lengte van het hele leidingelement in verticale richting ongeacht of er een deel onder of boven het maaiveld bevindt. Het datatype is 'Length' waarbij de meeteenheid apart wordt gespecificeerd. Voor WIBON wordt er altijd meters gebruikt met maximaal 2 decimalen. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: - urn:ogc:def:uom:OGC::m -	urn:ogc:def:uom:OGC::cm -	urn:ogc:def:uom:OGC::mm """@nl.
+                  skos:scopeNote """ De hoogte betreft de lengte van het hele leidingelement in verticale richting ongeacht of er een deel onder of boven het maaiveld bevindt. Het datatype is ?Length waarbij de meeteenheid apart wordt gespecificeerd. Voor WIBON wordt er altijd meters gebruikt met maximaal 2 decimalen. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: ? urn:ogc:def:uom:OGC::m ?	urn:ogc:def:uom:OGC::cm ?	urn:ogc:def:uom:OGC::mm """@nl.
 imklbegrip:HuisaansluitingAdressen a skos:Concept;
                                    rdfs:label "huisaansluitingAdressen"@nl;
                                    skos:definition " Lijst met adressen waarvoor huisaansluitschetsen (extra detailinformatie, type huisaansluiting) opgevraagd wordt.  "@nl;
@@ -616,7 +616,7 @@ imklbegrip:KabelDiameter a skos:Concept;
                          skos:inScheme begrippenkader:IMKL;
                          skos:notation "kabelDiameter";
                          skos:prefLabel "kabeldiameter"@nl;
-                         skos:scopeNote """ Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via één van de volgende OGC URN codes: - urn:ogc:def:uom:OGC::m -	urn:ogc:def:uom:OGC::cm -	urn:ogc:def:uom:OGC::mm """@nl.
+                         skos:scopeNote """ Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via ÚÚn van de volgende OGC URN codes: ? urn:ogc:def:uom:OGC::m ?	urn:ogc:def:uom:OGC::cm ?	urn:ogc:def:uom:OGC::mm """@nl.
 imklbegrip:KabelEnLeidingContainer a skos:Concept;
                                    rdfs:label "KabelEnLeidingContainer"@nl;
                                    skos:definition " Abstract data object dat de gemeenschappelijke attributen en associaties bevat voor alle kabel- en leidingcontainer objecten. "@nl;
@@ -640,7 +640,7 @@ imklbegrip:KabelSpecifiek a skos:Concept;
                           skos:scopeNote "  IMKL-Be"@nl.
 imklbegrip:Kabelbed a skos:Concept;
                     rdfs:label "Kabelbed"@nl;
-                    skos:definition " Ruimtebeslag van één of meerdere elementen (kabels, buizen, HDPE- en/of mantelbuizen) binnen een gemeenschappelijk tracé dat binnen één thema en bij één netbeheerder hoort.  "@nl;
+                    skos:definition " Ruimtebeslag van ÚÚn of meerdere elementen (kabels, buizen, HDPE- en/of mantelbuizen) binnen een gemeenschappelijk tracÚ dat binnen ÚÚn thema en bij ÚÚn netbeheerder hoort.  "@nl;
                     skos:inScheme begrippenkader:IMKL;
                     skos:notation "Kabelbed";
                     skos:prefLabel "kabelbed"@nl;
@@ -663,7 +663,7 @@ imklbegrip:KlicMeldnummer a skos:Concept;
                           skos:inScheme begrippenkader:IMKL;
                           skos:notation "klicMeldnummer";
                           skos:prefLabel "KLIC-meldnummer"@nl;
-                          skos:scopeNote " Volgens het format: JJ-'eerste letter soort melding'-numeriek volgnummer. Bijvoorbeeld: 23G1234567 "@nl.
+                          skos:scopeNote " Volgens het format: JJ-?eerste letter soort melding-numeriek volgnummer. Bijvoorbeeld: 23G1234567 "@nl.
 imklbegrip:KvkNummer a skos:Concept;
                      rdfs:label "kvkNummer"@nl;
                      skos:definition " KvK nummer van de organisatie. "@nl;
@@ -697,7 +697,7 @@ imklbegrip:Landcode a skos:Concept;
                     skos:scopeNote " Voor Nederland is dit NLD."@nl.
 imklbegrip:Leidingelement a skos:Concept;
                           rdfs:label "Leidingelement"@nl;
-                          skos:definition " Een object dat bij één of meerdere kabels of leidingen behoort en als node in het netwerkmodel is opgenomen.  "@nl;
+                          skos:definition " Een object dat bij ÚÚn of meerdere kabels of leidingen behoort en als node in het netwerkmodel is opgenomen.  "@nl;
                           skos:inScheme begrippenkader:IMKL;
                           skos:notation "Leidingelement";
                           skos:prefLabel "leidingelement"@nl;
@@ -716,7 +716,7 @@ imklbegrip:Ligging_Annotatie a skos:Concept;
                              skos:definition " Positie of geometrie van de annotatie. "@nl;
                              skos:inScheme begrippenkader:IMKL;
                              skos:prefLabel "ligging"@nl;
-                             skos:scopeNote " In geval van een geografisch object worden deze topografieën gesitueerd via het attribuut 'ligging' waarbij punt, lijn en polygoon geometrieën gebruikt kunnen worden."@nl.
+                             skos:scopeNote " In geval van een geografisch object worden deze topografieën gesitueerd via het attribuut ?ligging? waarbij punt, lijn en polygoon geometrieën gebruikt kunnen worden."@nl.
 imklbegrip:Ligging_Diepte a skos:Concept;
                           rdfs:label "ligging"@nl;
                           skos:definition " Coordinaten van de locatie van het dieptegegeven.  "@nl;
@@ -728,7 +728,7 @@ imklbegrip:Ligging_Toepassing a skos:Concept;
                               skos:definition " Locatie waar de detailinformatie op van toepassing is. "@nl;
                               skos:inScheme begrippenkader:IMKL;
                               skos:prefLabel "ligging"@nl;
-                              skos:scopeNote " Locatie in het horizontale vlak waar de diepte-informatie van toepassing is. Eén leiding kan meerdere dieptegegevens langs het traject van de leiding hebben.  "@nl.
+                              skos:scopeNote " Locatie in het horizontale vlak waar de diepte-informatie van toepassing is. EÚn leiding kan meerdere dieptegegevens langs het traject van de leiding hebben.  "@nl.
 imklbegrip:Ligging_Topografie a skos:Concept;
                               rdfs:label "ligging"@nl;
                               skos:definition " Plaatsaanduiding van de extra topografie. "@nl;
@@ -768,7 +768,7 @@ imklbegrip:Maatvoering a skos:Concept;
                        skos:inScheme begrippenkader:IMKL;
                        skos:notation "Maatvoering";
                        skos:prefLabel "maatvoering"@nl;
-                       skos:scopeNote " Voor de aanduiding van de relatieve positie van een leiding of leidingelement ten opzichte van een ander object. Via het 'annotatieType' attribuut kan het soort annotatie of maatvoering object worden bepaald - voor visualisatie - en via het attribuut 'label' kan de tekst of numerieke waarde worden doorgegeven.  "@nl.
+                       skos:scopeNote " Voor de aanduiding van de relatieve positie van een leiding of leidingelement ten opzichte van een ander object. Via het ?annotatieType? attribuut kan het soort annotatie of maatvoering object worden bepaald ? voor visualisatie - en via het attribuut ?label? kan de tekst of numerieke waarde worden doorgegeven.  "@nl.
 imklbegrip:MaatvoeringsType a skos:Concept;
                             rdfs:label "maatvoeringsType"@nl;
                             skos:definition " Aard van de opgenomen annotatie "@nl;
@@ -788,7 +788,7 @@ imklbegrip:Mantelbuis a skos:Concept;
                       skos:inScheme begrippenkader:IMKL;
                       skos:notation "Mantelbuis";
                       skos:prefLabel "mantelbuis"@nl;
-                      skos:scopeNote " Met het object Mantelbuis wordt bedoeld een buis voor bescherming of doorvoer van kabels, buizen en HDPE buizen. Mantelbuizen kunnen bij meerdere themas geregistreerd staan. Ze moeten bij minstens één thema weergegeven worden maar het mag bij meerdere. Indien een mantelbuis leeg is kan dit bij de toelichting vermeld worden. Optioneel kan er als extrageometrie een vlak worden toegevoegd maar alleen als er grote diameters zijn. De netbeheerder bepaalt zelf wanneer dat functioneel is."@nl.
+                      skos:scopeNote " Met het object Mantelbuis wordt bedoeld een buis voor bescherming of doorvoer van kabels, buizen en HDPE buizen. Mantelbuizen kunnen bij meerdere themas geregistreerd staan. Ze moeten bij minstens ÚÚn thema weergegeven worden maar het mag bij meerdere. Indien een mantelbuis leeg is kan dit bij de toelichting vermeld worden. Optioneel kan er als extrageometrie een vlak worden toegevoegd maar alleen als er grote diameters zijn. De netbeheerder bepaalt zelf wanneer dat functioneel is."@nl.
 imklbegrip:Mast a skos:Concept;
                 rdfs:label "Mast"@nl;
                 skos:definition " Eenvoudig mast-object dat dienst kan doen als drager van nutsvoorzieningenobjecten van een of meer nutsvoorzieningnetten. "@nl;
@@ -957,7 +957,7 @@ imklbegrip:Positienummer a skos:Concept;
                          skos:inScheme begrippenkader:IMKL;
                          skos:notation "positienummer";
                          skos:prefLabel "positienummer"@nl;
-                         skos:scopeNote " Geeft de positie in de volgorde van deze gebiedinformatieaanvraag in het tracé weer. Wordt niet door netbeheerder ingevuld."@nl.
+                         skos:scopeNote " Geeft de positie in de volgorde van deze gebiedinformatieaanvraag in het tracÚ weer. Wordt niet door netbeheerder ingevuld."@nl.
 imklbegrip:Postbusnummer a skos:Concept;
                          rdfs:label "postbusnummer"@nl;
                          skos:definition " Het postbusnummer van het postbusadres. "@nl;
@@ -1012,14 +1012,14 @@ imklbegrip:Rotatiehoek a skos:Concept;
                        skos:inScheme begrippenkader:IMKL;
                        skos:notation "rotatiehoek";
                        skos:prefLabel "rotatiehoek"@nl;
-                       skos:scopeNote " Voor een annotatie die gekoppeld is aan een puntgeometrie, geeft dit attribuut aan onder welke hoek de labeltekst of een puntsymbool moet worden weergegeven.   Eenheid:  booggraad; één booggraad is een 360e deel van een cirkelomtrek. Oriëntering: met de klok mee (positief) t.o.v. normale tekstrichting (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.). Decimale precisie: 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad). Bereik (minimale/maximale waarden): [-180, +180].].  Verstekwaarde voor tekst is 0 (dus horizontaal weergegeven rechtopstaande tekst). Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via de volgende OGC URN code: urn:ogc:def:uom:OGC::deg "@nl.
+                       skos:scopeNote " Voor een annotatie die gekoppeld is aan een puntgeometrie, geeft dit attribuut aan onder welke hoek de labeltekst of een puntsymbool moet worden weergegeven.   Eenheid:  booggraad; ÚÚn booggraad is een 360e deel van een cirkelomtrek. Oriëntering: met de klok mee (positief) t.o.v. normale tekstrichting (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.). Decimale precisie: 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad). Bereik (minimale/maximale waarden): [-180, +180].].  Verstekwaarde voor tekst is 0 (dus horizontaal weergegeven rechtopstaande tekst). Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via de volgende OGC URN code: urn:ogc:def:uom:OGC::deg "@nl.
 imklbegrip:RotatiehoekSymbool a skos:Concept;
                               rdfs:label "rotatiehoekSymbool"@nl;
                               skos:definition " Hoek waaronder een puntsymbool wordt weergegeven. "@nl;
                               skos:inScheme begrippenkader:IMKL;
                               skos:notation "rotatiehoekSymbool";
                               skos:prefLabel "rotatiehoeksymbool"@nl;
-                              skos:scopeNote " Voor een symbool dat gekoppeld is aan een puntgeometrie, geeft dit attribuut aan onder welke hoek een puntsymbool moet worden weergegeven.   Eenheid:  booggraad; één booggraad is een 360e deel van een cirkelomtrek. Oriëntering: met de klok mee (positief) t.o.v. normale tekstrichting (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.). Decimale precisie: 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad). Bereik (minimale/maximale waarden): [-180, +180].].  Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via de volgende OGC URN code: urn:ogc:def:uom:OGC::deg "@nl.
+                              skos:scopeNote " Voor een symbool dat gekoppeld is aan een puntgeometrie, geeft dit attribuut aan onder welke hoek een puntsymbool moet worden weergegeven.   Eenheid:  booggraad; ÚÚn booggraad is een 360e deel van een cirkelomtrek. Oriëntering: met de klok mee (positief) t.o.v. normale tekstrichting (horizontaal = 0 graden; voor een kaart die noord georiënteerd is.). Decimale precisie: 1 (= 1 cijfer achter de komma, ofwel 1/10 booggraad). Bereik (minimale/maximale waarden): [-180, +180].].  Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via de volgende OGC URN code: urn:ogc:def:uom:OGC::deg "@nl.
 imklbegrip:SoortWerkzaamheden a skos:Concept;
                               rdfs:label "soortWerkzaamheden"@nl;
                               skos:definition " Het type graafwerkzaamheden die worden voorzien. "@nl;
@@ -1033,7 +1033,7 @@ imklbegrip:StandaardDieptelegging a skos:Concept;
                                   skos:inScheme begrippenkader:IMKL;
                                   skos:notation "standaardDieptelegging";
                                   skos:prefLabel "standaard dieptelegging"@nl;
-                                  skos:scopeNote " Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: - urn:ogc:def:uom:OGC::m - urn:ogc:def:uom:OGC::cm - urn:ogc:def:uom:OGC::mm. Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen."@nl.
+                                  skos:scopeNote " Dit attribuut heeft een Measure als data type. De UOM wordt uitgedrukt via 1 van de volgende OGC URN codes: ? urn:ogc:def:uom:OGC::m ? urn:ogc:def:uom:OGC::cm ? urn:ogc:def:uom:OGC::mm. Voor WIBON is de eenheid altijd meter en een getal met ten hoogste 2 decimalen."@nl.
 imklbegrip:StartDatum a skos:Concept;
                       rdfs:label "startDatum"@nl;
                       skos:definition " De geplande startdatum van de werkzaamheden waarvoor de gebiedsinformatie-aanvraag is ingediend. "@nl;
@@ -1056,7 +1056,7 @@ imklbegrip:TechnischGebouw a skos:Concept;
                            skos:scopeNote " Voorbeelden zijn: traforuimte, gasstation, etc."@nl.
 imklbegrip:Telecommunicatiekabel a skos:Concept;
                                  rdfs:label "Telecommunicatiekabel"@nl;
-                                 skos:definition " Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van data. "@nl;
+                                 skos:definition " Een geheel van geleiders welke voorzien zijn van ÚÚn ommanteling en bestemd is voor transport van data. "@nl;
                                  skos:inScheme begrippenkader:IMKL;
                                  skos:notation "Telecommunicatiekabel";
                                  skos:prefLabel "telecommunicatiekabel"@nl;
@@ -1118,7 +1118,7 @@ imklbegrip:TypeTopografischObject a skos:Concept;
                                   skos:scopeNote " Aangeven wordt welk type object uit de BGT of BGT plus is opgenomen."@nl.
 imklbegrip:Utiliteitsnet a skos:Concept;
                          rdfs:label "Utiliteitsnet"@nl;
-                         skos:definition " Een verzameling netwerkelementen die tot één type (nuts)voorzieningennet behoren.  "@nl;
+                         skos:definition " Een verzameling netwerkelementen die tot ÚÚn type (nuts)voorzieningennet behoren.  "@nl;
                          skos:inScheme begrippenkader:IMKL;
                          skos:notation "Utiliteitsnet";
                          skos:prefLabel "utiliteitsnet"@nl;
@@ -1147,7 +1147,7 @@ imklbegrip:VoorbereidingCoordinatieCivieleWerken a skos:Concept;
                                                  skos:definition " Een indicatie in relatie tot een oriëntatieverzoek door een telecomaanbieder ter voorbereiding op een verzoek tot coördinatie van civiele werken. "@nl;
                                                  skos:inScheme begrippenkader:IMKL;
                                                  skos:notation "voorbereidingCoordinatieCivieleWerken";
-                                                 skos:prefLabel "voorbereiding coördinatie civiele werken"@nl;
+                                                 skos:prefLabel "voorbereiding co÷rdinatie civiele werken"@nl;
                                                  skos:scopeNote " Is afkomstig uit de  Europese wetgeving EC61: Richtlijn kostenreductie breedband. Dit wordt als soort werkzaamheid in een oriëntatiemelding uitgeleverd. "@nl.
 imklbegrip:VoorbereidingMedegebruikFysiekeInfrastructuur a skos:Concept;
                                                          rdfs:label "voorbereidingMedegebruikFysiekeInfrastructuur"@nl;
