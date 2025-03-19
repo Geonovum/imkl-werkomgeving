@@ -26,15 +26,6 @@ uit verschillende wetgevingen, regelingen en processen. Deze zijn:
     andere kabels & leidingen.
 	
 <aside class='note' title=" ">
-Het hieronder volgende besluit BevB en het bijbehorende register RRGS was onderdeel van de beschrijvende data scope van IMKL versie 2.0. Voor deze IMKL versie is dat niet meer zo.
-
- -   **Besluit externe veiligheid buisleidingen (BevB):** Besluit houdende
-    milieukwaliteitseisen externe veiligheid voor het vervoer van gevaarlijke
-    stoffen door buisleidingen. Onder andere opname van buisleidingen met
-    gevaarlijke inhoud (Bgi) (en beperkingen op ruimtegebruik) in een
-    bestemmings- of inpassingsplan.
-
--   **Register risicosituaties gevaarlijke stoffen (RRGS)** Verplichting tot
-    invoeren risico’s van gevaarlijke stoffen in een landelijk risicoregister.   
+Het besluit BevB en het bijbehorende register RRGS was onderdeel van de beschrijvende data scope van IMKL versie 2.0. Voor deze IMKL versie is dat niet meer zo. 
 </aside>
 
