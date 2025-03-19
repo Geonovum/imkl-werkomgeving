@@ -140,7 +140,7 @@ beschreven.</figcaption>
     gegevens over de ligging van ondergrondse leidingen.
 
 -   [[D2.8.III.6] Data Specification on Utility and Government Services.
-    Technical Guidelines](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_US_v3.0.pdf).
+    Technical Guidelines](https://knowledge-base.inspire.ec.europa.eu/utility-and-governmental-services_en).
 
 
 ## Termen en definities
