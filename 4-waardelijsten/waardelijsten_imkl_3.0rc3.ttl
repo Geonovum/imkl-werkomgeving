@@ -1769,12 +1769,12 @@ NB: De aansluitleiding kan ook alleen op (huis)aansluitschetsen voorkomen."""@nl
                                                                                    skos:notation "BuisleidingTypeValue"@nl;
                                                                                    skos:prefLabel "BuisleidingTypeValue"@nl.
 <http://definities.geostandaarden.nl/imkl2015/id/waardelijst/ConditionOfFacilityIMKLValue> a skos:Collection;
-                                                                                           rdfs:label "Toestand faciliteit"@nl;
+                                                                                           rdfs:label "ConditionOfFacilityIMKLValue"@nl;
                                                                                            skos:member <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/functional>,
                                                                                                        <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/disused>,
                                                                                                        <http://inspire.ec.europa.eu/codelist/ConditionOfFacilityValue/projected>;
                                                                                            skos:notation "ConditionOfFacilityIMKLValue"@nl;
-                                                                                           skos:prefLabel "Toestand faciliteit"@nl.
+                                                                                           skos:prefLabel "ConditionOfFacilityIMKLValue"@nl.
 <http://definities.geostandaarden.nl/imkl2015/id/waardelijst/DiepteAangrijpingspuntValue> a skos:Collection;
                                                                                           rdfs:label "DiepteAangrijpingspuntValue"@nl;
                                                                                           skos:member <http://definities.geostandaarden.nl/imkl2015/id/waarde/DiepteAangrijpingspuntValue/binnenonderkantBuis>,
