@@ -12,9 +12,7 @@ is. De volgende lijst geeft alle onderdelen:
 
 -   IMKL – waardelijsten (in [register.geostandaarden.nl/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl)) : Waardelijsten behorend bij het IMKL model;
 
--   Handreiking-visualisatieregels (PMKL): Regels voor het presenteren van IMKL gegevens in een viewer;
-
-**_NOTE:_** Link naar document nog toevoegen.
+-   [Handreiking-visualisatieregels (PMKL)](https://docs.geostandaarden.nl/kl/def-st-pmkl30-20250319/): Regels voor het presenteren van IMKL gegevens in een viewer;
 
 -	IMKL Ordening attributen viewer: Volgorde van de presentatie van attributen in een viewer. Gepubliceerd in [technisch register/visualisatie/imkl](https://register.geostandaarden.nl/?url=kabelsleidingen/imkl) ;
 
