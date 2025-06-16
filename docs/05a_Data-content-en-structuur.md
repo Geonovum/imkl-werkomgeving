@@ -462,13 +462,6 @@ netbeheerder zelf bepaald.
 Voor de geometrie van aanduidingen eis voorzorgsmaatregel zijn ook multivlakken
 toegestaan.
 
-Naast de bijlage voor de eis voorzorgsmaatregel is er in het IMKL ook nog een
-mogelijkheid om als netbeheerder een algemene bijlage mee te leveren bij de
-gebiedsinformatielevering.
-
-In het kader van de reductie van het aantal bijlagen, wordt aangemoedigd om deze
-algemene informatie als URL beschikbaar te stellen (attribuut websiteKLIC).
-
 **Extra toelichting: EigenTopografie.**
 
 Indien er extra topografie nodig is om de positie van netwerkelementen nader aan

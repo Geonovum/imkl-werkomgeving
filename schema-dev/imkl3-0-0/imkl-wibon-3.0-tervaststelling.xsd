@@ -5,17 +5,9 @@
 	IMKL-WIBON versie 3.0 - Geonovum, 2025
 ===================================================
 
-
 Changelog 2.0.0 -> 3.0.0:
 
-2025-06-16: vastgestelde versie.
-github 374:(https://github.com/Geonovum/imkl2015-review/issues/374)
-OverigSpecifiek:
-attribuut: pressure: 1 -> 0..1
-toelichting: dit was al 0..1 in 2.0.0; is op 1 gezet en daarna weer teruggedraaid.
-
-
-2025-02-20: versie ter vastelling:
+2025-02-20:
 github 345
 Kabelspecifiek:
 attribute:kabelDiameter: 1 -> 0..1
@@ -130,7 +122,7 @@ deleted attribute: postbusadres
 	xmlns:us-net-th="http://inspire.ec.europa.eu/schemas/us-net-th/4.0"
 	xmlns:us-net-wa="http://inspire.ec.europa.eu/schemas/us-net-wa/4.0"
 	targetNamespace="http://www.geostandaarden.nl/imkl/wibon" elementFormDefault="qualified"
-	version="3.0.0">
+	version="2.0.0">
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-common/4.0"
 		schemaLocation="https://inspire.ec.europa.eu/schemas/us-net-common/4.0/UtilityNetworksCommon.xsd"/>
 	<import namespace="http://inspire.ec.europa.eu/schemas/us-net-el/4.0"
@@ -1454,7 +1446,7 @@ deleted attribute: postbusadres
 					</element>
 					<element name="pipeDiameter" type="gml:MeasureType" minOccurs="0"> </element>
 					<!-- adapted 4-3.0 -->
-					<element name="pressure" type="gml:MeasureType" minOccurs="0">
+					<element name="pressure" type="gml:MeasureType">
 						<!-- end adapted -->
 					</element>
 					<element name="producttype" type="string" minOccurs="0"> </element>

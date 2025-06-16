@@ -21,7 +21,7 @@ Er worden alleen wezenlijke veranderingen genoemd die invloed hebben op betrokke
 | 8        |---| deze is verwijderd van rc2 naar definitieve versie            | ---|
 | 9        |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Constraint              | Voor Duct en Kabelbed: AantalKabelsIsVerplicht|
 | 10       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | KabelEnLeidingContainer.bovengrondsZichtbaar 0..1 -> 1|
-| 11       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | OverigSpecifiek.pressure 0..1 -> 1|
+| 11       |---| deze is verwijderd van versie ter vaststelling naar vastgestelde versie             |---|
 | 12       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Constraint              | Appurtenance.specifiekAppurtenanceType 0..1 -> 0|
 | 13       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Multipliciteit aangepast              | ContainerLeidingelement.bovengrondsZichtbaar 0..1 -> 1|
 | 14       |[345](https://github.com/Geonovum/imkl2015-review/issues/345)| Constraint              | Rioolleiding: pressure is verplicht|

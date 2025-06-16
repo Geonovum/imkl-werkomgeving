@@ -45,7 +45,7 @@ hoort. Zie onderstaand schema.
 
 <!-- ![](docs/media/bijlage2-2) -->
 <figure id="afb_bijlage2-2.png">
-    <img src="docs/media/bijlage2-2.png" alt="Afbeelding bijlage2-2">
+    <img src="docs/media/Bijlage2-2.png" alt="Afbeelding bijlage2-2">
     <figcaption>Netwerktopologie volledig toegepast</figcaption>
 </figure>
 

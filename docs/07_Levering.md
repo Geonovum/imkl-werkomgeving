@@ -127,4 +127,4 @@ Toelichting: De srsDimension geeft aan uit hoeveel elementen een coördinaat
 bestaat.
 Voor IMKL is dat standaard 2 (x,y). Dit past ook bij het GML-SF2 profiel.
 Optioneel kan er een extra 3D geometrie worden meegegeven. Zie het objecttype
-[ExtraGeometrie](#afb_IMKL-Geometrie2).
+[ExtraGeometrie](#geometrie-en-topologie).
