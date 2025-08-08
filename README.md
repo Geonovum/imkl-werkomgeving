@@ -1,3 +1,9 @@
+⚠️ Deze repository is automatisch bijgewerkt naar de nieuwste workflow.
+Voor vragen, neem contact op met [Linda van den Brink](mailto:l.vandenbrink@geonovum.nl) of [Wilko Quak](mailto:w.quak@geonovum.nl).
+
+Als je een nieuwe publicatie wilt starten, lees dan eerst de instructies in de README van de NL-ReSpec-template:
+[https://github.com/Geonovum/NL-ReSpec-template](https://github.com/Geonovum/NL-ReSpec-template).
+
 Dit is de nieuwe ontwikkelomgeving voor de IMKL standaard. Ontwikkeling vanaf IMKL versie 2.0 is hier opgenomen. De oude [IMKL2015-review](https://github.com/Geonovum/imkl2015-review) omgeving wordt voorlopig nog beheerd als github waar de [imkl issues](https://github.com/Geonovum/imkl2015-review/issues) zijn opgenomen.
 
 Het werkdocument IMKL staat [hier](https://geonovum.github.io/imkl-werkomgeving)
