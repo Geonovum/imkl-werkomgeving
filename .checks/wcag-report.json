@@ -1,0 +1,412 @@
+[
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "color-contrast",
+    "impact": "serious",
+    "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          ".sidelabel"
+        ],
+        "html": "<div class=\"sidelabel\">Geonovum Standaard - Werkversie</div>",
+        "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+      }
+    ]
+  },
+  {
+    "url": "http://localhost:8080/snapshot.html",
+    "id": "target-size",
+    "impact": "serious",
+    "description": "Ensure touch targets have sufficient size and space",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/target-size?application=webdriverjs",
+    "nodes": [
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_AanduidingEisVoorzorgsmaatregel\"><bdi class=\"secno\">6.1.5.1.1 </bdi>   Aanduiding­Eis­Voorzorgsmaatregel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Annotatie\"><bdi class=\"secno\">6.1.5.1.2 </bdi>   Annotatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Appurtenance\"><bdi class=\"secno\">6.1.5.1.3 </bdi>   Appurtenance</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_BuisSpecifiek\"><bdi class=\"secno\">6.1.5.1.4 </bdi>   Buis­Specifiek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_ContainerLeidingelement\"><bdi class=\"secno\">6.1.5.1.5 </bdi>   Container­Leidingelement</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Diepte\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Diepte\"><bdi class=\"secno\">6.1.5.1.6 </bdi>   Diepte</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_DiepteNAP\"><bdi class=\"secno\">6.1.5.1.7 </bdi>   Diepte­NAP</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Duct\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Duct\"><bdi class=\"secno\">6.1.5.1.8 </bdi>   Duct</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_EigenTopografie\"><bdi class=\"secno\">6.1.5.1.9 </bdi>   Eigen­Topografie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_EisVoorzorgsmaatregelBijlage\"><bdi class=\"secno\">6.1.5.1.10 </bdi>   Eis­Voorzorgsmaatregel­Bijlage</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(11) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Elektriciteitskabel\"><bdi class=\"secno\">6.1.5.1.11 </bdi>   Elektriciteitskabel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(12) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_ExtraDetailinfo\"><bdi class=\"secno\">6.1.5.1.12 </bdi>   Extra­Detailinfo</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(13) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_ExtraGeometrie\"><bdi class=\"secno\">6.1.5.1.13 </bdi>   Extra­Geometrie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(14) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_ExtraInformatie\"><bdi class=\"secno\">6.1.5.1.14 </bdi>   Extra­Informatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(15) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_IMKLBasis\"><bdi class=\"secno\">6.1.5.1.15 </bdi>   IMKLBasis</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(16) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Kabelbed\"><bdi class=\"secno\">6.1.5.1.16 </bdi>   Kabelbed</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(17) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_KabelEnLeidingContainer\"><bdi class=\"secno\">6.1.5.1.17 </bdi>   Kabel­En­Leiding­Container</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(18) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_KabelOfLeiding\"><bdi class=\"secno\">6.1.5.1.18 </bdi>   Kabel­Of­Leiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(19) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_KabelSpecifiek\"><bdi class=\"secno\">6.1.5.1.19 </bdi>   Kabel­Specifiek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Kast\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Kast\"><bdi class=\"secno\">6.1.5.1.20 </bdi>   Kast</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Label\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Label\"><bdi class=\"secno\">6.1.5.1.21 </bdi>   Label</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(22) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Leidingelement\"><bdi class=\"secno\">6.1.5.1.22 </bdi>   Leidingelement</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(23) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Maatvoering\"><bdi class=\"secno\">6.1.5.1.23 </bdi>   Maatvoering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Mangat\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Mangat\"><bdi class=\"secno\">6.1.5.1.24 </bdi>   Mangat</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(25) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Mantelbuis\"><bdi class=\"secno\">6.1.5.1.25 </bdi>   Mantelbuis</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Mast\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Mast\"><bdi class=\"secno\">6.1.5.1.26 </bdi>   Mast</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(27) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_OlieGasChemicalienPijpleiding\"><bdi class=\"secno\">6.1.5.1.27 </bdi>   Olie­Gas­Chemicalien­Pijpleiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Overig\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Overig\"><bdi class=\"secno\">6.1.5.1.28 </bdi>   Overig</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(29) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_OverigSpecifiek\"><bdi class=\"secno\">6.1.5.1.29 </bdi>   Overig­Specifiek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(30) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Rioolleiding\"><bdi class=\"secno\">6.1.5.1.30 </bdi>   Rioolleiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(31) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_TechnischGebouw\"><bdi class=\"secno\">6.1.5.1.31 </bdi>   Technisch­Gebouw</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(32) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Telecommunicatiekabel\"><bdi class=\"secno\">6.1.5.1.32 </bdi>   Telecommunicatiekabel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(33) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_ThermischePijpleiding\"><bdi class=\"secno\">6.1.5.1.33 </bdi>   Thermische­Pijpleiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Toren\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Toren\"><bdi class=\"secno\">6.1.5.1.34 </bdi>   Toren</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(35) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Utiliteitsnet\"><bdi class=\"secno\">6.1.5.1.35 </bdi>   Utiliteitsnet</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(36) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Waterleiding\"><bdi class=\"secno\">6.1.5.1.36 </bdi>   Waterleiding</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_InfoKabelbedkabel\"><bdi class=\"secno\">6.1.5.2.1 </bdi>Gegevensgroeptype   Info­Kabelbedkabel</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocxref[href=\"#detail_class_IMKLBasis_Adres\"]"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Adres\"><bdi class=\"secno\">6.1.5.2.2 </bdi>Gegevensgroeptype   Adres</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Achtergrondkaart\"><bdi class=\"secno\">6.1.5.3.1 </bdi>Gestructureerd datatype   Achtergrondkaart</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_NEN3610ID\"><bdi class=\"secno\">6.1.5.3.2 </bdi>Gestructureerd datatype   NEN3610ID</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(5) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_IMKLBasis_Labelpositie\"><bdi class=\"secno\">6.1.5.3.3 </bdi>Gestructureerd datatype   Labelpositie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_GebiedsinformatieLevering\"><bdi class=\"secno\">6.2.3.1.1 </bdi>   Gebiedsinformatie­Levering</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_GebiedsinformatieAanvraag\"><bdi class=\"secno\">6.2.3.1.2 </bdi>   Gebiedsinformatie­Aanvraag</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Belang\"><bdi class=\"secno\">6.2.3.1.3 </bdi>   Belang</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Orientatiepolygoon\"><bdi class=\"secno\">6.2.3.1.4 </bdi>   Orientatiepolygoon</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(5) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Informatiepolygoon\"><bdi class=\"secno\">6.2.3.1.5 </bdi>   Informatiepolygoon</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(6) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Beheerder\"><bdi class=\"secno\">6.2.3.1.6 </bdi>   Beheerder</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(7) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Veiligheidsgebied\"><bdi class=\"secno\">6.2.3.1.7 </bdi>   Veiligheidsgebied</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(8) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Belanghebbende\"><bdi class=\"secno\">6.2.3.1.8 </bdi>   Belanghebbende</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(9) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Graafpolygoon\"><bdi class=\"secno\">6.2.3.1.9 </bdi>   Graafpolygoon</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(1) > .toc > .tocline:nth-child(10) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_BelangGeneriek\"><bdi class=\"secno\">6.2.3.1.10 </bdi>   Belang­Generiek</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(2) > .toc > .tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(1) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_AanvraagSoortContact\"><bdi class=\"secno\">6.2.3.2.1 </bdi>Gegevensgroeptype   Aanvraag­Soort­Contact</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(2) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_WerkzaamhedenInfo\"><bdi class=\"secno\">6.2.3.2.2 </bdi>Gegevensgroeptype   Werkzaamheden­Info</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(3) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Organisatie\"><bdi class=\"secno\">6.2.3.2.3 </bdi>Gegevensgroeptype   Organisatie</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      },
+      {
+        "target": [
+          ".tocline:nth-child(3) > .toc > .tocline:nth-child(2) > .toc > .tocline:nth-child(4) > .tocxref"
+        ],
+        "html": "<a class=\"tocxref\" href=\"#detail_class_LeveringGebiedsinformatie_Contact\"><bdi class=\"secno\">6.2.3.2.4 </bdi>Gegevensgroeptype   Contact</a>",
+        "failureSummary": "Fix any of the following:\n  Target has insufficient size (517px by 18.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 22.8px instead of at least 24px."
+      }
+    ]
+  }
+]
