@@ -786,6 +786,10 @@
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
                                 <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
+                                <ogc:Literal>TopografischObjectTypeValue/inspectieputRioolput</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>appurtenanceType</ogc:PropertyName>
                                 <ogc:Literal>WaterAppurtenanceTypeValue/junction</ogc:Literal>
                             </ogc:PropertyIsEqualTo>
                             <ogc:PropertyIsEqualTo>
