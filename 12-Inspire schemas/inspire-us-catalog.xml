@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+  "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd" [
+
+    <!-- ==========================================================
+        ###  REDIRECTING ***OFFICIAL*** OGC SCHEMAS
+        downloaded from http://schemas.opengis.net/SCHEMAS_OPENGIS_NET.zip
+        ==========================================================
+    -->
+    <!ENTITY MyLocalUsNetCommonDir "us-net-common">
+    <!ENTITY MyLocalUsNetElDir "us-net-el">
+    <!ENTITY MyLocalUsNetOgcDir "us-net-ogc">
+    <!ENTITY MyLocalUsNetSwDir "us-net-sw">
+    <!ENTITY MyLocalUsNetTcDir "us-net-tc">
+    <!ENTITY MyLocalUsNetThDir "us-net-th">
+    <!ENTITY MyLocalUsNetWaDir "us-net-wa">
+
+  ]>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+
+    <!-- 
+        The first entry in each pair uses the "uri" version, and 
+        the second the "system" version of the redirect.  The two alternatives 
+        are provided in order to support various processing environments, which
+        appear to behave slightly differently.
+        https://www.seegrid.csiro.au/twiki/bin/view/AppSchemas/ConfiguringXMLProcessors
+    -->
+    <!-- map the official reference to a local reference -->
+        
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-common"
+        rewritePrefix="&MyLocalUsNetCommonDir;"/>
+    <rewriteSystem
+        systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-common"
+        rewritePrefix="&MyLocalUsNetCommonDir;"/>
+
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-el"
+        rewritePrefix="&MyLocalUsNetElDir;"/>
+    <rewriteSystem
+        systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-el"
+        rewritePrefix="&MyLocalUsNetElDir;"/>
+
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-ogc"
+        rewritePrefix="&MyLocalUsNetOgcDir;"/>
+    <rewriteSystem
+        systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-ogc"
+        rewritePrefix="&MyLocalUsNetOgcDir;"/>
+
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-sw"
+        rewritePrefix="&MyLocalUsNetSwDir;"/>
+    <rewriteSystem
+	systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-sw"
+        rewritePrefix="&MyLocalUsNetSwDir;"/>
+
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-tc"
+        rewritePrefix="&MyLocalUsNetTcDir;"/>
+    <rewriteSystem
+	systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-tc"
+        rewritePrefix="&MyLocalUsNetTcDir;"/>
+
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-th"
+        rewritePrefix="&MyLocalUsNetThDir;"/>
+    <rewriteSystem
+	systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-th"
+        rewritePrefix="&MyLocalUsNetThDir;"/>
+
+    <rewriteURI
+        uriStartString="http://inspire.ec.europa.eu/schemas/us-net-wa"
+        rewritePrefix="&MyLocalUsNetWaDir;"/>
+    <rewriteSystem
+        systemIdStartString="http://inspire.ec.europa.eu/schemas/us-net-wa"
+        rewritePrefix="&MyLocalUsNetWaDir;"/>
+
+</catalog>
